@@ -319,7 +319,7 @@
                             <div class="ec-vendor-info">
                                 <a href="catalog-single-vendor.html" class="name">Marvelus</a>
                                 <p class="prod-count">154 Products</p>
-                                <div class="ec-pro-rating">
+                                <div class="pro-rating">
                                     <i class="ecicon eci-star fill"></i>
                                     <i class="ecicon eci-star fill"></i>
                                     <i class="ecicon eci-star fill"></i>
@@ -360,7 +360,7 @@
                             <div class="ec-vendor-info">
                                 <a href="catalog-single-vendor.html" class="name">Oreva Fashion</a>
                                 <p class="prod-count">546 Products</p>
-                                <div class="ec-pro-rating">
+                                <div class="pro-rating">
                                     <i class="ecicon eci-star fill"></i>
                                     <i class="ecicon eci-star fill"></i>
                                     <i class="ecicon eci-star fill"></i>
@@ -401,7 +401,7 @@
                             <div class="ec-vendor-info">
                                 <a href="catalog-single-vendor.html" class="name">Cenva Art</a>
                                 <p class="prod-count">854 Products</p>
-                                <div class="ec-pro-rating">
+                                <div class="pro-rating">
                                     <i class="ecicon eci-star fill"></i>
                                     <i class="ecicon eci-star fill"></i>
                                     <i class="ecicon eci-star fill"></i>
@@ -442,7 +442,7 @@
                             <div class="ec-vendor-info">
                                 <a href="catalog-single-vendor.html" class="name">Neon Fashion</a>
                                 <p class="prod-count">154 Products</p>
-                                <div class="ec-pro-rating">
+                                <div class="pro-rating">
                                     <i class="ecicon eci-star fill"></i>
                                     <i class="ecicon eci-star fill"></i>
                                     <i class="ecicon eci-star fill"></i>
@@ -568,8 +568,8 @@
                 <!-- New Product Content -->
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="flipInY">
                     <div class="ec-product-inner">
-                        <div class="ec-pro-image-outer">
-                            <div class="ec-pro-image">
+                        <div class="pro-image-outer">
+                            <div class="pro-image">
                                 <a href="product-left-sidebar.html" class="image">
                                     <img class="main-image" src="{{ asset('frontend/images/product-image/9_1.jpg') }}"
                                         alt="Product" />
@@ -582,7 +582,7 @@
                                 <a href="#" class="quickview" data-link-action="quickview" title="Quick view"
                                     data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><i
                                         class="fi-rr-eye"></i></a>
-                                <div class="ec-pro-actions">
+                                <div class="pro-actions">
                                     <a href="compare.html" class="ec-btn-group compare" title="Compare"><i
                                             class="fi fi-rr-arrows-repeat"></i></a>
                                     <button title="Add To Cart" class="add-to-cart"><i class="fi-rr-shopping-basket"></i>
@@ -592,22 +592,22 @@
                             </div>
                         </div>
                         <div class="pro-content">
-                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Full Sleeve Cap T-Shirt</a>
+                            <h5 class="pro-title"><a href="product-left-sidebar.html">Full Sleeve Cap T-Shirt</a>
                             </h5>
-                            <div class="ec-pro-rating">
+                            <div class="pro-rating">
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star"></i>
                             </div>
-                            <span class="ec-price">
+                            <span class="price">
                                 <span class="old-price">$20.00</span>
                                 <span class="new-price">$15.00</span>
                             </span>
-                            <div class="ec-pro-option">
-                                <div class="ec-pro-color">
-                                    <span class="ec-pro-opt-label">Color</span>
+                            <div class="pro-option">
+                                <div class="pro-color">
+                                    <span class="pro-opt-label">Color</span>
                                     <ul class="ec-opt-swatch ec-change-img">
                                         <li><a href="#" class="ec-opt-clr-img"
                                                 data-src="{{ asset('frontend/images/product-image/9_1.jpg') }}"
@@ -626,8 +626,8 @@
                                                     style="background-color:#85ffeb;"></span></a></li>
                                     </ul>
                                 </div>
-                                <div class="ec-pro-size">
-                                    <span class="ec-pro-opt-label">Size</span>
+                                <div class="pro-size">
+                                    <span class="pro-opt-label">Size</span>
                                     <ul class="ec-opt-size">
                                         <li class="active"><a href="#" class="ec-opt-sz" data-old="$20.00"
                                                 data-new="$15.00" data-tooltip="Small">S</a></li>
@@ -645,8 +645,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="flipInY">
                     <div class="ec-product-inner">
-                        <div class="ec-pro-image-outer">
-                            <div class="ec-pro-image">
+                        <div class="pro-image-outer">
+                            <div class="pro-image">
                                 <a href="product-left-sidebar.html" class="image">
                                     <img class="main-image" src="{{ asset('frontend/images/product-image/11_1.jpg') }}"
                                         alt="Product" />
@@ -659,7 +659,7 @@
                                 <a href="#" class="quickview" data-link-action="quickview" title="Quick view"
                                     data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><i
                                         class="fi-rr-eye"></i></a>
-                                <div class="ec-pro-actions">
+                                <div class="pro-actions">
                                     <a href="compare.html" class="ec-btn-group compare" title="Compare"><i
                                             class="fi fi-rr-arrows-repeat"></i></a>
                                     <button title="Add To Cart" class="add-to-cart"><i class="fi-rr-shopping-basket"></i>
@@ -669,21 +669,21 @@
                             </div>
                         </div>
                         <div class="pro-content">
-                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Classic Leather purse</a></h5>
-                            <div class="ec-pro-rating">
+                            <h5 class="pro-title"><a href="product-left-sidebar.html">Classic Leather purse</a></h5>
+                            <div class="pro-rating">
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star"></i>
                             </div>
-                            <span class="ec-price">
+                            <span class="price">
                                 <span class="old-price">$100.00</span>
                                 <span class="new-price">$80.00</span>
                             </span>
-                            <div class="ec-pro-option">
-                                <div class="ec-pro-color">
-                                    <span class="ec-pro-opt-label">Color</span>
+                            <div class="pro-option">
+                                <div class="pro-color">
+                                    <span class="pro-opt-label">Color</span>
                                     <ul class="ec-opt-swatch ec-change-img">
                                         <li class="active"><a href="#" class="ec-opt-clr-img"
                                                 data-src="{{ asset('frontend/images/product-image/11_1.jpg') }}"
@@ -713,8 +713,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="flipInY">
                     <div class="ec-product-inner">
-                        <div class="ec-pro-image-outer">
-                            <div class="ec-pro-image">
+                        <div class="pro-image-outer">
+                            <div class="pro-image">
                                 <a href="product-left-sidebar.html" class="image">
                                     <img class="main-image" src="{{ asset('frontend/images/product-image/12_1.jpg') }}"
                                         alt="Product" />
@@ -725,7 +725,7 @@
                                 <a href="#" class="quickview" data-link-action="quickview" title="Quick view"
                                     data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><i
                                         class="fi-rr-eye"></i></a>
-                                <div class="ec-pro-actions">
+                                <div class="pro-actions">
                                     <a href="compare.html" class="ec-btn-group compare" title="Compare"><i
                                             class="fi fi-rr-arrows-repeat"></i></a>
                                     <button title="Add To Cart" class="add-to-cart"><i class="fi-rr-shopping-basket"></i>
@@ -735,21 +735,21 @@
                             </div>
                         </div>
                         <div class="pro-content">
-                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Fancy Ladies Sandal</a></h5>
-                            <div class="ec-pro-rating">
+                            <h5 class="pro-title"><a href="product-left-sidebar.html">Fancy Ladies Sandal</a></h5>
+                            <div class="pro-rating">
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star"></i>
                             </div>
-                            <span class="ec-price">
+                            <span class="price">
                                 <span class="old-price">$100.00</span>
                                 <span class="new-price">$80.00</span>
                             </span>
-                            <div class="ec-pro-option">
-                                <div class="ec-pro-color">
-                                    <span class="ec-pro-opt-label">Color</span>
+                            <div class="pro-option">
+                                <div class="pro-color">
+                                    <span class="pro-opt-label">Color</span>
                                     <ul class="ec-opt-swatch ec-change-img">
                                         <li class="active"><a href="#" class="ec-opt-clr-img"
                                                 data-src="{{ asset('frontend/images/product-image/12_1.jpg') }}"
@@ -773,8 +773,8 @@
                                                     style="background-color:#89ff7e;"></span></a></li>
                                     </ul>
                                 </div>
-                                <div class="ec-pro-size">
-                                    <span class="ec-pro-opt-label">Size</span>
+                                <div class="pro-size">
+                                    <span class="pro-opt-label">Size</span>
                                     <ul class="ec-opt-size">
                                         <li class="active"><a href="#" class="ec-opt-sz" data-old="$50.00"
                                                 data-new="$40.00" data-tooltip="Small">6</a></li>
@@ -792,8 +792,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6  ec-product-content" data-animation="flipInY">
                     <div class="ec-product-inner">
-                        <div class="ec-pro-image-outer">
-                            <div class="ec-pro-image">
+                        <div class="pro-image-outer">
+                            <div class="pro-image">
                                 <a href="product-left-sidebar.html" class="image">
                                     <img class="main-image" src="{{ asset('frontend/images/product-image/13_1.jpg') }}"
                                         alt="Product" />
@@ -803,7 +803,7 @@
                                 <a href="#" class="quickview" data-link-action="quickview" title="Quick view"
                                     data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><i
                                         class="fi-rr-eye"></i></a>
-                                <div class="ec-pro-actions">
+                                <div class="pro-actions">
                                     <a href="compare.html" class="ec-btn-group compare" title="Compare"><i
                                             class="fi fi-rr-arrows-repeat"></i></a>
                                     <button title="Add To Cart" class="add-to-cart"><i class="fi-rr-shopping-basket"></i>
@@ -813,22 +813,22 @@
                             </div>
                         </div>
                         <div class="pro-content">
-                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Womens Leather Backpack</a>
+                            <h5 class="pro-title"><a href="product-left-sidebar.html">Womens Leather Backpack</a>
                             </h5>
-                            <div class="ec-pro-rating">
+                            <div class="pro-rating">
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star fill"></i>
                                 <i class="ecicon eci-star"></i>
                             </div>
-                            <span class="ec-price">
+                            <span class="price">
                                 <span class="old-price">$100.00</span>
                                 <span class="new-price">$80.00</span>
                             </span>
-                            <div class="ec-pro-option">
-                                <div class="ec-pro-color">
-                                    <span class="ec-pro-opt-label">Color</span>
+                            <div class="pro-option">
+                                <div class="pro-color">
+                                    <span class="pro-opt-label">Color</span>
                                     <ul class="ec-opt-swatch ec-change-img">
                                         <li class="active"><a href="#" class="ec-opt-clr-img"
                                                 data-src="{{ asset('frontend/images/product-image/13_1.jpg') }}"

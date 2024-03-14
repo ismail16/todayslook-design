@@ -231,10 +231,10 @@
                                     <span class="new-price">$80.00</span>
                                 </div>
 
-                                <div class="ec-pro-variation">
-                                    <div class="ec-pro-variation-inner ec-pro-variation-color">
+                                <div class="pro-variation">
+                                    <div class="pro-variation-inner pro-variation-color">
                                         <span>Color</span>
-                                        <div class="ec-pro-color">
+                                        <div class="pro-color">
                                             <ul class="ec-opt-swatch">
                                                 <li><span style="background-color:#ebbf60;"></span></li>
                                                 <li><span style="background-color:#75e3ff;"></span></li>
@@ -244,9 +244,9 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="ec-pro-variation-inner ec-pro-variation-size ec-pro-size">
+                                    <div class="pro-variation-inner pro-variation-size pro-size">
                                         <span>Size</span>
-                                        <div class="ec-pro-variation-content">
+                                        <div class="pro-variation-content">
                                             <ul class="ec-opt-size">
                                                 <li class="active"><a href="#" class="ec-opt-sz"
                                                         data-tooltip="Small">S</a></li>

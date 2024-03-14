@@ -316,10 +316,10 @@ function ecCheckCookie() {
 
     /*----------------------------- Product page category Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".sidebar-block .ec-sb-block-content ul li ul").addClass("ec-cat-sub-dropdown");
+        $(".sidebar-block .sb-block-content ul li ul").addClass("ec-cat-sub-dropdown");
 
         $(".sidebar-block .sidebar-block-item").on("click", function () {
-            var $this = $(this).closest('.ec-sb-block-content').find('.ec-cat-sub-dropdown');
+            var $this = $(this).closest('.sb-block-content').find('.ec-cat-sub-dropdown');
             $this.slideToggle('slow');
             $('.ec-cat-sub-dropdown').not($this).slideUp('slow');
         });
@@ -327,7 +327,7 @@ function ecCheckCookie() {
 
     /*----------------------------- Siderbar Product Slider -------------------------------- */
     $(document).ready(function () {
-        $('.sidebar-slider-cat .ec-sb-pro-sl').slick({
+        $('.sidebar-slider-cat .sb-pro-sl').slick({
             rows: 4,
             dots: false,
             arrows: true,
@@ -429,7 +429,7 @@ function ecCheckCookie() {
         // get an image url
         var img_url = $(this).parents().parents().children(".image").find(".main-image").attr("src");
         var p_name = $(this).parents().parents().parents().children(".pro-content").children("h5").children("a").html();
-        var p_price = $(this).parents().parents().parents().children(".pro-content").children(".ec-price").children(".new-price").html();
+        var p_price = $(this).parents().parents().parents().children(".pro-content").children(".price").children(".new-price").html();
 
         var p_html = '<li>' +
             '<a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="' + img_url + '" alt="product"></a>' +
@@ -815,7 +815,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Color Hover To Image Change -------------------------------- */
-    var $ecproduct = $('.ec-pro-color, .ec-product-tab, .shop-pro-inner, .ec-new-product, .ec-releted-product, .ec-checkout-pro').find('.ec-opt-swatch');
+    var $ecproduct = $('.pro-color, .ec-product-tab, .shop-pro-inner, .ec-new-product, .ec-releted-product, .ec-checkout-pro').find('.ec-opt-swatch');
 
     function initChangeImg($opt) {
         $opt.each(function () {
@@ -834,7 +834,7 @@ function ecCheckCookie() {
                 var $this = thisObj;
                 var $load = $this.find('a');
 
-                var $proimg = $this.closest('.ec-product-inner').find('.ec-pro-image');
+                var $proimg = $this.closest('.ec-product-inner').find('.pro-image');
 
                 if (!$load.hasClass('loaded')) {
                     $proimg.addClass('pro-loading');
@@ -859,7 +859,7 @@ function ecCheckCookie() {
         var $optData = $this.find('.ec-opt-clr-img'),
             $opImg = $optData.attr('data-src'),
             $opImgHover = $optData.attr('data-src-hover') || false,
-            $optImgWrapper = $this.closest('.ec-product-inner').find('.ec-pro-image'),
+            $optImgWrapper = $this.closest('.ec-product-inner').find('.pro-image'),
             $optImgMain = $optImgWrapper.find('.image img.main-image'),
             $optImgMainHover = $optImgWrapper.find('.image img.hover-image');
 
@@ -1045,7 +1045,7 @@ function ecCheckCookie() {
 
     /*----------------------------- Sidebar Block Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".ec-shop-leftside .sidebar-block .ec-sb-block-content,.ec-blogs-leftside .sidebar-block .ec-sb-block-content,.ec-cart-rightside .sidebar-block .ec-sb-block-content,.ec-checkout-rightside .sidebar-block .ec-sb-block-content").addClass("sidebar-dropdown");
+        $(".ec-shop-leftside .sidebar-block .sb-block-content,.ec-blogs-leftside .sidebar-block .sb-block-content,.ec-cart-rightside .sidebar-block .sb-block-content,.ec-checkout-rightside .sidebar-block .sb-block-content").addClass("sidebar-dropdown");
 
         $('.sidebar-title').append("<div class='sidebar-res'><i class='ecicon eci-angle-down'></i></div>");
 
@@ -1093,7 +1093,7 @@ function ecCheckCookie() {
 
     /*----------------------------- siderbar Product Slider -------------------------------- */
     $(document).ready(function () {
-        $('.sidebar-slider .ec-sb-pro-sl').slick({
+        $('.sidebar-slider .sb-pro-sl').slick({
             rows: 4,
             dots: false,
             arrows: true,
@@ -1234,7 +1234,7 @@ function ecCheckCookie() {
 
     /*----------------------------- Single Product Color and Size Click to Active -------------------------------- */
     $(document).ready(function () {
-        $(".single-pro-content .ec-pro-variation .ec-pro-variation-content li").click(function () {
+        $(".single-pro-content .pro-variation .pro-variation-content li").click(function () {
             $(this).addClass('active').siblings().removeClass('active');
         });
     });
@@ -1296,8 +1296,8 @@ function ecCheckCookie() {
 
     /*----------------------------- Cart  Shipping Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".ec-sb-block-content .ec-ship-title").click(function () {
-            $('.ec-sb-block-content .ec-cart-form').slideToggle('slow');
+        $(".sb-block-content .ec-ship-title").click(function () {
+            $('.sb-block-content .ec-cart-form').slideToggle('slow');
         });
     });
 
@@ -1321,7 +1321,7 @@ function ecCheckCookie() {
     });
 
     $(document).ready(function () {
-        $('.ec-pro-image').append("<div class='ec-pro-loader'></div>");
+        $('.pro-image').append("<div class='pro-loader'></div>");
     });
 
     /*----------------------------- Apply Coupen Toggle -------------------------------- */
