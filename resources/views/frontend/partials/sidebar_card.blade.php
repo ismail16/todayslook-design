@@ -11,7 +11,7 @@
                 <li>
                     <a href="product-left-sidebar.html" class="sidekka_pro_img"><img
                             src="{{ asset('frontend/images/product-image/6_1.jpg') }}" alt="product"></a>
-                    <div class="ec-pro-content">
+                    <div class="pro-content">
                         <a href="product-left-sidebar.html" class="cart_pro_title">T-shirt For Women</a>
                         <span class="cart-price"><span>$76.00</span> x 1</span>
                         <div class="qty-plus-minus">
@@ -23,7 +23,7 @@
                 <li>
                     <a href="product-left-sidebar.html" class="sidekka_pro_img"><img
                             src="{{ asset('frontend/images/product-image/12_1.jpg') }}" alt="product"></a>
-                    <div class="ec-pro-content">
+                    <div class="pro-content">
                         <a href="product-left-sidebar.html" class="cart_pro_title">Women Leather Shoes</a>
                         <span class="cart-price"><span>$64.00</span> x 1</span>
                         <div class="qty-plus-minus">
@@ -35,7 +35,7 @@
                 <li>
                     <a href="product-left-sidebar.html" class="sidekka_pro_img"><img
                             src="{{ asset('frontend/images/product-image/3_1.jpg') }}" alt="product"></a>
-                    <div class="ec-pro-content">
+                    <div class="pro-content">
                         <a href="product-left-sidebar.html" class="cart_pro_title">Girls Nylon Purse</a>
                         <span class="cart-price"><span>$59.00</span> x 1</span>
                         <div class="qty-plus-minus">
@@ -46,7 +46,7 @@
                 </li>
             </ul>
         </div>
-        <div class="ec-cart-bottom">
+        <div class="cart-bottom">
             <div class="cart-sub-total">
                 <table class="table cart-table">
                     <tbody>

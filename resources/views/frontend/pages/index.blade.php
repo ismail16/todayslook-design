@@ -591,7 +591,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="ec-pro-content">
+                        <div class="pro-content">
                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Full Sleeve Cap T-Shirt</a>
                             </h5>
                             <div class="ec-pro-rating">
@@ -668,7 +668,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="ec-pro-content">
+                        <div class="pro-content">
                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Classic Leather purse</a></h5>
                             <div class="ec-pro-rating">
                                 <i class="ecicon eci-star fill"></i>
@@ -734,7 +734,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="ec-pro-content">
+                        <div class="pro-content">
                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Fancy Ladies Sandal</a></h5>
                             <div class="ec-pro-rating">
                                 <i class="ecicon eci-star fill"></i>
@@ -812,7 +812,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="ec-pro-content">
+                        <div class="pro-content">
                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Womens Leather Backpack</a>
                             </h5>
                             <div class="ec-pro-rating">

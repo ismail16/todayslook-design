@@ -300,25 +300,25 @@ function ecCheckCookie() {
     /*----------------------------- Sidebar js | Toggle Icon OnClick Open sidebar  -----------------------------------*/
 
     $(".sidebar-toggle").on("click", function () {
-        $(".ec-side-cat-overlay").fadeIn();
+        $(".side-cat-overlay").fadeIn();
         $(".category-sidebar").addClass("ec-open");
     });
 
     $(".ec-close").on("click", function () {
         $(".category-sidebar").removeClass("ec-open");
-        $(".ec-side-cat-overlay").fadeOut();
+        $(".side-cat-overlay").fadeOut();
     });
 
-    $(".ec-side-cat-overlay").on("click", function () {
+    $(".side-cat-overlay").on("click", function () {
         $(".category-sidebar").removeClass("ec-open");
-        $(".ec-side-cat-overlay").fadeOut();
+        $(".side-cat-overlay").fadeOut();
     });
 
     /*----------------------------- Product page category Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".ec-sidebar-block .ec-sb-block-content ul li ul").addClass("ec-cat-sub-dropdown");
+        $(".sidebar-block .ec-sb-block-content ul li ul").addClass("ec-cat-sub-dropdown");
 
-        $(".ec-sidebar-block .ec-sidebar-block-item").on("click", function () {
+        $(".sidebar-block .sidebar-block-item").on("click", function () {
             var $this = $(this).closest('.ec-sb-block-content').find('.ec-cat-sub-dropdown');
             $this.slideToggle('slow');
             $('.ec-cat-sub-dropdown').not($this).slideUp('slow');
@@ -327,7 +327,7 @@ function ecCheckCookie() {
 
     /*----------------------------- Siderbar Product Slider -------------------------------- */
     $(document).ready(function () {
-        $('.ec-sidebar-slider-cat .ec-sb-pro-sl').slick({
+        $('.sidebar-slider-cat .ec-sb-pro-sl').slick({
             rows: 4,
             dots: false,
             arrows: true,
@@ -428,12 +428,12 @@ function ecCheckCookie() {
 
         // get an image url
         var img_url = $(this).parents().parents().children(".image").find(".main-image").attr("src");
-        var p_name = $(this).parents().parents().parents().children(".ec-pro-content").children("h5").children("a").html();
-        var p_price = $(this).parents().parents().parents().children(".ec-pro-content").children(".ec-price").children(".new-price").html();
+        var p_name = $(this).parents().parents().parents().children(".pro-content").children("h5").children("a").html();
+        var p_price = $(this).parents().parents().parents().children(".pro-content").children(".ec-price").children(".new-price").html();
 
         var p_html = '<li>' +
             '<a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="' + img_url + '" alt="product"></a>' +
-            '<div class="ec-pro-content">' +
+            '<div class="pro-content">' +
             '<a href="product-left-sidebar.html" class="cart_pro_title">' + p_name + '</a>' +
             '<span class="cart-price"><span>' + p_price + '</span> x 1</span>' +
             '<div class="qty-plus-minus"><div class="dec ec_qtybtn">-</div>' +
@@ -478,9 +478,9 @@ function ecCheckCookie() {
             $ecMenuToggle.find("a").removeClass("close");
         });
 
-        $("body").on("click", ".ec-pro-content .remove", function () {
+        $("body").on("click", ".pro-content .remove", function () {
 
-            // $(".ec-pro-content .remove").on("click", function () {
+            // $(".pro-content .remove").on("click", function () {
 
             var cart_product_count = $(".cart-pro-items li").length;
 
@@ -903,8 +903,8 @@ function ecCheckCookie() {
             var $this = thisObj;
             var $old_data = $this.find('a').attr('data-old');
             var $new_data = $this.find('a').attr('data-new');
-            var $old_price = $this.closest('.ec-pro-content').find('.old-price');
-            var $new_price = $this.closest('.ec-pro-content').find('.new-price');
+            var $old_price = $this.closest('.pro-content').find('.old-price');
+            var $new_price = $this.closest('.pro-content').find('.new-price');
 
             $old_price.text($old_data);
             $new_price.text($new_data);
@@ -1045,14 +1045,14 @@ function ecCheckCookie() {
 
     /*----------------------------- Sidebar Block Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".ec-shop-leftside .ec-sidebar-block .ec-sb-block-content,.ec-blogs-leftside .ec-sidebar-block .ec-sb-block-content,.ec-cart-rightside .ec-sidebar-block .ec-sb-block-content,.ec-checkout-rightside .ec-sidebar-block .ec-sb-block-content").addClass("ec-sidebar-dropdown");
+        $(".ec-shop-leftside .sidebar-block .ec-sb-block-content,.ec-blogs-leftside .sidebar-block .ec-sb-block-content,.ec-cart-rightside .sidebar-block .ec-sb-block-content,.ec-checkout-rightside .sidebar-block .ec-sb-block-content").addClass("sidebar-dropdown");
 
-        $('.ec-sidebar-title').append("<div class='ec-sidebar-res'><i class='ecicon eci-angle-down'></i></div>");
+        $('.sidebar-title').append("<div class='sidebar-res'><i class='ecicon eci-angle-down'></i></div>");
 
-        $(".ec-sidebar-title .ec-sidebar-res").click(function () {
-            var $this = $(this).closest('.ec-shop-leftside .ec-sidebar-block,.ec-blogs-leftside .ec-sidebar-block,.ec-cart-rightside .ec-sidebar-block,.ec-checkout-rightside .ec-sidebar-wrap').find('.ec-sidebar-dropdown');
+        $(".sidebar-title .sidebar-res").click(function () {
+            var $this = $(this).closest('.ec-shop-leftside .sidebar-block,.ec-blogs-leftside .sidebar-block,.ec-cart-rightside .sidebar-block,.ec-checkout-rightside .sidebar-wrap').find('.sidebar-dropdown');
             $this.slideToggle('slow');
-            $('.ec-sidebar-dropdown').not($this).slideUp('slow');
+            $('.sidebar-dropdown').not($this).slideUp('slow');
         });
     });
 
@@ -1075,7 +1075,7 @@ function ecCheckCookie() {
 
     /*----------------------------- Sidebar Color Click to Active -------------------------------- */
     $(document).ready(function () {
-        $(".ec-sidebar-block.ec-sidebar-block-clr li").click(function () {
+        $(".sidebar-block.sidebar-block-clr li").click(function () {
             $(this).addClass('active').siblings().removeClass('active');
         });
     });
@@ -1093,7 +1093,7 @@ function ecCheckCookie() {
 
     /*----------------------------- siderbar Product Slider -------------------------------- */
     $(document).ready(function () {
-        $('.ec-sidebar-slider .ec-sb-pro-sl').slick({
+        $('.sidebar-slider .ec-sb-pro-sl').slick({
             rows: 4,
             dots: false,
             arrows: true,
