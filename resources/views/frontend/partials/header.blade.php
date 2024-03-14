@@ -13,12 +13,12 @@
     <meta name="author" content="ashishmaraviya">
 
     <!-- site Favicon -->
-    <link rel="icon" href="{{ asset('frontend/images/favicon/favicon-2.png') }}" sizes="32x32" />
-    <link rel="apple-touch-icon" href="{{ asset('frontend/images/favicon/favicon-2.png') }}" />
-    <meta name="msapplication-TileImage" content="{{ asset('frontend/images/favicon/favicon-2.png') }}" />
+    <link rel="icon" href="{{ asset('frontend/images/favicon/favicon.png') }}" sizes="32x32" />
+    <link rel="apple-touch-icon" href="{{ asset('frontend/images/favicon/favicon.png') }}" />
+    <meta name="msapplication-TileImage" content="{{ asset('frontend/images/favicon/favicon.png') }}" />
 
     <!-- css Icon Font -->
-    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/icons.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/ecicons.min.css') }}" />
 
     <!-- css All Plugins Files -->
     <link rel="stylesheet" href="{{ asset('frontend/css/plugins/animate.css') }}" />
@@ -29,13 +29,17 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/plugins/bootstrap.css') }}" />
 
     <!-- Main Style -->
-    <link rel="stylesheet" href="{{ asset('frontend/css/demo2.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/demo1.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}" />
 
+    <!-- Background css -->
+    {{-- <link rel="stylesheet" id="bg-switcher-css" href="{{ asset('frontend/css/backgrounds/bg-4.css') }}"> --}}
 </head>
 
 <body>
-    {{-- <div id="overlay">
-        <div class="ellipsis">
+    {{-- <div id="ec-overlay">
+        <div class="ec-ellipsis">
             <div></div>
             <div></div>
             <div></div>

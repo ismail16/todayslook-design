@@ -1,69 +1,95 @@
-<div class="header-top">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Header Top Message Start -->
-            <div class="col header-top-left col-md-5">
-                <div class="header-top-message">
-                    30-Day Returns
-                </div>
-            </div>
-            <!-- Header Top Message End -->
-            <!-- Header Top Language Currency -->
-            <div class="col header-top-right d-none d-lg-block col-md-7">
-                <div class="header-top-right-inner d-flex justify-content-end">
-                    <div class="header-top-link">
-                        <a href="#" contenteditable="false" style="cursor: pointer;">Track Order</a>
-                    </div>
-                    <div class="header-top-link">
-                        <a href="#" contenteditable="false" style="cursor: pointer;">About</a>
-                    </div>
-                    <div class="header-top-link">
-                        <a href="contact-us.html" contenteditable="false" style="cursor: pointer;">Contact</a>
-                    </div>
-                    <div class="header-top-link">
-                        <a href="#" contenteditable="false" style="cursor: pointer;">Help</a>
-                    </div>
-                </div>
-            </div>
+ <!--Ec Header Top Start -->
+ <div class="header-top">
+     <div class="container">
+         <div class="row align-items-center">
+             <!-- Header Top social Start -->
+             <div class="col text-left header-top-left d-none d-lg-block">
+                 <div class="header-top-social">
+                     <span class="social-text text-upper">Follow us on:</span>
+                     <ul class="mb-0">
+                         <li class="list-inline-item"><a class="hdr-facebook" href="#"><i
+                                     class="ecicon eci-facebook"></i></a></li>
+                         <li class="list-inline-item"><a class="hdr-twitter" href="#"><i
+                                     class="ecicon eci-twitter"></i></a></li>
+                         <li class="list-inline-item"><a class="hdr-instagram" href="#"><i
+                                     class="ecicon eci-instagram"></i></a></li>
+                         <li class="list-inline-item"><a class="hdr-linkedin" href="#"><i
+                                     class="ecicon eci-linkedin"></i></a></li>
+                     </ul>
+                 </div>
+             </div>
+             <!-- Header Top social End -->
+             <!-- Header Top Message Start -->
+             <div class="col text-center header-top-center">
+                 <div class="header-top-message text-upper">
+                     <span>Free Shipping</span>This Week Order Over - $75
+                 </div>
+             </div>
+             <!-- Header Top Message End -->
+             <!-- Header Top Language Currency -->
+             <div class="col header-top-right d-none d-lg-block">
+                 <div class="header-top-lan-curr d-flex justify-content-end">
+                     <!-- Currency Start -->
+                     <div class="header-top-curr dropdown">
+                         <button class="dropdown-toggle text-upper" data-bs-toggle="dropdown">Currency <i
+                                 class="ecicon eci-caret-down" aria-hidden="true"></i></button>
+                         <ul class="dropdown-menu">
+                             <li class="active"><a class="dropdown-item" href="#">USD $</a></li>
+                             <li><a class="dropdown-item" href="#">EUR €</a></li>
+                         </ul>
+                     </div>
+                     <!-- Currency End -->
+                     <!-- Language Start -->
+                     <div class="header-top-lan dropdown">
+                         <button class="dropdown-toggle text-upper" data-bs-toggle="dropdown">Language <i
+                                 class="ecicon eci-caret-down" aria-hidden="true"></i></button>
+                         <ul class="dropdown-menu">
+                             <li class="active"><a class="dropdown-item" href="#">English</a></li>
+                             <li><a class="dropdown-item" href="#">Italiano</a></li>
+                         </ul>
+                     </div>
+                     <!-- Language End -->
 
-            <!-- Header Top responsive Action -->
-            <div class="col header-top-res d-lg-none">
-                <div class="ec-header-bottons">
-                    <!-- Header User Start -->
-                    <div class="ec-header-user dropdown">
-                        <button class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fi-rr-user"></i></button>
-                        <ul class="dropdown-menu dropdown-menu-right">
-                            <li><a class="dropdown-item" href="#" contenteditable="false"
-                                    style="cursor: pointer;">Register</a></li>
-                            <li><a class="dropdown-item" href="#" contenteditable="false"
-                                    style="cursor: pointer;">Checkout</a></li>
-                            <li><a class="dropdown-item" href="#" contenteditable="false"
-                                    style="cursor: pointer;">Login</a></li>
-                        </ul>
-                    </div>
-                    <!-- Header User End -->
-                    <!-- Header Cart Start -->
-                    <a href="wishlist.html" class="ec-header-btn ec-header-wishlist" contenteditable="false"
-                        style="cursor: pointer;">
-                        <div class="header-icon"><i class="fi-rr-heart"></i></div>
-                        <span class="ec-header-count ec-wishlist-count">4</span>
-                    </a>
-                    <!-- Header Cart End -->
-                    <!-- Header Cart Start -->
-                    <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle" contenteditable="false"
-                        style="cursor: pointer;">
-                        <div class="header-icon"><i class="fi-rr-shopping-basket"></i></div>
-                        <span class="ec-header-count ec-cart-count">3</span>
-                    </a>
-                    <!-- Header Cart End -->
-                    <!-- Header menu Start -->
-                    <a href="#ec-mobile-menu" class="ec-header-btn ec-side-toggle d-lg-none" contenteditable="false"
-                        style="cursor: pointer;">
-                        <i class="ecicon eci-bars"></i>
-                    </a>
-                    <!-- Header menu End -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                 </div>
+             </div>
+             <!-- Header Top Language Currency -->
+             <!-- Header Top responsive Action -->
+             <div class="col d-lg-none ">
+                 <div class="ec-header-bottons">
+                     <!-- Header User Start -->
+                     <div class="ec-header-user dropdown">
+                         <button class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fi-rr-user"></i></button>
+                         <ul class="dropdown-menu dropdown-menu-right">
+                             <li><a class="dropdown-item" href="register.html">Register</a></li>
+                             <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                             <li><a class="dropdown-item" href="login.html">Login</a></li>
+                         </ul>
+                     </div>
+                     <!-- Header User End -->
+                     <!-- Header Cart Start -->
+                     <a href="wishlist.html" class="header-btn ec-header-wishlist">
+                         <div class="header-icon"><i class="fi-rr-heart"></i></div>
+                         <span class="ec-header-count">4</span>
+                     </a>
+                     <!-- Header Cart End -->
+                     <!-- Header Cart Start -->
+                     <a href="#ec-side-cart" class="header-btn ec-side-toggle">
+                         <div class="header-icon"><i class="fi-rr-shopping-bag"></i></div>
+                         <span class="ec-header-count cart-count-lable">3</span>
+                     </a>
+                     <!-- Header Cart End -->
+                     <a href="javascript:void(0)" class="header-btn ec-sidebar-toggle">
+                         <i class="fi fi-rr-apps"></i>
+                     </a>
+                     <!-- Header menu Start -->
+                     <a href="#ec-mobile-menu" class="header-btn ec-side-toggle d-lg-none">
+                         <i class="fi fi-rr-menu-burger"></i>
+                     </a>
+                     <!-- Header menu End -->
+                 </div>
+             </div>
+             <!-- Header Top responsive Action -->
+         </div>
+     </div>
+ </div>
+ <!-- Ec Header Top  End -->

@@ -6,7 +6,7 @@
     Author URI: https://themeforest.net/user/ashishmaraviya
 **/
 
-// Function To Create New Cookie
+// Function To Create New Cookie 
 function ecCreateCookie(cookieName, cookieValue, daysToExpire) {
     var date = new Date();
     date.setTime(date.getTime() + (daysToExpire * 24 * 60 * 60 * 1000));
@@ -53,13 +53,13 @@ function ecCheckCookie() {
 
     var rtlMode = ecAccessCookie("rtlModeCookie");
     if (rtlMode != "") {
-        // alert(rtlMode);
+        // alert(rtlMode);    
         var $link = $('<link>', {
             rel: 'stylesheet',
             href: 'assets/css/rtl.css',
             class: 'rtl'
         });
-        $(".tools-sidebar .change-rtl").toggleClass('active');
+        $(".ec-tools-sidebar .ec-change-rtl").toggleClass('active');
         $link.appendTo('head');
     }
 
@@ -75,7 +75,7 @@ function ecCheckCookie() {
 
         $("link[href='assets/css/responsive.css']").before($link);
 
-        $(".tools-sidebar .change-mode").toggleClass('active');
+        $(".ec-tools-sidebar .ec-change-mode").toggleClass('active');
         $("body").addClass("dark");
     }
     else {
@@ -109,17 +109,17 @@ function ecCheckCookie() {
 
     /*----------------------------- Site Loader & Popup --------------------*/
     $(window).load(function () {
-        $("#overlay").fadeOut("slow");
+        $("#ec-overlay").fadeOut("slow");
     });
 
     /*--------------------- Search Bar On Focus -------------------------------- */
-    $(".search-bar").focus(function () {
-        $(".search-tab").addClass("active");
+    $(".ec-search-bar").focus(function () {
+        $(".ec-search-tab").addClass("active");
     });
 
-    $(".search-bar").focusout(function () {
+    $(".ec-search-bar").focusout(function () {
         setTimeout(function () {
-            $(".search-tab").removeClass("active");
+            $(".ec-search-tab").removeClass("active");
         }, 100);
     });
 
@@ -214,7 +214,7 @@ function ecCheckCookie() {
     var ecdirection = 0;
     var ecprevDirection = 0;
     var ecscroll_top = $(window).scrollTop() + 1;
-    var echeader = document.getElementById('main-menu-desk');
+    var echeader = document.getElementById('ec-main-menu-desk');
 
     var checkScroll = function () {
 
@@ -240,14 +240,14 @@ function ecCheckCookie() {
         if (ecdirection === 2 && eccurScroll > 52) {
             // echeader.classList.add('hide');
             ecprevDirection = ecdirection;
-            $("#main-menu-desk").addClass("menu_fixed_up");
-            // $("#main-menu-desk").removeClass("menu_fixed");
+            $("#ec-main-menu-desk").addClass("menu_fixed_up");
+            // $("#ec-main-menu-desk").removeClass("menu_fixed");
         }
         else if (ecdirection === 1) {
             // echeader.classList.remove('hide');
             ecprevDirection = ecdirection;
-            $("#main-menu-desk").addClass("menu_fixed");
-            $("#main-menu-desk").removeClass("menu_fixed_up");
+            $("#ec-main-menu-desk").addClass("menu_fixed");
+            $("#ec-main-menu-desk").removeClass("menu_fixed_up");
         }
     };
 
@@ -257,7 +257,7 @@ function ecCheckCookie() {
 
         if ($window.scrollTop() <= distance + 50) {
             // alert("1");
-            $("#main-menu-desk").removeClass("menu_fixed");
+            $("#ec-main-menu-desk").removeClass("menu_fixed");
         }
         else {
             // alert("2");
@@ -307,35 +307,35 @@ function ecCheckCookie() {
 
     /*----------------------------- Sidebar js | Toggle Icon OnClick Open sidebar  -----------------------------------*/
 
-    $(".sidebar-toggle").on("click", function () {
-        $(".side-cat-overlay").fadeIn();
-        $(".category-sidebar").addClass("open");
+    $(".ec-sidebar-toggle").on("click", function () {
+        $(".ec-side-cat-overlay").fadeIn();
+        $(".category-sidebar").addClass("ec-open");
     });
 
-    $(".close").on("click", function () {
-        $(".category-sidebar").removeClass("open");
-        $(".side-cat-overlay").fadeOut();
+    $(".ec-close").on("click", function () {
+        $(".category-sidebar").removeClass("ec-open");
+        $(".ec-side-cat-overlay").fadeOut();
     });
 
-    $(".side-cat-overlay").on("click", function () {
-        $(".category-sidebar").removeClass("open");
-        $(".side-cat-overlay").fadeOut();
+    $(".ec-side-cat-overlay").on("click", function () {
+        $(".category-sidebar").removeClass("ec-open");
+        $(".ec-side-cat-overlay").fadeOut();
     });
 
     /*----------------------------- Product page category Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".sidebar-block .sb-block-content ul li ul").addClass("cat-sub-dropdown");
+        $(".ec-sidebar-block .ec-sb-block-content ul li ul").addClass("ec-cat-sub-dropdown");
 
-        $(".sidebar-block .sidebar-block-item").on("click", function () {
-            var $this = $(this).closest('.sb-block-content').find('.cat-sub-dropdown');
+        $(".ec-sidebar-block .ec-sidebar-block-item").on("click", function () {
+            var $this = $(this).closest('.ec-sb-block-content').find('.ec-cat-sub-dropdown');
             $this.slideToggle('slow');
-            $('.cat-sub-dropdown').not($this).slideUp('slow');
+            $('.ec-cat-sub-dropdown').not($this).slideUp('slow');
         });
     });
 
     /*----------------------------- Siderbar Product Slider -------------------------------- */
     $(document).ready(function () {
-        $('.sidebar-slider-cat .sb-pro-sl').slick({
+        $('.ec-sidebar-slider-cat .ec-sb-pro-sl').slick({
             rows: 4,
             dots: false,
             arrows: true,
@@ -401,47 +401,47 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Remove product on compare and wishlish page -----------------------------------*/
-    $(".remove-wish").on("click", function () {
+    $(".ec-remove-wish").on("click", function () {
         $(this).parents(".pro-gl-content").remove();
         var wish_product_count = $(".pro-gl-content").length;
         if (wish_product_count == 0) {
-            $('.wish-rightside, .wish-empt').html('<p class="emp-wishlist-msg">Your wishlist is empty!</p>');
+            $('.ec-wish-rightside, .wish-empt').html('<p class="emp-wishlist-msg">Your wishlist is empty!</p>');
         }
     });
 
-    $(".remove-compare").on("click", function () {
+    $(".ec-remove-compare").on("click", function () {
         $(this).parents(".pro-gl-content").remove();
         var comp_product_count = $(".pro-gl-content").length;
         if (comp_product_count == 0) {
-            $('.compare-rightside').html('<p class="emp-wishlist-msg">Your Compare list is empty!</p>');
+            $('.ec-compare-rightside').html('<p class="emp-wishlist-msg">Your Compare list is empty!</p>');
         }
     });
 
     /*----------------------------- Sidekka And SideMenu -----------------------------------*/
     $("body").on("click", ".add-to-cart", function () {
 
-        $(".cart-float").fadeIn();
+        $(".ec-cart-float").fadeIn();
 
         var count = $(".cart-count-lable").html();
         count++;
 
         $(".cart-count-lable").html(count);
 
-        // Remove Empty message
+        // Remove Empty message    
         $(".emp-cart-msg").parent().remove();
 
         setTimeout(function () {
-            $(".cart-float").fadeOut();
+            $(".ec-cart-float").fadeOut();
         }, 5000);
 
         // get an image url
         var img_url = $(this).parents().parents().children(".image").find(".main-image").attr("src");
-        var p_name = $(this).parents().parents().parents().children(".pro-content").children("h5").children("a").html();
-        var p_price = $(this).parents().parents().parents().children(".pro-content").children(".price").children(".new-price").html();
+        var p_name = $(this).parents().parents().parents().children(".ec-pro-content").children("h5").children("a").html();
+        var p_price = $(this).parents().parents().parents().children(".ec-pro-content").children(".ec-price").children(".new-price").html();
 
         var p_html = '<li>' +
             '<a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="' + img_url + '" alt="product"></a>' +
-            '<div class="pro-content">' +
+            '<div class="ec-pro-content">' +
             '<a href="product-left-sidebar.html" class="cart_pro_title">' + p_name + '</a>' +
             '<span class="cart-price"><span>' + p_price + '</span> x 1</span>' +
             '<div class="qty-plus-minus"><div class="dec ec_qtybtn">-</div>' +
@@ -456,39 +456,39 @@ function ecCheckCookie() {
     });
 
     (function () {
-        var $ekkaToggle = $(".side-toggle"),
-            $ekka = $(".side-cart"),
+        var $ekkaToggle = $(".ec-side-toggle"),
+            $ekka = $(".ec-side-cart"),
             $ecMenuToggle = $(".mobile-menu-toggle");
 
         $ekkaToggle.on("click", function (e) {
             e.preventDefault();
             var $this = $(this),
                 $target = $this.attr("href");
-            // $("body").addClass("open");
-            $(".side-cart-overlay").fadeIn();
-            $($target).addClass("open");
+            // $("body").addClass("ec-open");
+            $(".ec-side-cart-overlay").fadeIn();
+            $($target).addClass("ec-open");
             if ($this.parent().hasClass("mobile-menu-toggle")) {
                 $this.addClass("close");
-                $(".side-cart-overlay").fadeOut();
+                $(".ec-side-cart-overlay").fadeOut();
             }
         });
 
-        $(".side-cart-overlay").on("click", function (e) {
-            $(".side-cart-overlay").fadeOut();
-            $ekka.removeClass("open");
+        $(".ec-side-cart-overlay").on("click", function (e) {
+            $(".ec-side-cart-overlay").fadeOut();
+            $ekka.removeClass("ec-open");
             $ecMenuToggle.find("a").removeClass("close");
         });
 
-        $(".close").on("click", function (e) {
+        $(".ec-close").on("click", function (e) {
             e.preventDefault();
-            $(".side-cart-overlay").fadeOut();
-            $ekka.removeClass("open");
+            $(".ec-side-cart-overlay").fadeOut();
+            $ekka.removeClass("ec-open");
             $ecMenuToggle.find("a").removeClass("close");
         });
 
-        $("body").on("click", ".pro-content .remove", function () {
+        $("body").on("click", ".ec-pro-content .remove", function () {
 
-            // $(".pro-content .remove").on("click", function () {
+            // $(".ec-pro-content .remove").on("click", function () {
 
             var cart_product_count = $(".eccart-pro-items li").length;
 
@@ -508,7 +508,7 @@ function ecCheckCookie() {
 
     /*----------------------------- ekka Responsive Menu -----------------------------------*/
     function ResponsiveMobileekkaMenu() {
-        var $ekkaNav = $(".menu-content, .overlay-menu"),
+        var $ekkaNav = $(".ec-menu-content, .overlay-menu"),
             $ekkaNavSubMenu = $ekkaNav.find(".sub-menu");
         $ekkaNavSubMenu.parent().prepend('<span class="menu-toggle"></span>');
 
@@ -534,7 +534,7 @@ function ecCheckCookie() {
     ResponsiveMobileekkaMenu();
 
     /*----------------------------- Main Slider ---------------------- */
-    var EcMainSlider = new Swiper('.slider.swiper-container', {
+    var EcMainSlider = new Swiper('.ec-slider.swiper-container', {
         loop: true,
         speed: 2000,
         effect: "slide",
@@ -650,28 +650,28 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Product Countdown --------------------- */
-    $("#fs-count-1").countdowntimer({
+    $("#ec-fs-count-1").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/01/01 00:00:00",
         labelsFormat: true,
         displayFormat: "DHMS"
     });
 
-    $("#fs-count-2").countdowntimer({
+    $("#ec-fs-count-2").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/12/01 00:00:00",
         labelsFormat: true,
         displayFormat: "DHMS"
     });
 
-    $("#fs-count-3").countdowntimer({
+    $("#ec-fs-count-3").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/11/01 00:00:00",
         labelsFormat: true,
         displayFormat: "DHMS"
     });
 
-    $("#fs-count-4").countdowntimer({
+    $("#ec-fs-count-4").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/03/01 00:00:00",
         labelsFormat: true,
@@ -679,7 +679,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Feature Product Slider   -------------------------------- */
-    $('.fre-products').slick({
+    $('.ec-fre-products').slick({
         rows: 1,
         dots: false,
         arrows: true,
@@ -690,7 +690,7 @@ function ecCheckCookie() {
     });
 
     /*-----------------------------  Offer Product Slider  -------------------------------- */
-    $('.spe-products').slick({
+    $('.ec-spe-products').slick({
         rows: 1,
         dots: false,
         arrows: true,
@@ -701,10 +701,10 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Theme Color Change -------------------------------- */
-    $('.change-color').on('click', 'li', function () {
+    $('.ec-change-color').on('click', 'li', function () {
         $('link[href^="assets/css/skin-"]').remove();
         $('link.dark').remove();
-        $('.change-mode').removeClass("active");
+        $('.ec-change-mode').removeClass("active");
         var dataValue = $(this).attr('data-color');
 
         if ($(this).hasClass('active')) return;
@@ -721,7 +721,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Theme RTL Change -------------------------------- */
-    $(".tools-sidebar .change-rtl .rtl-switch").click(function (e) {
+    $(".ec-tools-sidebar .ec-change-rtl .ec-rtl-switch").click(function (e) {
         e.preventDefault();
         var $link = $('<link>', {
             rel: 'stylesheet',
@@ -730,11 +730,11 @@ function ecCheckCookie() {
         });
         $(this).parent().toggleClass('active');
         var rtlvalue = "ltr";
-        if ($(this).parent().hasClass('change-rtl') && $(this).parent().hasClass('active')) {
+        if ($(this).parent().hasClass('ec-change-rtl') && $(this).parent().hasClass('active')) {
             $link.appendTo('head');
             rtlvalue = "rtl";
             ecCreateCookie('rtlModeCookie', rtlvalue, 1);
-        } else if ($(this).parent().hasClass('change-rtl') && !$(this).parent().hasClass('active')) {
+        } else if ($(this).parent().hasClass('ec-change-rtl') && !$(this).parent().hasClass('active')) {
             $('link.rtl').remove();
             rtlvalue = "ltr";
             ecDeleteCookie('rtlModeCookie', rtlvalue);
@@ -743,7 +743,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Theme Dark mode Change -------------------------------- */
-    $(".tools-sidebar .change-mode .mode-switch").click(function (e) {
+    $(".ec-tools-sidebar .ec-change-mode .ec-mode-switch").click(function (e) {
         e.preventDefault();
         var $link = $('<link>', {
             rel: 'stylesheet',
@@ -752,20 +752,20 @@ function ecCheckCookie() {
         });
         $(this).parent().toggleClass('active');
         var modevalue = "light";
-        if ($(this).parent().hasClass('change-mode') && $(this).parent().hasClass('active')) {
+        if ($(this).parent().hasClass('ec-change-mode') && $(this).parent().hasClass('active')) {
             $("link[href='assets/css/responsive.css']").before($link);
 
-        } else if ($(this).parent().hasClass('change-mode') && !$(this).parent().hasClass('active')) {
+        } else if ($(this).parent().hasClass('ec-change-mode') && !$(this).parent().hasClass('active')) {
             $('link.dark').remove();
             modevalue = "light";
         }
         if ($(this).parent().hasClass('active')) {
-            $("#fixedbutton .change-color").css("pointer-events", "none");
+            $("#ec-fixedbutton .ec-change-color").css("pointer-events", "none");
             $("body").addClass("dark");
             modevalue = "dark";
             ecCreateCookie('darkModeCookie', modevalue, 1);
         } else {
-            $("#fixedbutton .change-color").css("pointer-events", "all");
+            $("#ec-fixedbutton .ec-change-color").css("pointer-events", "all");
             $("body").removeClass("dark");
             ecDeleteCookie('darkModeCookie', modevalue);
         }
@@ -773,7 +773,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Full Screen mode Change -------------------------------- */
-    $(".tools-sidebar .fullscreen-mode .fullscreen-switch").click(function (e) {
+    $(".ec-tools-sidebar .ec-fullscreen-mode .ec-fullscreen-switch").click(function (e) {
         e.preventDefault();
 
         $(this).parent().toggleClass('active');
@@ -811,11 +811,11 @@ function ecCheckCookie() {
 
     /*----------------------------- Menu Active -------------------------------- */
     var current_page_URL = location.href;
-    $(".main-menu ul li a").each(function () {
+    $(".ec-main-menu ul li a").each(function () {
         if ($(this).attr("href") !== "#") {
             var target_URL = $(this).prop("href");
             if (target_URL == current_page_URL) {
-                $('.main-menu a').parents('li, ul').removeClass('active');
+                $('.ec-main-menu a').parents('li, ul').removeClass('active');
                 $(this).parent('li').addClass('active');
                 return false;
             }
@@ -823,12 +823,12 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Color Hover To Image Change -------------------------------- */
-    var $ecproduct = $('.pro-color, .product-tab, .shop-pro-inner, .new-product, .releted-product, .checkout-pro').find('.opt-swatch');
+    var $ecproduct = $('.ec-pro-color, .ec-product-tab, .shop-pro-inner, .ec-new-product, .ec-releted-product, .ec-checkout-pro').find('.ec-opt-swatch');
 
     function initChangeImg($opt) {
         $opt.each(function () {
             var $this = $(this),
-                ecChangeImg = $this.hasClass('change-img');
+                ecChangeImg = $this.hasClass('ec-change-img');
 
             $this.on('mouseenter', 'li', function () {
                 changeProductImg($(this));
@@ -842,7 +842,7 @@ function ecCheckCookie() {
                 var $this = thisObj;
                 var $load = $this.find('a');
 
-                var $proimg = $this.closest('.product-inner').find('.pro-image');
+                var $proimg = $this.closest('.ec-product-inner').find('.ec-pro-image');
 
                 if (!$load.hasClass('loaded')) {
                     $proimg.addClass('pro-loading');
@@ -864,10 +864,10 @@ function ecCheckCookie() {
     }
 
     function hoverAddImg($this) {
-        var $optData = $this.find('.opt-clr-img'),
+        var $optData = $this.find('.ec-opt-clr-img'),
             $opImg = $optData.attr('data-src'),
             $opImgHover = $optData.attr('data-src-hover') || false,
-            $optImgWrapper = $this.closest('.product-inner').find('.pro-image'),
+            $optImgWrapper = $this.closest('.ec-product-inner').find('.ec-pro-image'),
             $optImgMain = $optImgWrapper.find('.image img.main-image'),
             $optImgMainHover = $optImgWrapper.find('.image img.hover-image');
 
@@ -895,7 +895,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Size Hover To Active -------------------------------- */
-    $('.opt-size').each(function () {
+    $('.ec-opt-size').each(function () {
         $(this).on('mouseenter', 'li', function () {
             // alert("1");
             onSizeChange($(this));
@@ -911,8 +911,8 @@ function ecCheckCookie() {
             var $this = thisObj;
             var $old_data = $this.find('a').attr('data-old');
             var $new_data = $this.find('a').attr('data-new');
-            var $old_price = $this.closest('.pro-content').find('.old-price');
-            var $new_price = $this.closest('.pro-content').find('.new-price');
+            var $old_price = $this.closest('.ec-pro-content').find('.old-price');
+            var $new_price = $this.closest('.ec-pro-content').find('.new-price');
 
             $old_price.text($old_data);
             $new_price.text($new_data);
@@ -922,7 +922,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Testimonial Slider -------------------------------- */
-    $('#testimonial-slider').slick({
+    $('#ec-testimonial-slider').slick({
         rows: 1,
         dots: true,
         arrows: false,
@@ -934,14 +934,14 @@ function ecCheckCookie() {
         slidesToScroll: 1
     });
 
-    $("#testimonial-slider").find(".slick-slide").each(function (i) {
+    $("#ec-testimonial-slider").find(".slick-slide").each(function (i) {
 
-        var t = $(this).find(".test-img").html(), o = "li:eq(" + i + ")";
-        $("#testimonial-slider").find(".slick-dots").find(o).html(t);
+        var t = $(this).find(".ec-test-img").html(), o = "li:eq(" + i + ")";
+        $("#ec-testimonial-slider").find(".slick-dots").find(o).html(t);
     });
 
     /*----------------------------- Brand Slider -------------------------------- */
-    $('#brand-slider').slick({
+    $('#ec-brand-slider').slick({
         rows: 1,
         dots: false,
         arrows: true,
@@ -977,14 +977,14 @@ function ecCheckCookie() {
 
     /*----------------------------- Footer Toggle -------------------------------- */
     $(document).ready(function () {
-        $("footer .footer-top .footer-widget .footer-links").addClass("footer-dropdown");
+        $("footer .footer-top .ec-footer-widget .ec-footer-links").addClass("ec-footer-dropdown");
 
-        $('.footer-heading').append("<div class='heading-res'><i class='ecicon eci-angle-down'></i></div>");
+        $('.ec-footer-heading').append("<div class='ec-heading-res'><i class='ecicon eci-angle-down'></i></div>");
 
-        $(".footer-heading .heading-res").click(function () {
-            var $this = $(this).closest('.footer-top .col-sm-12').find('.footer-dropdown');
+        $(".ec-footer-heading .ec-heading-res").click(function () {
+            var $this = $(this).closest('.footer-top .col-sm-12').find('.ec-footer-dropdown');
             $this.slideToggle('slow');
-            $('.footer-dropdown').not($this).slideUp('slow');
+            $('.ec-footer-dropdown').not($this).slideUp('slow');
         });
     });
 
@@ -1006,7 +1006,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- List Grid View -------------------------------- */
-    $('.gl-btn').on('click', 'button', function () {
+    $('.ec-gl-btn').on('click', 'button', function () {
         var $this = $(this);
         $this.addClass('active').siblings().removeClass('active');
     });
@@ -1053,55 +1053,55 @@ function ecCheckCookie() {
 
     /*----------------------------- Sidebar Block Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".shop-leftside .sidebar-block .sb-block-content,.blogs-leftside .sidebar-block .sb-block-content,.cart-rightside .sidebar-block .sb-block-content,.checkout-rightside .sidebar-block .sb-block-content").addClass("sidebar-dropdown");
+        $(".ec-shop-leftside .ec-sidebar-block .ec-sb-block-content,.ec-blogs-leftside .ec-sidebar-block .ec-sb-block-content,.ec-cart-rightside .ec-sidebar-block .ec-sb-block-content,.ec-checkout-rightside .ec-sidebar-block .ec-sb-block-content").addClass("ec-sidebar-dropdown");
 
-        $('.sidebar-title').append("<div class='sidebar-res'><i class='ecicon eci-angle-down'></i></div>");
+        $('.ec-sidebar-title').append("<div class='ec-sidebar-res'><i class='ecicon eci-angle-down'></i></div>");
 
-        $(".sidebar-title .sidebar-res").click(function () {
-            var $this = $(this).closest('.shop-leftside .sidebar-block,.blogs-leftside .sidebar-block,.cart-rightside .sidebar-block,.checkout-rightside .sidebar-wrap').find('.sidebar-dropdown');
+        $(".ec-sidebar-title .ec-sidebar-res").click(function () {
+            var $this = $(this).closest('.ec-shop-leftside .ec-sidebar-block,.ec-blogs-leftside .ec-sidebar-block,.ec-cart-rightside .ec-sidebar-block,.ec-checkout-rightside .ec-sidebar-wrap').find('.ec-sidebar-dropdown');
             $this.slideToggle('slow');
-            $('.sidebar-dropdown').not($this).slideUp('slow');
+            $('.ec-sidebar-dropdown').not($this).slideUp('slow');
         });
     });
 
     /*----------------------------- Load More Category -------------------------------- */
     $(document).ready(function () {
-        $(".more-toggle").click(function () {
-            var elem = $(".more-toggle #more-toggle").text();
+        $(".ec-more-toggle").click(function () {
+            var elem = $(".ec-more-toggle #ec-more-toggle").text();
             if (elem == "More Categories") {
-                $(".more-toggle #more-toggle").text("Less Categories");
-                $(".more-toggle").toggleClass('active');
-                $("#more-toggle-content").slideDown();
+                $(".ec-more-toggle #ec-more-toggle").text("Less Categories");
+                $(".ec-more-toggle").toggleClass('active');
+                $("#ec-more-toggle-content").slideDown();
             } else {
 
-                $(".more-toggle  #more-toggle").text("More Categories");
-                $(".more-toggle").removeClass('active');
-                $("#more-toggle-content").slideUp();
+                $(".ec-more-toggle  #ec-more-toggle").text("More Categories");
+                $(".ec-more-toggle").removeClass('active');
+                $("#ec-more-toggle-content").slideUp();
             }
         });
     });
 
     /*----------------------------- Sidebar Color Click to Active -------------------------------- */
     $(document).ready(function () {
-        $(".sidebar-block.sidebar-block-clr li").click(function () {
+        $(".ec-sidebar-block.ec-sidebar-block-clr li").click(function () {
             $(this).addClass('active').siblings().removeClass('active');
         });
     });
 
     /*----------------------------- Faq Block Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".faq-wrapper .faq-block .faq-content").addClass("faq-dropdown");
+        $(".ec-faq-wrapper .ec-faq-block .ec-faq-content").addClass("ec-faq-dropdown");
 
-        $(".faq-block .faq-title ").click(function () {
-            var $this = $(this).closest('.faq-wrapper .faq-block').find('.faq-dropdown');
+        $(".ec-faq-block .ec-faq-title ").click(function () {
+            var $this = $(this).closest('.ec-faq-wrapper .ec-faq-block').find('.ec-faq-dropdown');
             $this.slideToggle('slow');
-            $('.faq-dropdown').not($this).slideUp('slow');
+            $('.ec-faq-dropdown').not($this).slideUp('slow');
         });
     });
 
     /*----------------------------- siderbar Product Slider -------------------------------- */
     $(document).ready(function () {
-        $('.sidebar-slider .sb-pro-sl').slick({
+        $('.ec-sidebar-slider .ec-sb-pro-sl').slick({
             rows: 4,
             dots: false,
             arrows: true,
@@ -1133,7 +1133,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- category Slider -------------------------------- */
-    $('.category-section .ec_cat_slider').slick({
+    $('.ec-category-section .ec_cat_slider').slick({
         rows: 1,
         dots: false,
         arrows: true,
@@ -1174,7 +1174,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Catalog multi vendor Slider -------------------------------- */
-    $('.catalog-multi-vendor .multi-vendor-slider').slick({
+    $('.ec-catalog-multi-vendor .ec-multi-vendor-slider').slick({
         rows: 1,
         dots: false,
         arrows: true,
@@ -1233,7 +1233,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- single product countdowntimer  ------------------------------ */
-    $("#single-countdown").countdowntimer({
+    $("#ec-single-countdown").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/01/01 00:00:00",
         labelsFormat: true,
@@ -1242,13 +1242,13 @@ function ecCheckCookie() {
 
     /*----------------------------- Single Product Color and Size Click to Active -------------------------------- */
     $(document).ready(function () {
-        $(".single-pro-content .pro-variation .pro-variation-content li").click(function () {
+        $(".single-pro-content .ec-pro-variation .ec-pro-variation-content li").click(function () {
             $(this).addClass('active').siblings().removeClass('active');
         });
     });
 
     /*----------------------------- Slider Price -------------------------------- */
-    const slider = document.getElementById('sliderPrice');
+    const slider = document.getElementById('ec-sliderPrice');
     if (slider) {
         const rangeMin = parseInt(slider.dataset.min);
         const rangeMax = parseInt(slider.dataset.max);
@@ -1271,7 +1271,7 @@ function ecCheckCookie() {
             }
         });
 
-        // bind inputs with noUiSlider
+        // bind inputs with noUiSlider 
         slider.noUiSlider.on('update', (values, handle) => {
             filterInputs[handle].value = values[handle];
         });
@@ -1304,8 +1304,8 @@ function ecCheckCookie() {
 
     /*----------------------------- Cart  Shipping Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".sb-block-content .ship-title").click(function () {
-            $('.sb-block-content .cart-form').slideToggle('slow');
+        $(".ec-sb-block-content .ec-ship-title").click(function () {
+            $('.ec-sb-block-content .ec-cart-form').slideToggle('slow');
         });
     });
 
@@ -1314,7 +1314,7 @@ function ecCheckCookie() {
             //$("#addtocart_toast").addClass("show");
             // setTimeout(function(){ $("#addtocart_toast").removeClass("show") }, 3000);
         });
-        $(".btn-group.wishlist").click(function () {
+        $(".ec-btn-group.wishlist").click(function () {
             var isWishlist = $(this).hasClass("active");
             if (isWishlist) {
                 $(this).removeClass("active");
@@ -1329,16 +1329,16 @@ function ecCheckCookie() {
     });
 
     $(document).ready(function () {
-        $('.pro-image').append("<div class='pro-loader'></div>");
+        $('.ec-pro-image').append("<div class='ec-pro-loader'></div>");
     });
 
     /*----------------------------- Apply Coupen Toggle -------------------------------- */
     $(document).ready(function () {
-        $(".cart-coupan").click(function () {
-            $('.cart-coupan-content').slideToggle('slow');
+        $(".ec-cart-coupan").click(function () {
+            $('.ec-cart-coupan-content').slideToggle('slow');
         });
-        $(".checkout-coupan").click(function () {
-            $('.checkout-coupan-content').slideToggle('slow');
+        $(".ec-checkout-coupan").click(function () {
+            $('.ec-checkout-coupan-content').slideToggle('slow');
         });
     });
 
@@ -1352,7 +1352,7 @@ function ecCheckCookie() {
     $(document).ready(function () {
 
         //click event on a tag
-        $('.list').on("click", function () {
+        $('.ec-list').on("click", function () {
 
             var number = $(this).attr("data-number");
             var message = $(this).attr("data-message");
@@ -1369,15 +1369,15 @@ function ecCheckCookie() {
         })
 
         // chat widget open/close duration
-        $('style1').launchBtn({ openDuration: 400, closeDuration: 300 });
+        $('ec-style1').launchBtn({ openDuration: 400, closeDuration: 300 });
     });
 
     // chat panel open/close function
     $.fn.launchBtn = function (options) {
         var mainBtn, panel, clicks, settings, launchPanelAnim, closePanelAnim, openPanel, boxClick;
 
-        mainBtn = $(".button");
-        panel = $(".panel");
+        mainBtn = $(".ec-button");
+        panel = $(".ec-panel");
         clicks = 0;
 
         //default settings
@@ -1446,7 +1446,7 @@ function ecCheckCookie() {
     };
 
     /*----------------------------- User Profile Change on Upload -----------------------------------*/
-    $("body").on("change", ".image-upload", function (e) {
+    $("body").on("change", ".ec-image-upload", function (e) {
 
         var lkthislk = $(this);
 
@@ -1455,7 +1455,7 @@ function ecCheckCookie() {
             var reader = new FileReader();
             reader.onload = function (e) {
 
-                var ec_image_preview = lkthislk.parent().parent().children('.preview').find('.image-preview').attr('src', e.target.result);
+                var ec_image_preview = lkthislk.parent().parent().children('.ec-preview').find('.ec-image-preview').attr('src', e.target.result);
 
                 ec_image_preview.hide();
                 ec_image_preview.fadeIn(650);
@@ -1531,23 +1531,23 @@ function ecCheckCookie() {
     }
 
     /*----------------------------- Tools sidebar ---------------------- */
-    $(".tools-sidebar-toggle").on("click", function (e) {
+    $(".ec-tools-sidebar-toggle").on("click", function (e) {
         e.preventDefault();
         if ($(this).hasClass("in-out")) {
-            $(".tools-sidebar").stop().animate({ right: "0px" }, 100);
-            $(".tools-sidebar-overlay").fadeIn();
-            if ($(".tools-sidebar-toggle").not("in-out")) {
-                $(".tools-sidebar").stop().animate({ right: "-200px" }, 100);
-                $(".tools-sidebar-toggle").addClass("in-out");
+            $(".ec-tools-sidebar").stop().animate({ right: "0px" }, 100);
+            $(".ec-tools-sidebar-overlay").fadeIn();
+            if ($(".ec-tools-sidebar-toggle").not("in-out")) {
+                $(".ec-tools-sidebar").stop().animate({ right: "-200px" }, 100);
+                $(".ec-tools-sidebar-toggle").addClass("in-out");
             }
-            if ($(".tools-sidebar-toggle").not("in-out")) {
-                $(".tools-sidebar").stop().animate({ right: "0" }, 100);
-                $(".tools-sidebar-toggle").addClass("in-out");
-                $(".tools-sidebar-overlay").fadeIn();
+            if ($(".ec-tools-sidebar-toggle").not("in-out")) {
+                $(".ec-tools-sidebar").stop().animate({ right: "0" }, 100);
+                $(".ec-tools-sidebar-toggle").addClass("in-out");
+                $(".ec-tools-sidebar-overlay").fadeIn();
             }
         } else {
-            $(".tools-sidebar").stop().animate({ right: "-200px" }, 100);
-            $(".tools-sidebar-overlay").fadeOut();
+            $(".ec-tools-sidebar").stop().animate({ right: "-200px" }, 100);
+            $(".ec-tools-sidebar-overlay").fadeOut();
         }
 
         $(this).toggleClass("in-out");
@@ -1555,10 +1555,10 @@ function ecCheckCookie() {
 
     });
 
-    $(".tools-sidebar-overlay").on("click", function (e) {
-        $(".tools-sidebar-toggle").addClass("in-out");
-        $(".tools-sidebar").stop().animate({ right: "-200px" }, 100);
-        $(".tools-sidebar-overlay").fadeOut();
+    $(".ec-tools-sidebar-overlay").on("click", function (e) {
+        $(".ec-tools-sidebar-toggle").addClass("in-out");
+        $(".ec-tools-sidebar").stop().animate({ right: "-200px" }, 100);
+        $(".ec-tools-sidebar-overlay").fadeOut();
     });
 
     /*--------------------- Copyright years JS -------------------------------- */
