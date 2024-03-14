@@ -29,6 +29,10 @@
              <!-- Header Top Language Currency -->
              <div class="col header-top-right d-none d-lg-block">
                  <div class="header-top-lan-curr d-flex justify-content-end">
+                     <div class="header-top-curr dropdown">
+                         <button class="dropdown-toggle text-upper" data-bs-toggle="dropdown">Blogs</button>
+
+                     </div>
                      <!-- Currency Start -->
                      <div class="header-top-curr dropdown">
                          <button class="dropdown-toggle text-upper" data-bs-toggle="dropdown">Currency <i
