@@ -1,12 +1,4 @@
-/**
-    Item Name: Ekka - Ecommerce HTML Template.
-    Author: ashishmaraviya
-    Version: 3.7
-    Copyright 2024
-    Author URI: https://themeforest.net/user/ashishmaraviya
-**/
-
-// Function To Create New Cookie 
+// Function To Create New Cookie
 function ecCreateCookie(cookieName, cookieValue, daysToExpire) {
     var date = new Date();
     date.setTime(date.getTime() + (daysToExpire * 24 * 60 * 60 * 1000));
@@ -53,7 +45,7 @@ function ecCheckCookie() {
 
     var rtlMode = ecAccessCookie("rtlModeCookie");
     if (rtlMode != "") {
-        // alert(rtlMode);    
+        // alert(rtlMode);
         var $link = $('<link>', {
             rel: 'stylesheet',
             href: 'assets/css/rtl.css',
@@ -214,7 +206,7 @@ function ecCheckCookie() {
     var ecdirection = 0;
     var ecprevDirection = 0;
     var ecscroll_top = $(window).scrollTop() + 1;
-    var echeader = document.getElementById('ec-main-menu-desk');
+    var echeader = document.getElementById('main-menu-desk');
 
     var checkScroll = function () {
 
@@ -240,14 +232,14 @@ function ecCheckCookie() {
         if (ecdirection === 2 && eccurScroll > 52) {
             // echeader.classList.add('hide');
             ecprevDirection = ecdirection;
-            $("#ec-main-menu-desk").addClass("menu_fixed_up");
-            // $("#ec-main-menu-desk").removeClass("menu_fixed");
+            $("#main-menu-desk").addClass("menu_fixed_up");
+            // $("#main-menu-desk").removeClass("menu_fixed");
         }
         else if (ecdirection === 1) {
             // echeader.classList.remove('hide');
             ecprevDirection = ecdirection;
-            $("#ec-main-menu-desk").addClass("menu_fixed");
-            $("#ec-main-menu-desk").removeClass("menu_fixed_up");
+            $("#main-menu-desk").addClass("menu_fixed");
+            $("#main-menu-desk").removeClass("menu_fixed_up");
         }
     };
 
@@ -257,7 +249,7 @@ function ecCheckCookie() {
 
         if ($window.scrollTop() <= distance + 50) {
             // alert("1");
-            $("#ec-main-menu-desk").removeClass("menu_fixed");
+            $("#main-menu-desk").removeClass("menu_fixed");
         }
         else {
             // alert("2");
@@ -307,7 +299,7 @@ function ecCheckCookie() {
 
     /*----------------------------- Sidebar js | Toggle Icon OnClick Open sidebar  -----------------------------------*/
 
-    $(".ec-sidebar-toggle").on("click", function () {
+    $(".sidebar-toggle").on("click", function () {
         $(".ec-side-cat-overlay").fadeIn();
         $(".category-sidebar").addClass("ec-open");
     });
@@ -427,7 +419,7 @@ function ecCheckCookie() {
 
         $(".cart-count-lable").html(count);
 
-        // Remove Empty message    
+        // Remove Empty message
         $(".emp-cart-msg").parent().remove();
 
         setTimeout(function () {
@@ -457,7 +449,7 @@ function ecCheckCookie() {
 
     (function () {
         var $ekkaToggle = $(".ec-side-toggle"),
-            $ekka = $(".ec-side-cart"),
+            $ekka = $(".side-cart"),
             $ecMenuToggle = $(".mobile-menu-toggle");
 
         $ekkaToggle.on("click", function (e) {
@@ -465,23 +457,23 @@ function ecCheckCookie() {
             var $this = $(this),
                 $target = $this.attr("href");
             // $("body").addClass("ec-open");
-            $(".ec-side-cart-overlay").fadeIn();
+            $(".side-cart-overlay").fadeIn();
             $($target).addClass("ec-open");
             if ($this.parent().hasClass("mobile-menu-toggle")) {
                 $this.addClass("close");
-                $(".ec-side-cart-overlay").fadeOut();
+                $(".side-cart-overlay").fadeOut();
             }
         });
 
-        $(".ec-side-cart-overlay").on("click", function (e) {
-            $(".ec-side-cart-overlay").fadeOut();
+        $(".side-cart-overlay").on("click", function (e) {
+            $(".side-cart-overlay").fadeOut();
             $ekka.removeClass("ec-open");
             $ecMenuToggle.find("a").removeClass("close");
         });
 
         $(".ec-close").on("click", function (e) {
             e.preventDefault();
-            $(".ec-side-cart-overlay").fadeOut();
+            $(".side-cart-overlay").fadeOut();
             $ekka.removeClass("ec-open");
             $ecMenuToggle.find("a").removeClass("close");
         });
@@ -643,7 +635,7 @@ function ecCheckCookie() {
 
     /*----------------------------- Scroll Up Button --------------------- */
     $.scrollUp({
-        scrollText: '<i class="ecicon eci-arrow-up" aria-hidden="true"></i>',
+        scrollText: '<i class="icon i-arrow-up" aria-hidden="true"></i>',
         easingType: "linear",
         scrollSpeed: 900,
         animation: "fade",
@@ -811,11 +803,11 @@ function ecCheckCookie() {
 
     /*----------------------------- Menu Active -------------------------------- */
     var current_page_URL = location.href;
-    $(".ec-main-menu ul li a").each(function () {
+    $(".main-menu ul li a").each(function () {
         if ($(this).attr("href") !== "#") {
             var target_URL = $(this).prop("href");
             if (target_URL == current_page_URL) {
-                $('.ec-main-menu a').parents('li, ul').removeClass('active');
+                $('.main-menu a').parents('li, ul').removeClass('active');
                 $(this).parent('li').addClass('active');
                 return false;
             }
@@ -1271,7 +1263,7 @@ function ecCheckCookie() {
             }
         });
 
-        // bind inputs with noUiSlider 
+        // bind inputs with noUiSlider
         slider.noUiSlider.on('update', (values, handle) => {
             filterInputs[handle].value = values[handle];
         });

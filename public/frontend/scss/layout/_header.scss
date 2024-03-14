@@ -64,27 +64,27 @@
 				color: $text-color-777;
 				&:hover {
 					color: #fff;
-					border: 0;				
+					border: 0;
 				}
 			}
 			.hdr-facebook {
 				&:hover {
-					background: $main-fb-color;					
+					background: $main-fb-color;
 				}
 			}
 			.hdr-twitter {
 				&:hover {
-					background: $main-twitter-color;					
+					background: $main-twitter-color;
 				}
 			}
 			.hdr-instagram {
 				&:hover {
-					background: $main-instagram-color;					
+					background: $main-instagram-color;
 				}
 			}
 			.hdr-linkedin {
 				&:hover {
-					background: $main-linkedin-color;					
+					background: $main-linkedin-color;
 				}
 			}
 		}
@@ -625,7 +625,7 @@
 						left: 0px;
 						z-index: 16;
 						border-radius: 0 4px 4px 0;
-					}					
+					}
 					&.active {
 						color: #222;
 					}
@@ -855,7 +855,7 @@ body.ec-open {
 					padding: 8px 15px;
 					line-height: 22px;
 				}
-				
+
 			}
 			.cart-sub-total {
 				display: flex;
@@ -1009,7 +1009,7 @@ body.ec-open {
 				&::before {
 					width: $width-100;
 					content: "\f067";
-					font-family: $EcIcons;
+					font-family: $Icons;
 					transition: all 0.5s ease 0s;
 					display: flex;
 					align-items: $textcenter;
@@ -1261,7 +1261,7 @@ body.ec-open {
 	  }
 	  .header-logo {
 		text-align: $textleft;
-	  }  
+	  }
 	  .header-logo img{
 		width: 130px;
 	  }
@@ -1352,7 +1352,7 @@ body.ec-open {
 	  }
 	  .header-logo img{
 		width: 25%;
-	  }  
+	  }
 	  .header-search {
 		max-width: 300px;
 		margin: 0 auto;

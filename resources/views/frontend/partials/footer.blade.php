@@ -95,7 +95,7 @@
                                                     placeholder="Enter your email here..." name="ec-email"
                                                     value="" />
                                                 <button id="ec-news-btn" class="button btn-primary" type="submit"
-                                                    name="subscribe" value=""><i class="ecicon eci-paper-plane-o"
+                                                    name="subscribe" value=""><i class="icon i-paper-plane-o"
                                                         aria-hidden="true"></i></button>
                                             </div>
                                         </form>
@@ -115,13 +115,13 @@
                                 <span class="social-text text-upper">Follow us on:</span>
                                 <ul class="mb-0">
                                     <li class="list-inline-item"><a class="hdr-facebook" href="#"><i
-                                                class="ecicon eci-facebook"></i></a></li>
+                                                class="icon i-facebook"></i></a></li>
                                     <li class="list-inline-item"><a class="hdr-twitter" href="#"><i
-                                                class="ecicon eci-twitter"></i></a></li>
+                                                class="icon i-twitter"></i></a></li>
                                     <li class="list-inline-item"><a class="hdr-instagram" href="#"><i
-                                                class="ecicon eci-instagram"></i></a></li>
+                                                class="icon i-instagram"></i></a></li>
                                     <li class="list-inline-item"><a class="hdr-linkedin" href="#"><i
-                                                class="ecicon eci-linkedin"></i></a></li>
+                                                class="icon i-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -214,11 +214,11 @@
                                         women</a>
                                 </h5>
                                 <div class="ec-quickview-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star"></i>
                                 </div>
 
                                 <div class="ec-quickview-desc">Lorem Ipsum is simply dummy text of the printing and

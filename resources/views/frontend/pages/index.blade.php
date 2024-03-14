@@ -6,8 +6,8 @@
 
 
     <!-- ekka Cart Start -->
-    <div class="ec-side-cart-overlay"></div>
-    <div id="ec-side-cart" class="ec-side-cart">
+    <div class="side-cart-overlay"></div>
+    <div id="side-cart" class="side-cart">
         <div class="ec-cart-inner">
             <div class="ec-cart-top">
                 <div class="ec-cart-title">
@@ -317,11 +317,11 @@
                             <div class="ec-pro-content">
                                 <h5 class="ec-pro-title"><a href="product-left-sidebar.html">baby fabric shoes</a></h5>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
                                 </div>
                                 <span class="ec-price">
                                     <span class="old-price">$5.00</span>
@@ -338,11 +338,11 @@
                                 <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Men's hoodies t-shirt</a>
                                 </h5>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star"></i>
                                 </div>
                                 <span class="ec-price">
                                     <span class="old-price">$10.00</span>
@@ -358,11 +358,11 @@
                             <div class="ec-pro-content">
                                 <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Girls t-shirt</a></h5>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
-                                    <i class="ecicon eci-star"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star"></i>
+                                    <i class="icon i-star"></i>
                                 </div>
                                 <span class="ec-price">
                                     <span class="old-price">$5.00</span>
@@ -378,11 +378,11 @@
                             <div class="ec-pro-content">
                                 <h5 class="ec-pro-title"><a href="product-left-sidebar.html">woolen hat for men</a></h5>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
                                 </div>
                                 <span class="ec-price">
                                     <span class="old-price">$15.00</span>
@@ -398,11 +398,11 @@
                             <div class="ec-pro-content">
                                 <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Womens purse</a></h5>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star"></i>
                                 </div>
                                 <span class="ec-price">
                                     <span class="old-price">$15.00</span>
@@ -419,11 +419,11 @@
                                 <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Baby toy doctor kit</a>
                                 </h5>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
-                                    <i class="ecicon eci-star"></i>
-                                    <i class="ecicon eci-star"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star"></i>
+                                    <i class="icon i-star"></i>
+                                    <i class="icon i-star"></i>
                                 </div>
                                 <span class="ec-price">
                                     <span class="old-price">$50.00</span>
@@ -440,11 +440,11 @@
                                 <h5 class="ec-pro-title"><a href="product-left-sidebar.html">teddy bear baby toy</a>
                                 </h5>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
                                 </div>
                                 <span class="ec-price">
                                     <span class="old-price">$35.00</span>
@@ -460,11 +460,11 @@
                             <div class="ec-pro-content">
                                 <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Mens hoodies blue</a></h5>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
-                                    <i class="ecicon eci-star"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star"></i>
+                                    <i class="icon i-star"></i>
                                 </div>
                                 <span class="ec-price">
                                     <span class="old-price">$15.00</span>
@@ -597,11 +597,11 @@
                                     </h5>
                                     <div class="ec-fs-pro-rating">
                                         <span class="ec-fs-rating-icon">
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star"></i>
                                         </span>
                                         <span class="ec-fs-rating-text">4 Review</span>
                                     </div>
@@ -640,11 +640,11 @@
                                     </h5>
                                     <div class="ec-fs-pro-rating">
                                         <span class="ec-fs-rating-icon">
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
                                         </span>
                                         <span class="ec-fs-rating-text">4 Review</span>
                                     </div>
@@ -696,11 +696,11 @@
                                     </h5>
                                     <div class="ec-fs-pro-rating">
                                         <span class="ec-fs-rating-icon">
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star"></i>
                                         </span>
                                         <span class="ec-fs-rating-text">4 Review</span>
                                     </div>
@@ -737,11 +737,11 @@
                                     </h5>
                                     <div class="ec-fs-pro-rating">
                                         <span class="ec-fs-rating-icon">
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
-                                            <i class="ecicon eci-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
+                                            <i class="icon i-star fill"></i>
                                         </span>
                                         <span class="ec-fs-rating-text">4 Review</span>
                                     </div>
@@ -794,11 +794,11 @@
                                 <a href="catalog-single-vendor.html" class="name">Marvelus</a>
                                 <p class="prod-count">154 Products</p>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star"></i>
                                 </div>
                                 <div class="ec-sale">
                                     <p title="Weekly sales">Sales 954</p>
@@ -835,11 +835,11 @@
                                 <a href="catalog-single-vendor.html" class="name">Oreva Fashion</a>
                                 <p class="prod-count">546 Products</p>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
                                 </div>
                                 <div class="ec-sale">
                                     <p title="Weekly sales">Sales 785</p>
@@ -876,11 +876,11 @@
                                 <a href="catalog-single-vendor.html" class="name">Cenva Art</a>
                                 <p class="prod-count">854 Products</p>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
-                                    <i class="ecicon eci-star"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star"></i>
+                                    <i class="icon i-star"></i>
                                 </div>
                                 <div class="ec-sale">
                                     <p title="Weekly sales">Sales 587</p>
@@ -917,11 +917,11 @@
                                 <a href="catalog-single-vendor.html" class="name">Neon Fashion</a>
                                 <p class="prod-count">154 Products</p>
                                 <div class="ec-pro-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
                                 </div>
                                 <div class="ec-sale">
                                     <p title="Weekly sales">Sales 354</p>
@@ -1069,11 +1069,11 @@
                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Full Sleeve Cap T-Shirt</a>
                             </h5>
                             <div class="ec-pro-rating">
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star"></i>
                             </div>
                             <span class="ec-price">
                                 <span class="old-price">$20.00</span>
@@ -1145,11 +1145,11 @@
                         <div class="ec-pro-content">
                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Classic Leather purse</a></h5>
                             <div class="ec-pro-rating">
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star"></i>
                             </div>
                             <span class="ec-price">
                                 <span class="old-price">$100.00</span>
@@ -1211,11 +1211,11 @@
                         <div class="ec-pro-content">
                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Fancy Ladies Sandal</a></h5>
                             <div class="ec-pro-rating">
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star"></i>
                             </div>
                             <span class="ec-price">
                                 <span class="old-price">$100.00</span>
@@ -1290,11 +1290,11 @@
                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Womens Leather Backpack</a>
                             </h5>
                             <div class="ec-pro-rating">
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star fill"></i>
-                                <i class="ecicon eci-star"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star fill"></i>
+                                <i class="icon i-star"></i>
                             </div>
                             <span class="ec-price">
                                 <span class="old-price">$100.00</span>
@@ -1365,11 +1365,11 @@
                                     <div class="ec-test-name">John Doe</div>
                                     <div class="ec-test-designation">General Manager</div>
                                     <div class="ec-test-rating">
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -1388,11 +1388,11 @@
                                     <div class="ec-test-name">John Doe</div>
                                     <div class="ec-test-designation">General Manager</div>
                                     <div class="ec-test-rating">
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -1411,11 +1411,11 @@
                                     <div class="ec-test-name">John Doe</div>
                                     <div class="ec-test-designation">General Manager</div>
                                     <div class="ec-test-rating">
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
                                     </div>
                                 </div>
                             </div>

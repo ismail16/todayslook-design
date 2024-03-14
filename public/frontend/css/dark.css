@@ -14310,7 +14310,7 @@ h2, h3, h4, h5, h6 {
   color: #aaa;
   position: relative;
   font-size: 30px;
-  font-family: "EcIcons";
+  font-family: "Icons";
   width: 100%;
   line-height: 30px;
   height: 30px;
@@ -15159,7 +15159,7 @@ h2, h3, h4, h5, h6 {
   line-height: 1;
   position: relative;
   top: 0;
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-style: normal;
   font-weight: 400;
 }
@@ -16031,7 +16031,7 @@ h2, h3, h4, h5, h6 {
   padding-right: 7px;
   color: #444444;
   content: "\f101";
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-size: 15px;
 }
 
@@ -17105,7 +17105,7 @@ body.ec-open:before {
 .ec-menu-content > ul > li .menu-toggle::before {
   width: 100%;
   content: "\f067";
-  font-family: "EcIcons";
+  font-family: "Icons";
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   display: -webkit-box;
@@ -17608,7 +17608,7 @@ body.ec-open:before {
 }
 .main-slider-nav .swiper-button-next:after {
   content: "\f105";
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-size: 30px;
   line-height: 1;
   outline: 0;
@@ -17620,7 +17620,7 @@ body.ec-open:before {
 }
 .main-slider-nav .swiper-button-prev:after {
   content: "\f104";
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-size: 30px;
   line-height: 1;
   outline: 0;
@@ -19612,7 +19612,7 @@ section.ec-instagram-section {
   transition: all 0.3s ease 0s;
 }
 .ec-insta-inner a:before {
-  font-family: "EcIcons";
+  font-family: "Icons";
   content: "\f16d";
   font-size: 45px;
   top: 52%;
@@ -20298,7 +20298,7 @@ select::-ms-expand {
 .ec-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "Ecicons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -20683,7 +20683,7 @@ select::-ms-expand {
   position: absolute;
   display: none;
   background: #ffffff;
-  font-family: "Ecicons";
+  font-family: "Icons";
   font-size: 14px;
   color: #ffffff;
   line-height: 16px;
@@ -20748,7 +20748,7 @@ select::-ms-expand {
   position: absolute;
   display: block;
   background-color: #ffffff;
-  font-family: "Ecicons";
+  font-family: "Icons";
   font-size: 12px;
   color: #ffffff;
   line-height: 18px;
@@ -21118,7 +21118,7 @@ select::-ms-expand {
 .ec-register-wrapper .ec-register-container .ec-register-form .ec-rg-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "EcIcons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -21361,7 +21361,7 @@ select::-ms-expand {
 .ec-contact-container .ec-contact-form .ec-rg-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "EcIcons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -21570,7 +21570,7 @@ h4.ec-faq-title {
 }
 h4.ec-faq-title::after {
   content: "\f107";
-  font-family: "EcIcons";
+  font-family: "Icons";
   cursor: pointer;
   font-size: 24px;
   color: #aaa;
@@ -21641,7 +21641,7 @@ h4.ec-faq-title::after {
 }
 .product_page .ec-sidebar-wrap .ec-sidebar-block .ec-sb-block-content li .ec-sidebar-block-item::after {
   content: "\f067";
-  font-family: "EcIcons";
+  font-family: "Icons";
   cursor: pointer;
   font-size: 10px;
   color: #aaa;
@@ -23236,7 +23236,7 @@ i.ecicon.eci-star-o {
 .cart_page .ec-sidebar-wrap .ec-ship-title::after {
   content: "\f107";
   position: relative;
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-size: 18px;
   color: #aaa;
   font-weight: 400;
@@ -23371,7 +23371,7 @@ i.ecicon.eci-star-o {
   left: 0;
   right: 0;
   content: "";
-  font-family: "EcIcons";
+  font-family: "Icons";
   overflow: hidden;
 }
 .ec-cart-content .table-content table tbody > tr td .cart-qty-plus-minus .dec.ec_qtybtn:before {
@@ -23509,7 +23509,7 @@ i.ecicon.eci-star-o {
 .ec-cart-form .ec-cart-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "EcIcons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -23883,7 +23883,7 @@ i.ecicon.eci-star-o {
 #ec-progressbar li.active .ec-progressbar-track:before {
   background: #deddff;
   background: #ffffff;
-  font-family: "EcIcons";
+  font-family: "Icons";
   content: "\f00c";
   z-index: 2;
 }
@@ -23891,7 +23891,7 @@ i.ecicon.eci-star-o {
   background: #ffffff;
 }
 #ec-progressbar .step0 .ec-progressbar-track:before {
-  font-family: "EcIcons";
+  font-family: "Icons";
   content: "\f10c";
 }
 
@@ -24210,7 +24210,7 @@ i.ecicon.eci-star-o {
 .ec-checkout-wrap .ec-check-bill-form .ec-bl-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "EcIcons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -24537,7 +24537,7 @@ i.ecicon.eci-star-o {
   content: "\f00c";
   position: absolute;
   display: none;
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-size: 9px;
   color: #ffffff;
   line-height: 14px;
@@ -24668,7 +24668,7 @@ i.ecicon.eci-star-o {
   color: #ffffff;
   position: relative;
   font-size: 38px;
-  font-family: "EcIcons";
+  font-family: "Icons";
   width: 100%;
   line-height: 50px;
   height: 50px;
@@ -30384,7 +30384,7 @@ input[type=email]:focus::-webkit-input-placeholder {
    vendor Page CSS
    	- Single Vendor
    	- Multi Vendor
-   	- Vendor Sidebar 
+   	- Vendor Sidebar
    	- Vendor Dashboard
    	- Vendor Upload
    	- Vendor Profile

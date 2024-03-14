@@ -15,19 +15,19 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	overflow-y: hidden;	
+	overflow-y: hidden;
 }
 .ec-slide-2 {
 	background-image: url("../images/main-slider-banner/2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;	
+	background-position: center;
 }
 .ec-slide-3 {
 	background-image: url("../images/main-slider-banner/3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;	
+	background-position: center;
 }
 
 /*----  Main Slider Style  ----*/
@@ -131,7 +131,7 @@
 	.swiper-button-next {
 		&:after {
 			content: "\f105";
-			font-family: "EcIcons";
+			font-family: "Icons";
 			font-size: 30px;
 			line-height: 1;
 			outline: 0;
@@ -143,7 +143,7 @@
 	.swiper-button-prev {
 		&:after {
 			content: "\f104";
-			font-family: "EcIcons";
+			font-family: "Icons";
 			font-size: 30px;
 			line-height: 1;
 			outline: 0;

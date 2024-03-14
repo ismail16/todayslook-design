@@ -1,111 +1,20 @@
   <!-- Header start  -->
-  <header class="ec-header">
+  <header class="header">
       @include('frontend.partials.menu_top')
-      <!-- Ec Header Bottom  Start -->
-      <div class="ec-header-bottom d-none d-lg-block">
-          <div class="container position-relative">
-              <div class="row">
-                  <div class="ec-flex">
-                      <!-- Ec Header Logo Start -->
-                      <div class="align-self-center">
-                          <div class="header-logo">
-                              <a href="index.html">
-                                  <img src="{{ asset('frontend/images/logo/logo.png') }}" alt="Site Logdddo" />
-                                  <img class="dark-logo" src="{{ asset('frontend/images/logo/dark-logo.png') }}"
-                                      alt="Site Logo" style="display: none;" />
-                              </a>
-                          </div>
-                      </div>
-                      <!-- Ec Header Logo End -->
 
-                      <!-- Ec Header Search Start -->
-                      <div class="align-self-center">
-                          <div class="header-search">
-                              <form class="ec-btn-group-form" action="#">
-                                  <input class="form-control ec-search-bar" placeholder="Search products..."
-                                      type="text">
-                                  <button class="submit" type="submit"><i class="fi-rr-search"></i></button>
-                              </form>
-                          </div>
-                      </div>
-                      <!-- Ec Header Search End -->
-
-                      <!-- Ec Header Button Start -->
-                      <div class="align-self-center">
-                          <div class="ec-header-bottons">
-
-                              <!-- Header User Start -->
-                              <div class="ec-header-user dropdown">
-                                  <button class="dropdown-toggle" data-bs-toggle="dropdown"><i
-                                          class="fi-rr-user"></i></button>
-                                  <ul class="dropdown-menu dropdown-menu-right">
-                                      <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                      <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
-                                      <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                  </ul>
-                              </div>
-                              <!-- Header User End -->
-                              <!-- Header wishlist Start -->
-                              <a href="wishlist.html" class="header-btn ec-header-wishlist">
-                                  <div class="header-icon"><i class="fi-rr-heart"></i></div>
-                                  <span class="ec-header-count">4</span>
-                              </a>
-                              <!-- Header wishlist End -->
-                              <!-- Header Cart Start -->
-                              <a href="#ec-side-cart" class="header-btn ec-side-toggle">
-                                  <div class="header-icon"><i class="fi-rr-shopping-bag"></i></div>
-                                  <span class="ec-header-count cart-count-lable">3</span>
-                              </a>
-                              <!-- Header Cart End -->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <!-- Ec Header Button End -->
-      <!-- Header responsive Bottom  Start -->
-      <div class="ec-header-bottom d-lg-none">
-          <div class="container position-relative">
-              <div class="row ">
-
-                  <!-- Ec Header Logo Start -->
-                  <div class="col">
-                      <div class="header-logo">
-                          <a href="index.html">
-                              <img src="{{ asset('frontend/images/logo/logo.png') }}" alt="Site Logo" />
-                              <img class="dark-logo" src="{{ asset('frontend/images/logo/dark-logo.png') }}"
-                                  alt="Site Logo" style="display: none;" />
-                          </a>
-                      </div>
-                  </div>
-                  <!-- Ec Header Logo End -->
-                  <!-- Ec Header Search Start -->
-                  <div class="col">
-                      <div class="header-search">
-                          <form class="ec-btn-group-form" action="#">
-                              <input class="form-control ec-search-bar" placeholder="Search products..." type="text">
-                              <button class="submit" type="submit"><i class="fi-rr-search"></i></button>
-                          </form>
-                      </div>
-                  </div>
-                  <!-- Ec Header Search End -->
-              </div>
-          </div>
-      </div>
-      <!-- Header responsive Bottom  End -->
-      <!-- EC Main Menu Start -->
-      <div id="ec-main-menu-desk" class="d-none d-lg-block sticky-nav">
+      <!-- Main Menu Start -->
+      <div id="main-menu-desk" class="d-none d-lg-block sticky-nav">
           <div class="container position-relative">
               <div class="row">
                   <div class="col-md-12 align-self-center">
-                      <div class="ec-main-menu">
-                          <a href="javascript:void(0)" class="header-btn ec-sidebar-toggle">
+                      <div class="main-menu">
+                          <a href="javascript:void(0)" class="header-btn sidebar-toggle">
                               <i class="fi fi-rr-apps"></i>
                           </a>
                           <ul>
-                              <li><a href="index.html">Home</a></li>
-                              <li class="dropdown position-static"><a href="javascript:void(0)">Categories</a>
+                              <li><a href="{{ '/' }}">Home</a></li>
+                              <li class="dropdown position-static">
+                                  <a href="javascript:void(0)">Men <i class="icon i-angle-down ml-1"></i></a>
                                   <ul class="mega-menu d-block">
                                       <li class="d-flex">
                                           <ul class="d-block">
@@ -158,7 +67,7 @@
                                           </ul>
                                       </li>
                                       <li>
-                                          <ul class="ec-main-banner w-100">
+                                          <ul class="main-banner w-100">
                                               <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img
                                                           class="img-responsive"
                                                           src="{{ asset('frontend/images/menu-banner/1.jpg') }}"
@@ -179,24 +88,82 @@
                                       </li>
                                   </ul>
                               </li>
-                              <li class="dropdown"><a href="javascript:void(0)">Products</a>
+                              <li class="dropdown position-static">
+                                  <a href="javascript:void(0)">Women <i class="icon i-angle-down ml-1"></i></a>
+                                  <ul class="mega-menu d-block">
+                                      <li class="d-flex">
+                                          <ul class="d-block">
+                                              <li class="menu_title"><a href="javascript:void(0)">Classic
+                                                      Variation</a></li>
+                                              <li><a href="shop-left-sidebar-col-3.html">Left sidebar 3 column</a>
+
+                                          </ul>
+                                          <ul class="d-block">
+                                              <li class="menu_title"><a href="javascript:void(0)">Classic
+                                                      Variation</a></li>
+
+                                          </ul>
+                                          <ul class="d-block">
+                                              <li class="menu_title"><a href="javascript:void(0)">Columns
+                                                      Variation</a></li>
+
+                                          </ul>
+                                          <ul class="d-block">
+                                              <li class="menu_title"><a href="javascript:void(0)">List Variation</a>
+                                              </li>
+
+                                          </ul>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown position-static">
+                                  <a href="javascript:void(0)">Kids <i class="icon i-angle-down ml-1"></i></a>
+                                  <ul class="mega-menu d-block">
+                                  </ul>
+                              </li>
+
+                              <li class="dropdown position-static">
+                                  <a href="javascript:void(0)">Toys <i class="icon i-angle-down ml-1"></i></a>
+                                  <ul class="mega-menu d-block">
+                                  </ul>
+                              </li>
+                              <li class="dropdown position-static">
+                                  <a href="javascript:void(0)">Gifts <i class="icon i-angle-down ml-1"></i></a>
+                                  <ul class="mega-menu d-block">
+                                  </ul>
+                              </li>
+                              <li class="dropdown position-static">
+                                  <a href="javascript:void(0)">Travel & Tech <i
+                                          class="icon i-angle-down ml-1"></i></a>
+                                  <ul class="mega-menu d-block">
+                                  </ul>
+                              </li>
+                              <li class="dropdown position-static">
+                                  <a href="javascript:void(0)">Mid Season Sale <i
+                                          class="icon i-angle-down ml-1"></i></a>
+                                  <ul class="mega-menu d-block">
+                                  </ul>
+                              </li>
+
+
+                              <li class="dropdown"><a href="javascript:void(0)">All Products</a>
                                   <ul class="sub-menu">
                                       <li class="dropdown position-static"><a href="javascript:void(0)">Product page
-                                              <i class="ecicon eci-angle-right"></i></a>
+                                              <i class="icon i-angle-right"></i></a>
                                           <ul class="sub-menu sub-menu-child">
                                               <li><a href="product-left-sidebar.html">Product left sidebar</a></li>
                                               <li><a href="product-right-sidebar.html">Product right sidebar</a></li>
                                           </ul>
                                       </li>
                                       <li class="dropdown position-static"><a href="javascript:void(0)">Product 360
-                                              <i class="ecicon eci-angle-right"></i></a>
+                                              <i class="icon i-angle-right"></i></a>
                                           <ul class="sub-menu sub-menu-child">
                                               <li><a href="product-360-left-sidebar.html">360 left sidebar</a></li>
                                               <li><a href="product-360-right-sidebar.html">360 right sidebar</a></li>
                                           </ul>
                                       </li>
                                       <li class="dropdown position-static"><a href="javascript:void(0)">Product video
-                                              <i class="ecicon eci-angle-right"></i></a>
+                                              <i class="icon i-angle-right"></i></a>
                                           <ul class="sub-menu sub-menu-child">
                                               <li><a href="product-video-left-sidebar.html">Video left sidebar</a>
                                               </li>
@@ -206,7 +173,7 @@
                                       </li>
                                       <li class="dropdown position-static"><a href="javascript:void(0)">Product
                                               gallery
-                                              <i class="ecicon eci-angle-right"></i></a>
+                                              <i class="icon i-angle-right"></i></a>
                                           <ul class="sub-menu sub-menu-child">
                                               <li><a href="product-gallery-left-sidebar.html">Gallery left sidebar</a>
                                               </li>
@@ -233,115 +200,6 @@
                                       <li><a href="track-order.html">Track Order</a></li>
                                       <li><a href="terms-condition.html">Terms Condition</a></li>
                                       <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                  </ul>
-                              </li>
-                              <li class="dropdown"><span class="main-label-note-new" data-toggle="tooltip"
-                                      title="NEW"></span><a href="javascript:void(0)">Others</a>
-                                  <ul class="sub-menu">
-                                      <li class="dropdown position-static"><a href="javascript:void(0)">Mail
-                                              Confirmation
-                                              <i class="ecicon eci-angle-right"></i></a>
-                                          <ul class="sub-menu sub-menu-child">
-                                              <li><a href="email-template-confirm-1.html">Mail Confirmation 1</a></li>
-                                              <li><a href="email-template-confirm-2.html">Mail Confirmation 2</a></li>
-                                              <li><a href="email-template-confirm-3.html">Mail Confirmation 3</a></li>
-                                              <li><a href="email-template-confirm-4.html">Mail Confirmation 4</a></li>
-                                              <li><a href="email-template-confirm-5.html">Mail Confirmation 5</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown position-static"><a href="javascript:void(0)">Mail Reset
-                                              password
-                                              <i class="ecicon eci-angle-right"></i></a>
-                                          <ul class="sub-menu sub-menu-child">
-                                              <li><a href="email-template-forgot-password-1.html">Reset password 1</a>
-                                              </li>
-                                              <li><a href="email-template-forgot-password-2.html">Reset password 2</a>
-                                              </li>
-                                              <li><a href="email-template-forgot-password-3.html">Reset password 3</a>
-                                              </li>
-                                              <li><a href="email-template-forgot-password-4.html">Reset password 4</a>
-                                              </li>
-                                              <li><a href="email-template-forgot-password-5.html">Reset password 5</a>
-                                              </li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown position-static"><a href="javascript:void(0)">Mail
-                                              Promotional
-                                              <i class="ecicon eci-angle-right"></i></a>
-                                          <ul class="sub-menu sub-menu-child">
-                                              <li><a href="email-template-offers-1.html">Offer mail 1</a></li>
-                                              <li><a href="email-template-offers-2.html">Offer mail 2</a></li>
-                                              <li><a href="email-template-offers-3.html">Offer mail 3</a></li>
-                                              <li><a href="email-template-offers-4.html">Offer mail 4</a></li>
-                                              <li><a href="email-template-offers-5.html">Offer mail 5</a></li>
-                                              <li><a href="email-template-offers-6.html">Offer mail 6</a></li>
-                                              <li><a href="email-template-offers-7.html">Offer mail 7</a></li>
-                                              <li><a href="email-template-offers-8.html">Offer mail 8</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown position-static">
-                                          <span class="label-note-hot"></span>
-                                          <a href="javascript:void(0)">Vendor account pages
-                                              <i class="ecicon eci-angle-right"></i></a>
-                                          <ul class="sub-menu sub-menu-child">
-                                              <li><a href="vendor-dashboard.html">Vendor Dashboard</a></li>
-                                              <li><a href="vendor-profile.html">Vendor Profile</a></li>
-                                              <li><a href="vendor-uploads.html">Vendor Uploads</a></li>
-                                              <li><a href="vendor-settings.html">Vendor Settings</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown position-static">
-                                          <span class="label-note-trending"></span>
-                                          <a href="javascript:void(0)">User account pages
-                                              <i class="ecicon eci-angle-right"></i></a>
-                                          <ul class="sub-menu sub-menu-child">
-                                              <li><a href="user-profile.html">User Profile</a></li>
-                                              <li><a href="user-history.html">History</a></li>
-                                              <li><a href="wishlist.html">Wishlist</a></li>
-                                              <li><a href="track-order.html">Track Order</a></li>
-                                              <li><a href="user-invoice.html">Invoice</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown position-static"><a href="javascript:void(0)">Construction
-                                              pages
-                                              <i class="ecicon eci-angle-right"></i></a>
-                                          <ul class="sub-menu sub-menu-child">
-                                              <li><a href="404-error-page.html">404 error page</a></li>
-                                              <li><a href="under-maintenance.html">maintanence page</a></li>
-                                              <li><a href="coming-soon.html">Coming soon page</a></li>
-                                          </ul>
-                                      </li>
-                                      <li class="dropdown position-static">
-                                          <span class="label-note-new"></span>
-                                          <a href="javascript:void(0)">Vendor Catalog pages
-                                              <i class="ecicon eci-angle-right"></i></a>
-                                          <ul class="sub-menu sub-menu-child">
-                                              <li><a href="catalog-single-vendor.html">Catalog Single Vendor</a></li>
-                                              <li><a href="catalog-multi-vendor.html">Catalog Multi Vendor</a></li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </li>
-                              <li class="dropdown"><a href="javascript:void(0)">Blog</a>
-                                  <ul class="sub-menu">
-                                      <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                      <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
-                                      <li><a href="blog-detail-left-sidebar.html">Blog detail left sidebar</a></li>
-                                      <li><a href="blog-detail-right-sidebar.html">Blog detail right sidebar</a></li>
-                                      <li><a href="blog-full-width.html">Blog full width</a></li>
-                                      <li><a href="blog-detail-full-width.html">Blog detail full width</a></li>
-                                  </ul>
-                              </li>
-                              <li class="dropdown"><a href="javascript:void(0)">Elements</a>
-                                  <ul class="sub-menu">
-                                      <li><a href="elemets-products.html">Products</a></li>
-                                      <li><a href="elemets-typography.html">Typography</a></li>
-                                      <li><a href="elemets-title.html">Titles</a></li>
-                                      <li><a href="elemets-categories.html">Categories</a></li>
-                                      <li><a href="elemets-buttons.html">Buttons</a></li>
-                                      <li><a href="elemets-tabs.html">Tabs</a></li>
-                                      <li><a href="elemets-accordions.html">Accordions</a></li>
-                                      <li><a href="elemets-blog.html">Blogs</a></li>
                                   </ul>
                               </li>
                               <li><a href="offer.html">Hot Offers</a></li>
@@ -375,15 +233,15 @@
               </div>
           </div>
       </div>
-      <!-- Ec Main Menu End -->
-      <!-- ekka Mobile Menu Start -->
-      <div id="ec-mobile-menu" class="ec-side-cart ec-mobile-menu">
-          <div class="ec-menu-title">
+      <!-- Main Menu End -->
+      <!-- Mobile Menu Start -->
+      <div id="mobile-menu" class="side-cart mobile-menu">
+          <div class="menu-title">
               <span class="menu_title">My Menu</span>
-              <button class="ec-close">×</button>
+              <button class="close">×</button>
           </div>
-          <div class="ec-menu-inner">
-              <div class="ec-menu-content">
+          <div class="menu-inner">
+              <div class="menu-content">
                   <ul>
                       <li><a href="index.html">Home</a></li>
                       <li><a href="javascript:void(0)">Categories</a>
@@ -578,7 +436,7 @@
                       <!-- Language Start -->
                       <div class="header-top-lan dropdown">
                           <button class="dropdown-toggle text-upper" data-bs-toggle="dropdown">Language <i
-                                  class="ecicon eci-caret-down" aria-hidden="true"></i></button>
+                                  class="icon i-caret-down" aria-hidden="true"></i></button>
                           <ul class="dropdown-menu">
                               <li class="active"><a class="dropdown-item" href="#">English</a></li>
                               <li><a class="dropdown-item" href="#">Italiano</a></li>
@@ -588,7 +446,7 @@
                       <!-- Currency Start -->
                       <div class="header-top-curr dropdown">
                           <button class="dropdown-toggle text-upper" data-bs-toggle="dropdown">Currency <i
-                                  class="ecicon eci-caret-down" aria-hidden="true"></i></button>
+                                  class="icon i-caret-down" aria-hidden="true"></i></button>
                           <ul class="dropdown-menu">
                               <li class="active"><a class="dropdown-item" href="#">USD $</a></li>
                               <li><a class="dropdown-item" href="#">EUR €</a></li>
@@ -601,13 +459,13 @@
                       <div class="header-top-social">
                           <ul class="mb-0">
                               <li class="list-inline-item"><a class="hdr-facebook" href="#"><i
-                                          class="ecicon eci-facebook"></i></a></li>
+                                          class="icon i-facebook"></i></a></li>
                               <li class="list-inline-item"><a class="hdr-twitter" href="#"><i
-                                          class="ecicon eci-twitter"></i></a></li>
+                                          class="icon i-twitter"></i></a></li>
                               <li class="list-inline-item"><a class="hdr-instagram" href="#"><i
-                                          class="ecicon eci-instagram"></i></a></li>
+                                          class="icon i-instagram"></i></a></li>
                               <li class="list-inline-item"><a class="hdr-linkedin" href="#"><i
-                                          class="ecicon eci-linkedin"></i></a></li>
+                                          class="icon i-linkedin"></i></a></li>
                           </ul>
                       </div>
                   </div>
@@ -615,6 +473,6 @@
               </div>
           </div>
       </div>
-      <!-- ekka mobile Menu End -->
+      <!-- mobile Menu End -->
   </header>
   <!-- Header End  -->

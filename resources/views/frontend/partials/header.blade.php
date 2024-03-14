@@ -18,7 +18,7 @@
     <meta name="msapplication-TileImage" content="{{ asset('frontend/images/favicon/favicon.png') }}" />
 
     <!-- css Icon Font -->
-    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/ecicons.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/icons.min.css') }}" />
 
     <!-- css All Plugins Files -->
     <link rel="stylesheet" href="{{ asset('frontend/css/plugins/animate.css') }}" />
@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}" />
 
     <!-- Background css -->
-    {{-- <link rel="stylesheet" id="bg-switcher-css" href="{{ asset('frontend/css/backgrounds/bg-4.css') }}"> --}}
+    <link rel="stylesheet" href="{{ asset('frontend/css/backgrounds/bg-1.css') }}">
 </head>
 
 <body>
