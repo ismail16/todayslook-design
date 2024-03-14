@@ -1,12 +1,4 @@
-/**
-    Item Name: Ekka - Ecommerce HTML Template.
-    Author: ashishmaraviya
-    Version: 3.7
-    Copyright 2024
-    Author URI: https://themeforest.net/user/ashishmaraviya
-**/
-
-// Function To Create New Cookie 
+// Function To Create New Cookie
 function ecCreateCookie(cookieName, cookieValue, daysToExpire) {
     var date = new Date();
     date.setTime(date.getTime() + (daysToExpire * 24 * 60 * 60 * 1000));
@@ -53,7 +45,7 @@ function ecCheckCookie() {
 
     var rtlMode = ecAccessCookie("rtlModeCookie");
     if (rtlMode != "") {
-        // alert(rtlMode);    
+        // alert(rtlMode);
         var $link = $('<link>', {
             rel: 'stylesheet',
             href: 'assets/css/rtl.css',
@@ -307,7 +299,7 @@ function ecCheckCookie() {
 
     /*----------------------------- Sidebar js | Toggle Icon OnClick Open sidebar  -----------------------------------*/
 
-    $(".ec-sidebar-toggle").on("click", function () {
+    $(".sidebar-toggle").on("click", function () {
         $(".ec-side-cat-overlay").fadeIn();
         $(".category-sidebar").addClass("ec-open");
     });
@@ -427,7 +419,7 @@ function ecCheckCookie() {
 
         $(".cart-count-lable").html(count);
 
-        // Remove Empty message    
+        // Remove Empty message
         $(".emp-cart-msg").parent().remove();
 
         setTimeout(function () {
@@ -456,8 +448,8 @@ function ecCheckCookie() {
     });
 
     (function () {
-        var $ekkaToggle = $(".ec-side-toggle"),
-            $ekka = $(".ec-side-cart"),
+        var $ekkaToggle = $(".side-toggle"),
+            $ekka = $(".side-cart"),
             $ecMenuToggle = $(".mobile-menu-toggle");
 
         $ekkaToggle.on("click", function (e) {
@@ -465,23 +457,23 @@ function ecCheckCookie() {
             var $this = $(this),
                 $target = $this.attr("href");
             // $("body").addClass("ec-open");
-            $(".ec-side-cart-overlay").fadeIn();
+            $(".side-cart-overlay").fadeIn();
             $($target).addClass("ec-open");
             if ($this.parent().hasClass("mobile-menu-toggle")) {
                 $this.addClass("close");
-                $(".ec-side-cart-overlay").fadeOut();
+                $(".side-cart-overlay").fadeOut();
             }
         });
 
-        $(".ec-side-cart-overlay").on("click", function (e) {
-            $(".ec-side-cart-overlay").fadeOut();
+        $(".side-cart-overlay").on("click", function (e) {
+            $(".side-cart-overlay").fadeOut();
             $ekka.removeClass("ec-open");
             $ecMenuToggle.find("a").removeClass("close");
         });
 
         $(".ec-close").on("click", function (e) {
             e.preventDefault();
-            $(".ec-side-cart-overlay").fadeOut();
+            $(".side-cart-overlay").fadeOut();
             $ekka.removeClass("ec-open");
             $ecMenuToggle.find("a").removeClass("close");
         });
@@ -1271,7 +1263,7 @@ function ecCheckCookie() {
             }
         });
 
-        // bind inputs with noUiSlider 
+        // bind inputs with noUiSlider
         slider.noUiSlider.on('update', (values, handle) => {
             filterInputs[handle].value = values[handle];
         });

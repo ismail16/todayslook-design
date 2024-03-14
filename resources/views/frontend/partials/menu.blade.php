@@ -32,10 +32,10 @@
 
                       <!-- Ec Header Button Start -->
                       <div class="align-self-center">
-                          <div class="ec-header-bottons">
+                          <div class="header-bottons">
 
                               <!-- Header User Start -->
-                              <div class="ec-header-user dropdown">
+                              <div class="header-user dropdown">
                                   <button class="dropdown-toggle" data-bs-toggle="dropdown"><i
                                           class="fi-rr-user"></i></button>
                                   <ul class="dropdown-menu dropdown-menu-right">
@@ -46,15 +46,15 @@
                               </div>
                               <!-- Header User End -->
                               <!-- Header wishlist Start -->
-                              <a href="wishlist.html" class="header-btn ec-header-wishlist">
+                              <a href="wishlist.html" class="header-btn header-wishlist">
                                   <div class="header-icon"><i class="fi-rr-heart"></i></div>
-                                  <span class="ec-header-count">4</span>
+                                  <span class="header-count">4</span>
                               </a>
                               <!-- Header wishlist End -->
                               <!-- Header Cart Start -->
-                              <a href="#ec-side-cart" class="header-btn ec-side-toggle">
+                              <a href="#side-cart" class="header-btn side-toggle">
                                   <div class="header-icon"><i class="fi-rr-shopping-bag"></i></div>
-                                  <span class="ec-header-count cart-count-lable">3</span>
+                                  <span class="header-count cart-count-lable">3</span>
                               </a>
                               <!-- Header Cart End -->
                           </div>
@@ -99,7 +99,7 @@
               <div class="row">
                   <div class="col-md-12 align-self-center">
                       <div class="ec-main-menu">
-                          <a href="javascript:void(0)" class="header-btn ec-sidebar-toggle">
+                          <a href="javascript:void(0)" class="header-btn sidebar-toggle">
                               <i class="fi fi-rr-apps"></i>
                           </a>
                           <ul>
@@ -359,7 +359,7 @@
       </div>
       <!-- Ec Main Menu End -->
       <!-- ekka Mobile Menu Start -->
-      <div id="ec-mobile-menu" class="ec-side-cart ec-mobile-menu">
+      <div id="mobile-menu" class="side-cart mobile-menu">
           <div class="ec-menu-title">
               <span class="menu_title">My Menu</span>
               <button class="ec-close">×</button>

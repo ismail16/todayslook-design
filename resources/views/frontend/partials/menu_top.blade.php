@@ -59,9 +59,9 @@
              <!-- Header Top Language Currency -->
              <!-- Header Top responsive Action -->
              <div class="col d-lg-none ">
-                 <div class="ec-header-bottons">
+                 <div class="header-bottons">
                      <!-- Header User Start -->
-                     <div class="ec-header-user dropdown">
+                     <div class="header-user dropdown">
                          <button class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fi-rr-user"></i></button>
                          <ul class="dropdown-menu dropdown-menu-right">
                              <li><a class="dropdown-item" href="register.html">Register</a></li>
@@ -71,22 +71,22 @@
                      </div>
                      <!-- Header User End -->
                      <!-- Header Cart Start -->
-                     <a href="wishlist.html" class="header-btn ec-header-wishlist">
+                     <a href="wishlist.html" class="header-btn header-wishlist">
                          <div class="header-icon"><i class="fi-rr-heart"></i></div>
-                         <span class="ec-header-count">4</span>
+                         <span class="header-count">4</span>
                      </a>
                      <!-- Header Cart End -->
                      <!-- Header Cart Start -->
-                     <a href="#ec-side-cart" class="header-btn ec-side-toggle">
+                     <a href="#side-cart" class="header-btn side-toggle">
                          <div class="header-icon"><i class="fi-rr-shopping-bag"></i></div>
-                         <span class="ec-header-count cart-count-lable">3</span>
+                         <span class="header-count cart-count-lable">3</span>
                      </a>
                      <!-- Header Cart End -->
-                     <a href="javascript:void(0)" class="header-btn ec-sidebar-toggle">
+                     <a href="javascript:void(0)" class="header-btn sidebar-toggle">
                          <i class="fi fi-rr-apps"></i>
                      </a>
                      <!-- Header menu Start -->
-                     <a href="#ec-mobile-menu" class="header-btn ec-side-toggle d-lg-none">
+                     <a href="#mobile-menu" class="header-btn side-toggle d-lg-none">
                          <i class="fi fi-rr-menu-burger"></i>
                      </a>
                      <!-- Header menu End -->

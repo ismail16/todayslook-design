@@ -6,8 +6,8 @@
 
 
     <!-- ekka Cart Start -->
-    <div class="ec-side-cart-overlay"></div>
-    <div id="ec-side-cart" class="ec-side-cart">
+    <div class="side-cart-overlay"></div>
+    <div id="side-cart" class="side-cart">
         <div class="ec-cart-inner">
             <div class="ec-cart-top">
                 <div class="ec-cart-title">
