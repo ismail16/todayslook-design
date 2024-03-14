@@ -1,12 +1,12 @@
   <!-- Header start  -->
-  <header class="ec-header">
+  <header class="header">
       @include('frontend.partials.menu_top')
-      <!-- Ec Header Bottom  Start -->
-      <div class="ec-header-bottom d-none d-lg-block">
+      <!-- Header Bottom  Start -->
+      <div class="header-bottom d-none d-lg-block">
           <div class="container position-relative">
               <div class="row">
-                  <div class="ec-flex">
-                      <!-- Ec Header Logo Start -->
+                  <div class="flex">
+                      <!-- Header Logo Start -->
                       <div class="align-self-center">
                           <div class="header-logo">
                               <a href="index.html">
@@ -16,21 +16,21 @@
                               </a>
                           </div>
                       </div>
-                      <!-- Ec Header Logo End -->
+                      <!-- Header Logo End -->
 
-                      <!-- Ec Header Search Start -->
+                      <!-- Header Search Start -->
                       <div class="align-self-center">
                           <div class="header-search">
-                              <form class="ec-btn-group-form" action="#">
-                                  <input class="form-control ec-search-bar" placeholder="Search products..."
+                              <form class="btn-group-form" action="#">
+                                  <input class="form-control search-bar" placeholder="Search products..."
                                       type="text">
                                   <button class="submit" type="submit"><i class="fi-rr-search"></i></button>
                               </form>
                           </div>
                       </div>
-                      <!-- Ec Header Search End -->
+                      <!-- Header Search End -->
 
-                      <!-- Ec Header Button Start -->
+                      <!-- Header Button Start -->
                       <div class="align-self-center">
                           <div class="header-bottons">
 
@@ -63,12 +63,12 @@
               </div>
           </div>
       </div>
-      <!-- Ec Header Button End -->
+      <!-- Header Button End -->
       <!-- Header responsive Bottom  Start -->
-      <div class="ec-header-bottom d-lg-none">
+      <div class="header-bottom d-lg-none">
           <div class="container position-relative">
               <div class="row ">
-                  <!-- Ec Header Logo Start -->
+                  <!-- Header Logo Start -->
                   <div class="col">
                       <div class="header-logo">
                           <a href="index.html">
@@ -78,27 +78,27 @@
                           </a>
                       </div>
                   </div>
-                  <!-- Ec Header Logo End -->
-                  <!-- Ec Header Search Start -->
+                  <!-- Header Logo End -->
+                  <!-- Header Search Start -->
                   <div class="col">
                       <div class="header-search">
-                          <form class="ec-btn-group-form" action="#">
-                              <input class="form-control ec-search-bar" placeholder="Search products..." type="text">
+                          <form class="btn-group-form" action="#">
+                              <input class="form-control search-bar" placeholder="Search products..." type="text">
                               <button class="submit" type="submit"><i class="fi-rr-search"></i></button>
                           </form>
                       </div>
                   </div>
-                  <!-- Ec Header Search End -->
+                  <!-- Header Search End -->
               </div>
           </div>
       </div>
       <!-- Header responsive Bottom  End -->
-      <!-- EC Main Menu Start -->
-      <div id="ec-main-menu-desk" class="d-none d-lg-block sticky-nav">
+      <!-- Main Menu Start -->
+      <div id="main-menu-desk" class="d-none d-lg-block sticky-nav">
           <div class="container position-relative">
               <div class="row">
                   <div class="col-md-12 align-self-center">
-                      <div class="ec-main-menu">
+                      <div class="main-menu">
                           <a href="javascript:void(0)" class="header-btn sidebar-toggle">
                               <i class="fi fi-rr-apps"></i>
                           </a>
@@ -158,7 +158,7 @@
                                           </ul>
                                       </li>
                                       <li>
-                                          <ul class="ec-main-banner w-100">
+                                          <ul class="main-banner w-100">
                                               <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img
                                                           class="img-responsive"
                                                           src="{{ asset('frontend/images/menu-banner/1.jpg') }}"
@@ -357,15 +357,15 @@
               </div>
           </div>
       </div>
-      <!-- Ec Main Menu End -->
-      <!-- ekka Mobile Menu Start -->
+      <!-- Main Menu End -->
+      <!-- Mobile Menu Start -->
       <div id="mobile-menu" class="side-cart mobile-menu">
-          <div class="ec-menu-title">
+          <div class="menu-title">
               <span class="menu_title">My Menu</span>
               <button class="ec-close">×</button>
           </div>
-          <div class="ec-menu-inner">
-              <div class="ec-menu-content">
+          <div class="menu-inner">
+              <div class="menu-content">
                   <ul>
                       <li><a href="index.html">Home</a></li>
                       <li><a href="javascript:void(0)">Categories</a>
@@ -597,6 +597,6 @@
               </div>
           </div>
       </div>
-      <!-- ekka mobile Menu End -->
+      <!-- mobile Menu End -->
   </header>
   <!-- Header End  -->

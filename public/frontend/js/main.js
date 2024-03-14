@@ -105,11 +105,11 @@ function ecCheckCookie() {
     });
 
     /*--------------------- Search Bar On Focus -------------------------------- */
-    $(".ec-search-bar").focus(function () {
+    $(".search-bar").focus(function () {
         $(".ec-search-tab").addClass("active");
     });
 
-    $(".ec-search-bar").focusout(function () {
+    $(".search-bar").focusout(function () {
         setTimeout(function () {
             $(".ec-search-tab").removeClass("active");
         }, 100);
@@ -206,7 +206,7 @@ function ecCheckCookie() {
     var ecdirection = 0;
     var ecprevDirection = 0;
     var ecscroll_top = $(window).scrollTop() + 1;
-    var echeader = document.getElementById('ec-main-menu-desk');
+    var echeader = document.getElementById('main-menu-desk');
 
     var checkScroll = function () {
 
@@ -232,14 +232,14 @@ function ecCheckCookie() {
         if (ecdirection === 2 && eccurScroll > 52) {
             // echeader.classList.add('hide');
             ecprevDirection = ecdirection;
-            $("#ec-main-menu-desk").addClass("menu_fixed_up");
-            // $("#ec-main-menu-desk").removeClass("menu_fixed");
+            $("#main-menu-desk").addClass("menu_fixed_up");
+            // $("#main-menu-desk").removeClass("menu_fixed");
         }
         else if (ecdirection === 1) {
             // echeader.classList.remove('hide');
             ecprevDirection = ecdirection;
-            $("#ec-main-menu-desk").addClass("menu_fixed");
-            $("#ec-main-menu-desk").removeClass("menu_fixed_up");
+            $("#main-menu-desk").addClass("menu_fixed");
+            $("#main-menu-desk").removeClass("menu_fixed_up");
         }
     };
 
@@ -249,7 +249,7 @@ function ecCheckCookie() {
 
         if ($window.scrollTop() <= distance + 50) {
             // alert("1");
-            $("#ec-main-menu-desk").removeClass("menu_fixed");
+            $("#main-menu-desk").removeClass("menu_fixed");
         }
         else {
             // alert("2");
@@ -500,7 +500,7 @@ function ecCheckCookie() {
 
     /*----------------------------- ekka Responsive Menu -----------------------------------*/
     function ResponsiveMobileekkaMenu() {
-        var $ekkaNav = $(".ec-menu-content, .overlay-menu"),
+        var $ekkaNav = $(".menu-content, .overlay-menu"),
             $ekkaNavSubMenu = $ekkaNav.find(".sub-menu");
         $ekkaNavSubMenu.parent().prepend('<span class="menu-toggle"></span>');
 
@@ -803,11 +803,11 @@ function ecCheckCookie() {
 
     /*----------------------------- Menu Active -------------------------------- */
     var current_page_URL = location.href;
-    $(".ec-main-menu ul li a").each(function () {
+    $(".main-menu ul li a").each(function () {
         if ($(this).attr("href") !== "#") {
             var target_URL = $(this).prop("href");
             if (target_URL == current_page_URL) {
-                $('.ec-main-menu a').parents('li, ul').removeClass('active');
+                $('.main-menu a').parents('li, ul').removeClass('active');
                 $(this).parent('li').addClass('active');
                 return false;
             }

@@ -29,9 +29,9 @@
                                     <ul class="align-items-center">
                                         <li class="footer-link"><span><i class="ecicon eci-map-marker"></i></span> 3
                                             Rosewood Pl Hawker, Australia - 2614</li>
-                                        <li class="footer-link"><span><i class="ecicon eci-phone"></i></span><a
+                                        <li class="footer-link"><span><i class="ecicon eci-phone"></i></span> <a
                                                 href="tel:+919874563210">+0492 911539</a></li>
-                                        <li class="footer-link"><span><i class="ecicon eci-envelope"></i></span><a
+                                        <li class="footer-link"><span><i class="ecicon eci-envelope"></i></span> <a
                                                 href="mailto:osman1652@yahoo.com">osman1652@yahoo.com</a></li>
                                     </ul>
                                 </div>
