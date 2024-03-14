@@ -8,13 +8,13 @@
                      <span class="social-text text-upper">Follow us on:</span>
                      <ul class="mb-0">
                          <li class="list-inline-item"><a class="hdr-facebook" href="#"><i
-                                     class="ecicon eci-facebook"></i></a></li>
+                                     class="icon i-facebook"></i></a></li>
                          <li class="list-inline-item"><a class="hdr-twitter" href="#"><i
-                                     class="ecicon eci-twitter"></i></a></li>
+                                     class="icon i-twitter"></i></a></li>
                          <li class="list-inline-item"><a class="hdr-instagram" href="#"><i
-                                     class="ecicon eci-instagram"></i></a></li>
+                                     class="icon i-instagram"></i></a></li>
                          <li class="list-inline-item"><a class="hdr-linkedin" href="#"><i
-                                     class="ecicon eci-linkedin"></i></a></li>
+                                     class="icon i-linkedin"></i></a></li>
                      </ul>
                  </div>
              </div>
@@ -36,7 +36,7 @@
                      <!-- Currency Start -->
                      <div class="header-top-curr dropdown">
                          <button class="dropdown-toggle text-upper" data-bs-toggle="dropdown">Currency <i
-                                 class="ecicon eci-caret-down" aria-hidden="true"></i></button>
+                                 class="icon i-caret-down" aria-hidden="true"></i></button>
                          <ul class="dropdown-menu">
                              <li class="active"><a class="dropdown-item" href="#">USD $</a></li>
                              <li><a class="dropdown-item" href="#">EUR €</a></li>
@@ -46,7 +46,7 @@
                      <!-- Language Start -->
                      <div class="header-top-lan dropdown">
                          <button class="dropdown-toggle text-upper" data-bs-toggle="dropdown">Language <i
-                                 class="ecicon eci-caret-down" aria-hidden="true"></i></button>
+                                 class="icon i-caret-down" aria-hidden="true"></i></button>
                          <ul class="dropdown-menu">
                              <li class="active"><a class="dropdown-item" href="#">English</a></li>
                              <li><a class="dropdown-item" href="#">Italiano</a></li>

@@ -14492,7 +14492,7 @@ h2, h3, h4, h5, h6 {
   color: #777777;
   position: relative;
   font-size: 30px;
-  font-family: "EcIcons";
+  font-family: "Icons";
   width: 100%;
   line-height: 30px;
   height: 30px;
@@ -15341,7 +15341,7 @@ h2, h3, h4, h5, h6 {
   line-height: 1;
   position: relative;
   top: 0;
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-style: normal;
   font-weight: 400;
 }
@@ -16213,7 +16213,7 @@ h2, h3, h4, h5, h6 {
   padding-right: 7px;
   color: #444444;
   content: "\f101";
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-size: 15px;
 }
 
@@ -17103,7 +17103,7 @@ body.ec-open:before {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.side-cart .cart-inner .ec-cart-title {
+.side-cart .cart-inner .cart-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17117,13 +17117,13 @@ body.ec-open:before {
   border-bottom: 2px solid #eeeeee;
   margin-bottom: 20px;
 }
-.side-cart .cart-inner .ec-cart-title .cart_title {
+.side-cart .cart-inner .cart-title .cart_title {
   font-size: 17px;
   color: #555;
   font-family: "Montserrat";
   font-weight: 600;
 }
-.side-cart .cart-inner .ec-cart-title .ec-close {
+.side-cart .cart-inner .cart-title .ec-close {
   position: relative;
   border: 0;
   font-size: 30px;
@@ -17295,7 +17295,7 @@ body.ec-open:before {
 .menu-content > ul > li .menu-toggle::before {
   width: 100%;
   content: "\f067";
-  font-family: "EcIcons";
+  font-family: "Icons";
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   display: -webkit-box;
@@ -17344,28 +17344,28 @@ body.ec-open:before {
   opacity: 1;
 }
 
-.side-cart.ec-cart .cart-inner .ec-cart-title {
+.side-cart.ec-cart .cart-inner .cart-title {
   margin-bottom: 30px;
   padding: 0;
 }
-.side-cart.ec-cart .cart-inner .ec-cart-title .cart_title {
+.side-cart.ec-cart .cart-inner .cart-title .cart_title {
   font-size: 20px;
 }
 
-.side-cart.ec-wishlist .cart-inner .ec-cart-title {
+.side-cart.ec-wishlist .cart-inner .cart-title {
   margin-bottom: 30px;
   padding: 0;
 }
-.side-cart.ec-wishlist .cart-inner .ec-cart-title .cart_title {
+.side-cart.ec-wishlist .cart-inner .cart-title .cart_title {
   font-size: 20px;
 }
 
-.eccart-pro-items {
+.cart-pro-items {
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
-.eccart-pro-items li {
+.cart-pro-items li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17374,15 +17374,15 @@ body.ec-open:before {
   padding-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
 }
-.eccart-pro-items li .sidekka_pro_img {
+.cart-pro-items li .sidekka_pro_img {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 20%;
           flex: 1 0 20%;
 }
-.eccart-pro-items li .sidekka_pro_img img {
+.cart-pro-items li .sidekka_pro_img img {
   max-width: 100%;
 }
-.eccart-pro-items li .ec-pro-content {
+.cart-pro-items li .ec-pro-content {
   position: relative;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 70%;
@@ -17390,7 +17390,7 @@ body.ec-open:before {
   padding-left: 15px;
   overflow: hidden;
 }
-.eccart-pro-items li .ec-pro-content .cart_pro_title {
+.cart-pro-items li .ec-pro-content .cart_pro_title {
   width: 100%;
   padding-right: 30px;
   text-decoration: none;
@@ -17403,20 +17403,20 @@ body.ec-open:before {
   line-height: 15px;
   font-weight: 400;
 }
-.eccart-pro-items li .ec-pro-content .cart_pro_title:hover {
+.cart-pro-items li .ec-pro-content .cart_pro_title:hover {
   color: #3474d4;
 }
-.eccart-pro-items li .ec-pro-content .cart-price {
+.cart-pro-items li .ec-pro-content .cart-price {
   font-size: 14px;
   display: block;
   margin-top: 5px;
 }
-.eccart-pro-items li .ec-pro-content .cart-price span {
+.cart-pro-items li .ec-pro-content .cart-price span {
   color: #777;
   font-weight: 700;
   font-size: 16px;
 }
-.eccart-pro-items li .ec-pro-content .remove {
+.cart-pro-items li .ec-pro-content .remove {
   line-height: 15px;
   position: absolute;
   top: 0;
@@ -17426,16 +17426,16 @@ body.ec-open:before {
   font-size: 16px;
   background: #ffffff;
 }
-.eccart-pro-items li .ec-pro-content .remove:hover {
+.cart-pro-items li .ec-pro-content .remove:hover {
   color: #eb2606;
 }
-.eccart-pro-items li:last-child {
+.cart-pro-items li:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: 0;
 }
 
-.eccart-pro-items li .ec-pro-content .qty-plus-minus {
+.cart-pro-items li .ec-pro-content .qty-plus-minus {
   border: 1px solid #eeeeee;
   display: inline-block;
   height: 35px;
@@ -17455,7 +17455,7 @@ body.ec-open:before {
   padding: 7px 0;
   margin-top: 7px;
 }
-.eccart-pro-items li .ec-pro-content .qty-plus-minus .ec_qtybtn {
+.cart-pro-items li .ec-pro-content .qty-plus-minus .ec_qtybtn {
   width: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17471,7 +17471,7 @@ body.ec-open:before {
   font-size: 20px;
   color: #777;
 }
-.eccart-pro-items li .ec-pro-content .qty-plus-minus input.qty-input {
+.cart-pro-items li .ec-pro-content .qty-plus-minus input.qty-input {
   background: transparent none repeat scroll 0 0;
   border: medium none;
   color: #777;
@@ -17486,10 +17486,10 @@ body.ec-open:before {
   font-weight: 400;
   line-height: 35px;
 }
-.eccart-pro-items li .ec-pro-content .qty-plus-minus .dec.ec_qtybtn {
+.cart-pro-items li .ec-pro-content .qty-plus-minus .dec.ec_qtybtn {
   border-right: 1px solid #eeeeee;
 }
-.eccart-pro-items li .ec-pro-content .qty-plus-minus .inc.ec_qtybtn {
+.cart-pro-items li .ec-pro-content .qty-plus-minus .inc.ec_qtybtn {
   border-left: 1px solid #eeeeee;
 }
 
@@ -18842,7 +18842,7 @@ section.ec-instagram-section {
   transition: all 0.3s ease 0s;
 }
 .ec-insta-inner a:before {
-  font-family: "EcIcons";
+  font-family: "Icons";
   content: "\f16d";
   font-size: 45px;
   top: 52%;
@@ -19625,7 +19625,7 @@ select::-ms-expand {
 .ec-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "Ecicons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -20010,7 +20010,7 @@ select::-ms-expand {
   position: absolute;
   display: none;
   background: #3474d4;
-  font-family: "Ecicons";
+  font-family: "Icons";
   font-size: 14px;
   color: #ffffff;
   line-height: 16px;
@@ -20075,7 +20075,7 @@ select::-ms-expand {
   position: absolute;
   display: block;
   background-color: #3474d4;
-  font-family: "Ecicons";
+  font-family: "Icons";
   font-size: 12px;
   color: #ffffff;
   line-height: 18px;
@@ -20445,7 +20445,7 @@ select::-ms-expand {
 .ec-register-wrapper .ec-register-container .ec-register-form .ec-rg-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "EcIcons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -20688,7 +20688,7 @@ select::-ms-expand {
 .ec-contact-container .ec-contact-form .ec-rg-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "EcIcons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -20897,7 +20897,7 @@ h4.ec-faq-title {
 }
 h4.ec-faq-title::after {
   content: "\f107";
-  font-family: "EcIcons";
+  font-family: "Icons";
   cursor: pointer;
   font-size: 24px;
   color: #777777;
@@ -20968,7 +20968,7 @@ h4.ec-faq-title::after {
 }
 .product_page .ec-sidebar-wrap .ec-sidebar-block .ec-sb-block-content li .ec-sidebar-block-item::after {
   content: "\f067";
-  font-family: "EcIcons";
+  font-family: "Icons";
   cursor: pointer;
   font-size: 10px;
   color: #777777;
@@ -22563,7 +22563,7 @@ i.ecicon.eci-star-o {
 .cart_page .ec-sidebar-wrap .ec-ship-title::after {
   content: "\f107";
   position: relative;
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-size: 18px;
   color: #777777;
   font-weight: 400;
@@ -22698,7 +22698,7 @@ i.ecicon.eci-star-o {
   left: 0;
   right: 0;
   content: "";
-  font-family: "EcIcons";
+  font-family: "Icons";
   overflow: hidden;
 }
 .ec-cart-content .table-content table tbody > tr td .cart-qty-plus-minus .dec.ec_qtybtn:before {
@@ -22836,7 +22836,7 @@ i.ecicon.eci-star-o {
 .ec-cart-form .ec-cart-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "EcIcons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -23210,7 +23210,7 @@ i.ecicon.eci-star-o {
 #ec-progressbar li.active .ec-progressbar-track:before {
   background: #deddff;
   background: #3474d4;
-  font-family: "EcIcons";
+  font-family: "Icons";
   content: "\f00c";
   z-index: 2;
 }
@@ -23218,7 +23218,7 @@ i.ecicon.eci-star-o {
   background: #3474d4;
 }
 #ec-progressbar .step0 .ec-progressbar-track:before {
-  font-family: "EcIcons";
+  font-family: "Icons";
   content: "\f10c";
 }
 
@@ -23537,7 +23537,7 @@ i.ecicon.eci-star-o {
 .ec-checkout-wrap .ec-check-bill-form .ec-bl-select-inner::after {
   content: "\f107";
   position: absolute;
-  font-family: "EcIcons";
+  font-family: "Icons";
   top: 0;
   right: 0;
   padding: 0 10px;
@@ -23864,7 +23864,7 @@ i.ecicon.eci-star-o {
   content: "\f00c";
   position: absolute;
   display: none;
-  font-family: "EcIcons";
+  font-family: "Icons";
   font-size: 9px;
   color: #3474d4;
   line-height: 14px;
@@ -23995,7 +23995,7 @@ i.ecicon.eci-star-o {
   color: #ffffff;
   position: relative;
   font-size: 38px;
-  font-family: "EcIcons";
+  font-family: "Icons";
   width: 100%;
   line-height: 50px;
   height: 50px;

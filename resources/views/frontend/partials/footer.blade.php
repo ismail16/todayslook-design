@@ -27,11 +27,11 @@
                                 <h4 class="ec-footer-heading">Contact us</h4>
                                 <div class="ec-footer-links">
                                     <ul class="align-items-center">
-                                        <li class="footer-link"><span><i class="ecicon eci-map-marker"></i></span> 3
+                                        <li class="footer-link"><span><i class="icon i-map-marker"></i></span> 3
                                             Rosewood Pl Hawker, Australia - 2614</li>
-                                        <li class="footer-link"><span><i class="ecicon eci-phone"></i></span> <a
+                                        <li class="footer-link"><span><i class="icon i-phone"></i></span> <a
                                                 href="tel:+919874563210">+0492 911539</a></li>
-                                        <li class="footer-link"><span><i class="ecicon eci-envelope"></i></span> <a
+                                        <li class="footer-link"><span><i class="icon i-envelope"></i></span> <a
                                                 href="mailto:osman1652@yahoo.com">osman1652@yahoo.com</a></li>
                                     </ul>
                                 </div>
@@ -59,7 +59,7 @@
                                         <li class="ec-footer-link"><a href="user-profile.html">My Account</a></li>
                                         <li class="ec-footer-link"><a href="track-order.html">Order History</a></li>
                                         <li class="ec-footer-link"><a href="wishlist.html">Wish List</a></li>
-                                        <li class="ec-footer-link"><a href="offer.html">Specials</a></li>
+                                        <li class="ec-footer-link"><a href="offer.html">Spials</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                                 <div class="ec-footer-links">
                                     <ul class="align-items-center">
                                         <li class="ec-footer-link">Get instant updates about our new products and
-                                            special promos!</li>
+                                            spial promos!</li>
                                     </ul>
                                     <div class="ec-subscribe-form">
                                         <form id="ec-newsletter-form" name="ec-newsletter-form" method="post"
@@ -96,7 +96,7 @@
                                                     placeholder="Enter your email here..." name="ec-email"
                                                     value="" />
                                                 <button id="ec-news-btn" class="button btn-primary" type="submit"
-                                                    name="subscribe" value=""><i class="ecicon eci-paper-plane-o"
+                                                    name="subscribe" value=""><i class="icon i-paper-plane-o"
                                                         aria-hidden="true"></i></button>
                                             </div>
                                         </form>
@@ -116,13 +116,13 @@
                                 <span class="social-text text-upper">Follow us on:</span>
                                 <ul class="mb-0">
                                     <li class="list-inline-item"><a class="hdr-facebook" href="#"><i
-                                                class="ecicon eci-facebook"></i></a></li>
+                                                class="icon i-facebook"></i></a></li>
                                     <li class="list-inline-item"><a class="hdr-twitter" href="#"><i
-                                                class="ecicon eci-twitter"></i></a></li>
+                                                class="icon i-twitter"></i></a></li>
                                     <li class="list-inline-item"><a class="hdr-instagram" href="#"><i
-                                                class="ecicon eci-instagram"></i></a></li>
+                                                class="icon i-instagram"></i></a></li>
                                     <li class="list-inline-item"><a class="hdr-linkedin" href="#"><i
-                                                class="ecicon eci-linkedin"></i></a></li>
+                                                class="icon i-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -216,11 +216,11 @@
                                         women</a>
                                 </h5>
                                 <div class="ec-quickview-rating">
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star fill"></i>
-                                    <i class="ecicon eci-star"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star fill"></i>
+                                    <i class="icon i-star"></i>
                                 </div>
 
                                 <div class="ec-quickview-desc">Lorem Ipsum is simply dummy text of the printing and

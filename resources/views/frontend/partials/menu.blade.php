@@ -105,7 +105,7 @@
                           <ul>
                               <li><a href="{{ '/' }}">Home</a></li>
                               <li class="dropdown position-static">
-                                  <a href="javascript:void(0)">Men <i class="ecicon eci-angle-down ml-1"></i></a>
+                                  <a href="javascript:void(0)">Men <i class="icon i-angle-down ml-1"></i></a>
                                   <ul class="mega-menu d-block">
                                       <li class="d-flex">
                                           <ul class="d-block">
@@ -180,7 +180,7 @@
                                   </ul>
                               </li>
                               <li class="dropdown position-static">
-                                  <a href="javascript:void(0)">Women <i class="ecicon eci-angle-down ml-1"></i></a>
+                                  <a href="javascript:void(0)">Women <i class="icon i-angle-down ml-1"></i></a>
                                   <ul class="mega-menu d-block">
                                       <li class="d-flex">
                                           <ul class="d-block">
@@ -204,7 +204,7 @@
                                   </ul>
                               </li>
                               <li class="dropdown position-static">
-                                  <a href="javascript:void(0)">Kids <i class="ecicon eci-angle-down ml-1"></i></a>
+                                  <a href="javascript:void(0)">Kids <i class="icon i-angle-down ml-1"></i></a>
                                   <ul class="mega-menu d-block">
                                       <li class="d-flex">
                                           <ul class="d-block">
@@ -228,7 +228,7 @@
                                   </ul>
                               </li>
                               <li class="dropdown position-static">
-                                  <a href="javascript:void(0)">Toys <i class="ecicon eci-angle-down ml-1"></i></a>
+                                  <a href="javascript:void(0)">Toys <i class="icon i-angle-down ml-1"></i></a>
                                   <ul class="mega-menu d-block">
                                       <li class="d-flex">
                                           <ul class="d-block">
@@ -252,7 +252,7 @@
                                   </ul>
                               </li>
                               <li class="dropdown position-static">
-                                  <a href="javascript:void(0)">Gift <i class="ecicon eci-angle-down ml-1"></i></a>
+                                  <a href="javascript:void(0)">Gift <i class="icon i-angle-down ml-1"></i></a>
                                   <ul class="mega-menu d-block">
                                       <li class="d-flex">
                                           <ul class="d-block">
@@ -279,7 +279,7 @@
                               <li><a href="offer.html">Hot Offers</a></li>
                               <li class="dropdown position-static">
                                   <a href="javascript:void(0)">Travel & Tech <i
-                                          class="ecicon eci-angle-down ml-1"></i></a>
+                                          class="icon i-angle-down ml-1"></i></a>
                                   <ul class="mega-menu d-block">
                                       <li class="d-flex">
                                           <ul class="d-block">
@@ -304,7 +304,7 @@
                               </li>
                               <li class="dropdown position-static">
                                   <a href="javascript:void(0)">Mid Season Sale <i
-                                          class="ecicon eci-angle-down ml-1"></i></a>
+                                          class="icon i-angle-down ml-1"></i></a>
                                   <ul class="mega-menu d-block">
                                       <li class="d-flex">
                                           <ul class="d-block">

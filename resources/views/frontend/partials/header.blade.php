@@ -18,7 +18,7 @@
     <meta name="msapplication-TileImage" content="{{ asset('frontend/images/favicon/favicon.png') }}" />
 
     <!-- css Icon Font -->
-    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/ecicons.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/vendor/icons.min.css') }}" />
 
     <!-- css All Plugins Files -->
     <link rel="stylesheet" href="{{ asset('frontend/css/plugins/animate.css') }}" />

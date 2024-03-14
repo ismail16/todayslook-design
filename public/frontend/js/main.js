@@ -443,7 +443,7 @@ function ecCheckCookie() {
             '</div>' +
             '</li>';
 
-        $('.eccart-pro-items').append(p_html);
+        $('.cart-pro-items').append(p_html);
 
     });
 
@@ -482,11 +482,11 @@ function ecCheckCookie() {
 
             // $(".ec-pro-content .remove").on("click", function () {
 
-            var cart_product_count = $(".eccart-pro-items li").length;
+            var cart_product_count = $(".cart-pro-items li").length;
 
             $(this).closest("li").remove();
             if (cart_product_count == 1) {
-                $('.eccart-pro-items').html('<li><p class="emp-cart-msg">Your cart is empty!</p></li>');
+                $('.cart-pro-items').html('<li><p class="emp-cart-msg">Your cart is empty!</p></li>');
             }
 
             var count = $(".cart-count-lable").html();
@@ -635,7 +635,7 @@ function ecCheckCookie() {
 
     /*----------------------------- Scroll Up Button --------------------- */
     $.scrollUp({
-        scrollText: '<i class="ecicon eci-arrow-up" aria-hidden="true"></i>',
+        scrollText: '<i class="icon i-arrow-up" aria-hidden="true"></i>',
         easingType: "linear",
         scrollSpeed: 900,
         animation: "fade",
