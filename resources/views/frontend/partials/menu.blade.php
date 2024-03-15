@@ -522,3 +522,5 @@
       <!-- mobile Menu End -->
   </header>
   <!-- Header End  -->
+  @include('frontend.partials.sidebar_category')
+  @include('frontend.partials.sidebar_card')

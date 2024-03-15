@@ -58,10 +58,10 @@ class PagesController extends Controller
     }
 
 
-    // public function track_order()
-    // {
-    //     return view('frontend.pages.track_order');
-    // }
+    public function single_product()
+    {
+        return view('frontend.pages.single_product');
+    }
 
 
     // public function track_order()

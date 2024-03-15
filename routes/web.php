@@ -28,7 +28,7 @@ Route::get('/track-order', [PagesController::class, 'track_order'])->name('track
 Route::get('/privacy-policy', [PagesController::class, 'privacy_policy'])->name('privacy_policy');
 Route::get('/terms-condition', [PagesController::class, 'terms_condition'])->name('terms_condition');
 Route::get('/user-profile', [PagesController::class, 'user_profile'])->name('user_profile');
-// Route::get('/track-order', [PagesController::class, 'track_order'])->name('track_order');
+Route::get('/single-product', [PagesController::class, 'single_product'])->name('single_product');
 // Route::get('/track-order', [PagesController::class, 'track_order'])->name('track_order');
 // Route::get('/track-order', [PagesController::class, 'track_order'])->name('track_order');
 // Route::get('/track-order', [PagesController::class, 'track_order'])->name('track_order');

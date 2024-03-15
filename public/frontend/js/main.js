@@ -815,7 +815,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Color Hover To Image Change -------------------------------- */
-    var $ecproduct = $('.pro-color, .product-tab, .shop-pro-inner, .new-product, .ec-releted-product, .ec-checkout-pro').find('.opt-swatch');
+    var $ecproduct = $('.pro-color, .product-tab, .shop-pro-inner, .new-product, .releted-product, .ec-checkout-pro').find('.opt-swatch');
 
     function initChangeImg($opt) {
         $opt.each(function () {
@@ -1224,7 +1224,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- single product countdowntimer  ------------------------------ */
-    $("#ec-single-countdown").countdowntimer({
+    $("#single-countdown").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/01/01 00:00:00",
         labelsFormat: true,

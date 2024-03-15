@@ -474,6 +474,9 @@
     <!-- Main Js -->
     <script src="{{ asset('frontend/js/vendor/index.js') }}"></script>
     <script src="{{ asset('frontend/js/main.js') }}"></script>
+    @stack('scripts')
+
+
     </body>
 
     </html>

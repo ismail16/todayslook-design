@@ -2,9 +2,6 @@
 @section('title', "Home | Today's Look Australia")
 
 @section('main')
-    @include('frontend.partials.sidebar_category')
-    @include('frontend.partials.sidebar_card')
-
     <!-- Banner Section Start -->
     <section class="banner section section-space-p">
         <h2 class="d-none">Banner</h2>
@@ -23,7 +20,7 @@
                                     <span class="banner-discount">30% Discount</span>
                                 </div>
                                 <div class="banner-content">
-                                    <span class="banner-btn"><a href="#">Order Now</a></span>
+                                    <span class="banner-btn"><a href="{{ route('single_product') }}">Order Now</a></span>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +33,7 @@
                                     <span class="banner-discount">Buy any 3 Items & get <br>20% Discount</span>
                                 </div>
                                 <div class="banner-content">
-                                    <span class="banner-btn"><a href="#">Order Now</a></span>
+                                    <span class="banner-btn"><a href="{{ route('single_product') }}">Order Now</a></span>
                                 </div>
                             </div>
                         </div>
