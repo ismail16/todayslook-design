@@ -1,69 +1,6 @@
   <!-- Header start  -->
   <header class="header">
       @include('frontend.partials.menu_top')
-      <!-- Header Bottom  Start -->
-      <div class="header-bottom d-none d-lg-block">
-          <div class="container position-relative">
-              <div class="row">
-                  <div class="flex">
-                      <!-- Header Logo Start -->
-                      <div class="align-self-center">
-                          <div class="header-logo">
-                              <a href="index.html">
-                                  <img src="{{ asset('frontend/images/logo/logo.png') }}" alt="Site Logdddo" />
-                                  <img class="dark-logo" src="{{ asset('frontend/images/logo/dark-logo.png') }}"
-                                      alt="Site Logo" style="display: none;" />
-                              </a>
-                          </div>
-                      </div>
-                      <!-- Header Logo End -->
-
-                      <!-- Header Search Start -->
-                      <div class="align-self-center">
-                          <div class="header-search">
-                              <form class="btn-group-form" action="#">
-                                  <input class="form-control search-bar" placeholder="Search products..."
-                                      type="text">
-                                  <button class="submit" type="submit"><i class="fi-rr-search"></i></button>
-                              </form>
-                          </div>
-                      </div>
-                      <!-- Header Search End -->
-
-                      <!-- Header Button Start -->
-                      <div class="align-self-center">
-                          <div class="header-bottons">
-
-                              <!-- Header User Start -->
-                              <div class="header-user dropdown">
-                                  <button class="dropdown-toggle" data-bs-toggle="dropdown"><i
-                                          class="fi-rr-user"></i></button>
-                                  <ul class="dropdown-menu dropdown-menu-right">
-                                      <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                      <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
-                                      <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                  </ul>
-                              </div>
-                              <!-- Header User End -->
-                              <!-- Header wishlist Start -->
-                              <a href="wishlist.html" class="header-btn header-wishlist">
-                                  <div class="header-icon"><i class="fi-rr-heart"></i></div>
-                                  <span class="header-count">4</span>
-                              </a>
-                              <!-- Header wishlist End -->
-                              <!-- Header Cart Start -->
-                              <a href="#side-cart" class="header-btn side-toggle">
-                                  <div class="header-icon"><i class="fi-rr-shopping-bag"></i></div>
-                                  <span class="header-count cart-count-lable">3</span>
-                              </a>
-                              <!-- Header Cart End -->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <!-- Header Button End -->
       <!-- Header responsive Bottom  Start -->
       <div class="header-bottom d-lg-none">
           <div class="container position-relative">
@@ -71,7 +8,7 @@
                   <!-- Header Logo Start -->
                   <div class="col">
                       <div class="header-logo">
-                          <a href="index.html">
+                          <a href="{{ '/' }}">
                               <img src="{{ asset('frontend/images/logo/logo.png') }}" alt="Site Logo" />
                               <img class="dark-logo" src="{{ asset('frontend/images/logo/dark-logo.png') }}"
                                   alt="Site Logo" style="display: none;" />
@@ -111,50 +48,50 @@
                                           <ul class="d-block">
                                               <li class="menu_title"><a href="javascript:void(0)">Classic
                                                       Variation</a></li>
-                                              <li><a href="shop-left-sidebar-col-3.html">Left sidebar 3 column</a>
+                                              <li><a href="#">Left sidebar 3 column</a>
                                               </li>
-                                              <li><a href="shop-left-sidebar-col-4.html">Left sidebar 4 column</a>
+                                              <li><a href="#">Left sidebar 4 column</a>
                                               </li>
-                                              <li><a href="shop-right-sidebar-col-3.html">Right sidebar 3 column</a>
+                                              <li><a href="#">Right sidebar 3 column</a>
                                               </li>
-                                              <li><a href="shop-right-sidebar-col-4.html">Right sidebar 4 column</a>
+                                              <li><a href="#">Right sidebar 4 column</a>
                                               </li>
-                                              <li><a href="shop-full-width.html">Full width 4 column</a></li>
+                                              <li><a href="#">Full width 4 column</a></li>
                                           </ul>
                                           <ul class="d-block">
                                               <li class="menu_title"><a href="javascript:void(0)">Classic
                                                       Variation</a></li>
-                                              <li><a href="shop-banner-left-sidebar-col-3.html">Banner left sidebar 3
+                                              <li><a href="#">Banner left sidebar 3
                                                       column</a></li>
-                                              <li><a href="shop-banner-left-sidebar-col-4.html">Banner left sidebar 4
+                                              <li><a href="#">Banner left sidebar 4
                                                       column</a></li>
-                                              <li><a href="shop-banner-right-sidebar-col-3.html">Banner right sidebar
+                                              <li><a href="#">Banner right sidebar
                                                       3 column</a></li>
-                                              <li><a href="shop-banner-right-sidebar-col-4.html">Banner right sidebar
+                                              <li><a href="#">Banner right sidebar
                                                       4 column</a></li>
-                                              <li><a href="shop-banner-full-width.html">Banner Full width 4 column</a>
+                                              <li><a href="#">Banner Full width 4 column</a>
                                               </li>
                                           </ul>
                                           <ul class="d-block">
                                               <li class="menu_title"><a href="javascript:void(0)">Columns
                                                       Variation</a></li>
-                                              <li><a href="shop-full-width-col-3.html">3 Columns full width</a></li>
-                                              <li><a href="shop-full-width-col-4.html">4 Columns full width</a></li>
-                                              <li><a href="shop-full-width-col-5.html">5 Columns full width</a></li>
-                                              <li><a href="shop-full-width-col-6.html">6 Columns full width</a></li>
-                                              <li><a href="shop-banner-full-width-col-3.html">Banner 3 Columns</a>
+                                              <li><a href="#">3 Columns full width</a></li>
+                                              <li><a href="#">4 Columns full width</a></li>
+                                              <li><a href="#">5 Columns full width</a></li>
+                                              <li><a href="#">6 Columns full width</a></li>
+                                              <li><a href="#">Banner 3 Columns</a>
                                               </li>
                                           </ul>
                                           <ul class="d-block">
                                               <li class="menu_title"><a href="javascript:void(0)">List Variation</a>
                                               </li>
-                                              <li><a href="shop-list-left-sidebar.html">Shop left sidebar</a></li>
-                                              <li><a href="shop-list-right-sidebar.html">Shop right sidebar</a></li>
-                                              <li><a href="shop-list-banner-left-sidebar.html">Banner left sidebar</a>
+                                              <li><a href="#">Shop left sidebar</a></li>
+                                              <li><a href="#">Shop right sidebar</a></li>
+                                              <li><a href="#">Banner left sidebar</a>
                                               </li>
-                                              <li><a href="shop-list-banner-right-sidebar.html">Banner right
+                                              <li><a href="#">Banner right
                                                       sidebar</a></li>
-                                              <li><a href="shop-list-full-col-2.html">Full width 2 columns</a></li>
+                                              <li><a href="#">Full width 2 columns</a></li>
                                           </ul>
                                       </li>
                                       <li>
@@ -383,35 +320,35 @@
                               <li>
                                   <a href="javascript:void(0)">Classic Variation</a>
                                   <ul class="sub-menu">
-                                      <li><a href="shop-banner-left-sidebar-col-3.html">Banner left sidebar 3
+                                      <li><a href="#">Banner left sidebar 3
                                               column</a></li>
-                                      <li><a href="shop-banner-left-sidebar-col-4.html">Banner left sidebar 4
+                                      <li><a href="#">Banner left sidebar 4
                                               column</a></li>
-                                      <li><a href="shop-banner-right-sidebar-col-3.html">Banner right sidebar 3
+                                      <li><a href="#">Banner right sidebar 3
                                               column</a></li>
-                                      <li><a href="shop-banner-right-sidebar-col-4.html">Banner right sidebar 4
+                                      <li><a href="#">Banner right sidebar 4
                                               column</a></li>
-                                      <li><a href="shop-banner-full-width.html">Banner Full width 4 column</a></li>
+                                      <li><a href="#">Banner Full width 4 column</a></li>
                                   </ul>
                               </li>
                               <li>
                                   <a href="javascript:void(0)">Columns Variation</a>
                                   <ul class="sub-menu">
-                                      <li><a href="shop-full-width-col-3.html">3 Columns full width</a></li>
-                                      <li><a href="shop-full-width-col-4.html">4 Columns full width</a></li>
-                                      <li><a href="shop-full-width-col-5.html">5 Columns full width</a></li>
-                                      <li><a href="shop-full-width-col-6.html">6 Columns full width</a></li>
-                                      <li><a href="shop-banner-full-width-col-3.html">Banner 3 Columns</a></li>
+                                      <li><a href="#">3 Columns full width</a></li>
+                                      <li><a href="#">4 Columns full width</a></li>
+                                      <li><a href="#">5 Columns full width</a></li>
+                                      <li><a href="#">6 Columns full width</a></li>
+                                      <li><a href="#">Banner 3 Columns</a></li>
                                   </ul>
                               </li>
                               <li>
                                   <a href="javascript:void(0)">List Variation</a>
                                   <ul class="sub-menu">
-                                      <li><a href="shop-list-left-sidebar.html">Shop left sidebar</a></li>
-                                      <li><a href="shop-list-right-sidebar.html">Shop right sidebar</a></li>
-                                      <li><a href="shop-list-banner-left-sidebar.html">Banner left sidebar</a></li>
-                                      <li><a href="shop-list-banner-right-sidebar.html">Banner right sidebar</a></li>
-                                      <li><a href="shop-list-full-col-2.html">Full width 2 columns</a></li>
+                                      <li><a href="#">Shop left sidebar</a></li>
+                                      <li><a href="#">Shop right sidebar</a></li>
+                                      <li><a href="#">Banner left sidebar</a></li>
+                                      <li><a href="#">Banner right sidebar</a></li>
+                                      <li><a href="#">Full width 2 columns</a></li>
                                   </ul>
                               </li>
                               <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive"
@@ -513,21 +450,6 @@
                                       <li><a href="catalog-multi-vendor.html">Catalog Multi Vendor</a></li>
                                   </ul>
                               </li>
-                          </ul>
-                      </li>
-                      <li><a href="javascript:void(0)">Pages</a>
-                          <ul class="sub-menu">
-                              <li><a href="about-us.html">About Us</a></li>
-                              <li><a href="contact-us.html">Contact Us</a></li>
-                              <li><a href="cart.html">Cart</a></li>
-                              <li><a href="checkout.html">Checkout</a></li>
-                              <li><a href="compare.html">Compare</a></li>
-                              <li><a href="faq.html">FAQ</a></li>
-                              <li><a href="login.html">Login</a></li>
-                              <li><a href="register.html">Register</a></li>
-                              <li><a href="track-order.html">Track Order</a></li>
-                              <li><a href="terms-condition.html">Terms Condition</a></li>
-                              <li><a href="privacy-policy.html">Privacy Policy</a></li>
                           </ul>
                       </li>
                       <li class="dropdown"><a href="javascript:void(0)">Blog</a>

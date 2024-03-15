@@ -15,8 +15,7 @@
                             <!-- breadcrumb-list start -->
                             <ul class="breadcrumb-list">
                                 <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
-                                <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
-                                {{-- <li class="breadcrumb-item active">About Us</li> --}}
+                                <li class="breadcrumb-item active">About Us</li>
                             </ul>
                             <!-- breadcrumb-list end -->
                         </div>
@@ -33,8 +32,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="section-title">
-                        <h2 class="bg-title">About Us</h2>
-                        <h2 class="title">About Us</h2>
+                        <h2 class="ec-bg-title">About Us</h2>
                         <p class="sub-title mb-3">About our business Firm</p>
                     </div>
                 </div>
@@ -42,7 +40,7 @@
                     <div class="row">
                         <div class="col-md-6 cms-block abcms-block text-center">
                             <div class="cms-block-inner">
-                                <img class="a-img" src="{{ asset('frontend/images/offer-image/1.jpg') }}" alt="about">
+                                <img class="a-img" src="{{ asset('frontend/images2/offer-image/1.jpg') }}" alt="about">
                             </div>
                         </div>
                         <div class="col-md-6 cms-block abcms-block text-center">
@@ -89,7 +87,7 @@
                             <i class="fi-rr-quote-right top"></i>
                             <div class="test-inner">
                                 <div class="test-img"><img alt="testimonial" title="testimonial"
-                                        src="{{ asset('frontend/images/testimonial/1.jpg') }}" /></div>
+                                        src="{{ asset('frontend/images2/testimonial/1.jpg') }}" /></div>
                                 <div class="test-content">
                                     <div class="test-desc">Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -98,11 +96,11 @@
                                     <div class="test-name">John Doe</div>
                                     <div class="test-designation">General Manager</div>
                                     <div class="test-rating">
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +110,7 @@
                             <i class="fi-rr-quote-right top"></i>
                             <div class="test-inner">
                                 <div class="test-img"><img alt="testimonial" title="testimonial"
-                                        src="{{ asset('frontend/images/testimonial/2.jpg') }}" /></div>
+                                        src="{{ asset('frontend/images2/testimonial/2.jpg') }}" /></div>
                                 <div class="test-content">
                                     <div class="test-desc">Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -121,11 +119,11 @@
                                     <div class="test-name">John Doe</div>
                                     <div class="test-designation">General Manager</div>
                                     <div class="test-rating">
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -135,7 +133,7 @@
                             <i class="fi-rr-quote-right top"></i>
                             <div class="test-inner">
                                 <div class="test-img"><img alt="testimonial" title="testimonial"
-                                        src="{{ asset('frontend/images/testimonial/3.jpg') }}" /></div>
+                                        src="{{ asset('frontend/images2/testimonial/3.jpg') }}" /></div>
                                 <div class="test-content">
                                     <div class="test-desc">Lorem Ipsum is simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -144,11 +142,11 @@
                                     <div class="test-name">John Doe</div>
                                     <div class="test-designation">General Manager</div>
                                     <div class="test-rating">
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
+                                        <i class="icon i-star fill"></i>
                                     </div>
                                 </div>
                             </div>

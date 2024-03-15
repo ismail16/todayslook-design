@@ -1,7 +1,7 @@
 /*-------------------------------------------------
   Offer Section CSS
 ---------------------------------------------------*/
-.ec-offer-section {
+.offer-section {
 	min-height: 620px;
 	background-size: cover;
 	overflow: hidden;
@@ -13,11 +13,11 @@
 	background-size: cover;
 	background-position: center;
 }
-.ec-offer-content {
+offer-content {
 	display: flex;
 	flex-direction: column;
 	text-align: $textcenter;
-	.ec-offer-title {
+	offer-title {
 		font-size: 60px;
 		color: $main-primary-color;
 		margin-bottom: 5px;
@@ -27,7 +27,7 @@
 		line-height: 1;
 		font-weight: 800;
 	}
-	.ec-offer-stitle {
+	offer-stitle {
 		font-size: 40px;
 		color: $main-primary-color;
 		margin-bottom: 13px;
@@ -39,10 +39,10 @@
 		width: 140px;
 		margin: 15px auto 0 auto;
 	}
-	.ec-offer-img {
+	offer-img {
 		margin-bottom: 16px;
 	}
-	.ec-offer-desc {
+	offer-desc {
 		font-size: 32px;
 		color: $main-text-color;
 		margin-bottom: 16px;
@@ -50,7 +50,7 @@
 		font-weight: 600;
 		line-height: 1.2;
 	}
-	.ec-offer-price {
+	offer-price {
 		font-size: 40px;
 		color: $main-secondary-color;
 		letter-spacing: 1.5px;

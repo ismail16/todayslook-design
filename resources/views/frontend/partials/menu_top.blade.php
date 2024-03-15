@@ -1,4 +1,4 @@
- <!--Ec Header Top Start -->
+ <!-- Header Top Start -->
  <div class="header-top">
      <div class="container">
          <div class="row align-items-center">
@@ -31,7 +31,6 @@
                  <div class="header-top-lan-curr d-flex justify-content-end">
                      <div class="header-top-curr dropdown">
                          <button class="dropdown-toggle text-upper" data-bs-toggle="dropdown">Blogs</button>
-
                      </div>
                      <!-- Currency Start -->
                      <div class="header-top-curr dropdown">
@@ -64,9 +63,9 @@
                      <div class="header-user dropdown">
                          <button class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fi-rr-user"></i></button>
                          <ul class="dropdown-menu dropdown-menu-right">
-                             <li><a class="dropdown-item" href="register.html">Register</a></li>
-                             <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
-                             <li><a class="dropdown-item" href="login.html">Login</a></li>
+                             <li><a class="dropdown-item" href="{{ route('register') }}">Register</a></li>
+                             <li><a class="dropdown-item" href="#">Checkout</a></li>
+                             <li><a class="dropdown-item" href="{{ route('login') }}">Login</a></li>
                          </ul>
                      </div>
                      <!-- Header User End -->
@@ -96,4 +95,67 @@
          </div>
      </div>
  </div>
- <!-- Ec Header Top  End -->
+
+ <!-- Header Bottom  Start -->
+ <div class="header-bottom d-none d-lg-block">
+     <div class="container position-relative">
+         <div class="row">
+             <div class="flex">
+                 <!-- Header Logo Start -->
+                 <div class="align-self-center">
+                     <div class="header-logo">
+                         <a href="{{ '/' }}">
+                             <img src="{{ asset('frontend/images/logo/logo.png') }}" alt="Site Logdddo" />
+                             <img class="dark-logo" src="{{ asset('frontend/images/logo/dark-logo.png') }}"
+                                 alt="Site Logo" style="display: none;" />
+                         </a>
+                     </div>
+                 </div>
+                 <!-- Header Logo End -->
+
+                 <!-- Header Search Start -->
+                 <div class="align-self-center">
+                     <div class="header-search">
+                         <form class="btn-group-form" action="#">
+                             <input class="form-control search-bar" placeholder="Search products..." type="text">
+                             <button class="submit" type="submit"><i class="fi-rr-search"></i></button>
+                         </form>
+                     </div>
+                 </div>
+                 <!-- Header Search End -->
+
+                 <!-- Header Button Start -->
+                 <div class="align-self-center">
+                     <div class="header-bottons">
+
+                         <!-- Header User Start -->
+                         <div class="header-user dropdown">
+                             <button class="dropdown-toggle" data-bs-toggle="dropdown"><i
+                                     class="fi-rr-user"></i></button>
+                             <ul class="dropdown-menu dropdown-menu-right">
+                                 <li><a class="dropdown-item" href="{{ route('register') }}">Register</a></li>
+                                 <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                 <li><a class="dropdown-item" href="{{ route('login') }}">Login</a></li>
+                             </ul>
+                         </div>
+                         <!-- Header User End -->
+                         <!-- Header wishlist Start -->
+                         <a href="wishlist.html" class="header-btn header-wishlist">
+                             <div class="header-icon"><i class="fi-rr-heart"></i></div>
+                             <span class="header-count">4</span>
+                         </a>
+                         <!-- Header wishlist End -->
+                         <!-- Header Cart Start -->
+                         <a href="#side-cart" class="header-btn side-toggle">
+                             <div class="header-icon"><i class="fi-rr-shopping-bag"></i></div>
+                             <span class="header-count cart-count-lable">3</span>
+                         </a>
+                         <!-- Header Cart End -->
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- Header Button End -->
+ <!-- Header Top  End -->

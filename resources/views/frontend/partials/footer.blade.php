@@ -27,12 +27,16 @@
                                 <h4 class="ec-footer-heading">Contact us</h4>
                                 <div class="ec-footer-links">
                                     <ul class="align-items-center">
-                                        <li class="footer-link"><span><i class="icon i-map-marker"></i></span> 3
+                                        <li class="footer-link"><span><i
+                                                    class="icon i-map-marker text-primary"></i></span> 3
                                             Rosewood Pl Hawker, Australia - 2614</li>
-                                        <li class="footer-link"><span><i class="icon i-phone"></i></span> <a
-                                                href="tel:+919874563210">+0492 911539</a></li>
-                                        <li class="footer-link"><span><i class="icon i-envelope"></i></span> <a
-                                                href="mailto:osman1652@yahoo.com">osman1652@yahoo.com</a></li>
+                                        <li class="footer-link"><span><i class="icon i-phone text-primary"></i></span>
+                                            <a href="tel:+919874563210">+0492 911539</a>
+                                        </li>
+                                        <li class="footer-link"><span><i
+                                                    class="icon i-envelope text-primary"></i></span>
+                                            <a href="mailto:osman1652@yahoo.com">osman1652@yahoo.com</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -42,11 +46,13 @@
                                 <h4 class="ec-footer-heading">Information</h4>
                                 <div class="ec-footer-links">
                                     <ul class="align-items-center">
-                                        <li class="ec-footer-link"><a href="about-us.html">About us</a></li>
-                                        <li class="ec-footer-link"><a href="faq.html">FAQ</a></li>
-                                        <li class="ec-footer-link"><a href="track-order.html">Delivery Information</a>
+                                        <li class="ec-footer-link"><a href="{{ route('about_us') }}">About us</a></li>
+                                        <li class="ec-footer-link"><a href="{{ route('faq') }}">FAQ</a></li>
+                                        <li class="ec-footer-link"><a href="{{ route('track_order') }}">Delivery
+                                                Information</a>
                                         </li>
-                                        <li class="ec-footer-link"><a href="contact-us.html">Contact us</a></li>
+                                        <li class="ec-footer-link"><a href="{{ route('contact_us') }}">Contact us</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -56,10 +62,12 @@
                                 <h4 class="ec-footer-heading">Account</h4>
                                 <div class="ec-footer-links">
                                     <ul class="align-items-center">
-                                        <li class="ec-footer-link"><a href="user-profile.html">My Account</a></li>
-                                        <li class="ec-footer-link"><a href="track-order.html">Order History</a></li>
-                                        <li class="ec-footer-link"><a href="wishlist.html">Wish List</a></li>
-                                        <li class="ec-footer-link"><a href="offer.html">Spials</a></li>
+                                        <li class="ec-footer-link"><a href="{{ route('user_profile') }}">My Account</a>
+                                        </li>
+                                        <li class="ec-footer-link"><a href="{{ route('track_order') }}">Order
+                                                History</a></li>
+                                        <li class="ec-footer-link"><a href="{{ route('user_profile') }}">Wish List</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -70,11 +78,14 @@
                                 <div class="ec-footer-links">
                                     <ul class="align-items-center">
                                         <li class="ec-footer-link"><a href="track-order.html">Discount Returns</a></li>
-                                        <li class="ec-footer-link"><a href="privacy-policy.html">Policy & policy </a>
+                                        <li class="ec-footer-link"><a href="{{ route('privacy_policy') }}">Policy &
+                                                policy </a>
                                         </li>
-                                        <li class="ec-footer-link"><a href="terms-condition.html">Customer Service</a>
+                                        <li class="ec-footer-link"><a href="{{ route('terms_condition') }}">Customer
+                                                Service</a>
                                         </li>
-                                        <li class="ec-footer-link"><a href="terms-condition.html">Term & condition</a>
+                                        <li class="ec-footer-link"><a href="{{ route('terms_condition') }}">Term &
+                                                condition</a>
                                         </li>
                                     </ul>
                                 </div>
