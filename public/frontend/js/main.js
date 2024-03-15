@@ -51,7 +51,7 @@ function ecCheckCookie() {
             href: 'assets/css/rtl.css',
             class: 'rtl'
         });
-        $(".ec-tools-sidebar .ec-change-rtl").toggleClass('active');
+        $(".ec-tools-sidebar .change-rtl").toggleClass('active');
         $link.appendTo('head');
     }
 
@@ -67,7 +67,7 @@ function ecCheckCookie() {
 
         $("link[href='assets/css/responsive.css']").before($link);
 
-        $(".ec-tools-sidebar .ec-change-mode").toggleClass('active');
+        $(".ec-tools-sidebar .change-mode").toggleClass('active');
         $("body").addClass("dark");
     }
     else {
@@ -526,7 +526,7 @@ function ecCheckCookie() {
     ResponsiveMobileekkaMenu();
 
     /*----------------------------- Main Slider ---------------------- */
-    var EcMainSlider = new Swiper('.ec-slider.swiper-container', {
+    var EcMainSlider = new Swiper('.slider.swiper-container', {
         loop: true,
         speed: 2000,
         effect: "slide",
@@ -642,28 +642,28 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Product Countdown --------------------- */
-    $("#ec-fs-count-1").countdowntimer({
+    $("#fs-count-1").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/01/01 00:00:00",
         labelsFormat: true,
         displayFormat: "DHMS"
     });
 
-    $("#ec-fs-count-2").countdowntimer({
+    $("#fs-count-2").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/12/01 00:00:00",
         labelsFormat: true,
         displayFormat: "DHMS"
     });
 
-    $("#ec-fs-count-3").countdowntimer({
+    $("#fs-count-3").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/11/01 00:00:00",
         labelsFormat: true,
         displayFormat: "DHMS"
     });
 
-    $("#ec-fs-count-4").countdowntimer({
+    $("#fs-count-4").countdowntimer({
         startDate: "2024/01/01 00:00:00",
         dateAndTime: "2025/03/01 00:00:00",
         labelsFormat: true,
@@ -671,7 +671,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Feature Product Slider   -------------------------------- */
-    $('.ec-fre-products').slick({
+    $('.fre-products').slick({
         rows: 1,
         dots: false,
         arrows: true,
@@ -682,7 +682,7 @@ function ecCheckCookie() {
     });
 
     /*-----------------------------  Offer Product Slider  -------------------------------- */
-    $('.ec-spe-products').slick({
+    $('.spe-products').slick({
         rows: 1,
         dots: false,
         arrows: true,
@@ -693,10 +693,10 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Theme Color Change -------------------------------- */
-    $('.ec-change-color').on('click', 'li', function () {
+    $('.change-color').on('click', 'li', function () {
         $('link[href^="assets/css/skin-"]').remove();
         $('link.dark').remove();
-        $('.ec-change-mode').removeClass("active");
+        $('.change-mode').removeClass("active");
         var dataValue = $(this).attr('data-color');
 
         if ($(this).hasClass('active')) return;
@@ -713,7 +713,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Theme RTL Change -------------------------------- */
-    $(".ec-tools-sidebar .ec-change-rtl .ec-rtl-switch").click(function (e) {
+    $(".ec-tools-sidebar .change-rtl .ec-rtl-switch").click(function (e) {
         e.preventDefault();
         var $link = $('<link>', {
             rel: 'stylesheet',
@@ -722,11 +722,11 @@ function ecCheckCookie() {
         });
         $(this).parent().toggleClass('active');
         var rtlvalue = "ltr";
-        if ($(this).parent().hasClass('ec-change-rtl') && $(this).parent().hasClass('active')) {
+        if ($(this).parent().hasClass('change-rtl') && $(this).parent().hasClass('active')) {
             $link.appendTo('head');
             rtlvalue = "rtl";
             ecCreateCookie('rtlModeCookie', rtlvalue, 1);
-        } else if ($(this).parent().hasClass('ec-change-rtl') && !$(this).parent().hasClass('active')) {
+        } else if ($(this).parent().hasClass('change-rtl') && !$(this).parent().hasClass('active')) {
             $('link.rtl').remove();
             rtlvalue = "ltr";
             ecDeleteCookie('rtlModeCookie', rtlvalue);
@@ -735,7 +735,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Theme Dark mode Change -------------------------------- */
-    $(".ec-tools-sidebar .ec-change-mode .ec-mode-switch").click(function (e) {
+    $(".ec-tools-sidebar .change-mode .ec-mode-switch").click(function (e) {
         e.preventDefault();
         var $link = $('<link>', {
             rel: 'stylesheet',
@@ -744,20 +744,20 @@ function ecCheckCookie() {
         });
         $(this).parent().toggleClass('active');
         var modevalue = "light";
-        if ($(this).parent().hasClass('ec-change-mode') && $(this).parent().hasClass('active')) {
+        if ($(this).parent().hasClass('change-mode') && $(this).parent().hasClass('active')) {
             $("link[href='assets/css/responsive.css']").before($link);
 
-        } else if ($(this).parent().hasClass('ec-change-mode') && !$(this).parent().hasClass('active')) {
+        } else if ($(this).parent().hasClass('change-mode') && !$(this).parent().hasClass('active')) {
             $('link.dark').remove();
             modevalue = "light";
         }
         if ($(this).parent().hasClass('active')) {
-            $("#ec-fixedbutton .ec-change-color").css("pointer-events", "none");
+            $("#ec-fixedbutton .change-color").css("pointer-events", "none");
             $("body").addClass("dark");
             modevalue = "dark";
             ecCreateCookie('darkModeCookie', modevalue, 1);
         } else {
-            $("#ec-fixedbutton .ec-change-color").css("pointer-events", "all");
+            $("#ec-fixedbutton .change-color").css("pointer-events", "all");
             $("body").removeClass("dark");
             ecDeleteCookie('darkModeCookie', modevalue);
         }
@@ -815,12 +815,12 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Color Hover To Image Change -------------------------------- */
-    var $ecproduct = $('.pro-color, .ec-product-tab, .shop-pro-inner, .ec-new-product, .ec-releted-product, .ec-checkout-pro').find('.ec-opt-swatch');
+    var $ecproduct = $('.pro-color, .product-tab, .shop-pro-inner, .new-product, .ec-releted-product, .ec-checkout-pro').find('.opt-swatch');
 
     function initChangeImg($opt) {
         $opt.each(function () {
             var $this = $(this),
-                ecChangeImg = $this.hasClass('ec-change-img');
+                ecChangeImg = $this.hasClass('change-img');
 
             $this.on('mouseenter', 'li', function () {
                 changeProductImg($(this));
@@ -834,7 +834,7 @@ function ecCheckCookie() {
                 var $this = thisObj;
                 var $load = $this.find('a');
 
-                var $proimg = $this.closest('.ec-product-inner').find('.pro-image');
+                var $proimg = $this.closest('.product-inner').find('.pro-image');
 
                 if (!$load.hasClass('loaded')) {
                     $proimg.addClass('pro-loading');
@@ -856,10 +856,10 @@ function ecCheckCookie() {
     }
 
     function hoverAddImg($this) {
-        var $optData = $this.find('.ec-opt-clr-img'),
+        var $optData = $this.find('.opt-clr-img'),
             $opImg = $optData.attr('data-src'),
             $opImgHover = $optData.attr('data-src-hover') || false,
-            $optImgWrapper = $this.closest('.ec-product-inner').find('.pro-image'),
+            $optImgWrapper = $this.closest('.product-inner').find('.pro-image'),
             $optImgMain = $optImgWrapper.find('.image img.main-image'),
             $optImgMainHover = $optImgWrapper.find('.image img.hover-image');
 
@@ -887,7 +887,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Size Hover To Active -------------------------------- */
-    $('.ec-opt-size').each(function () {
+    $('.opt-size').each(function () {
         $(this).on('mouseenter', 'li', function () {
             // alert("1");
             onSizeChange($(this));
@@ -914,7 +914,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Testimonial Slider -------------------------------- */
-    $('#ec-testimonial-slider').slick({
+    $('#testimonial-slider').slick({
         rows: 1,
         dots: true,
         arrows: false,
@@ -926,14 +926,13 @@ function ecCheckCookie() {
         slidesToScroll: 1
     });
 
-    $("#ec-testimonial-slider").find(".slick-slide").each(function (i) {
-
-        var t = $(this).find(".ec-test-img").html(), o = "li:eq(" + i + ")";
-        $("#ec-testimonial-slider").find(".slick-dots").find(o).html(t);
+    $("#testimonial-slider").find(".slick-slide").each(function (i) {
+        var t = $(this).find(".test-img").html(), o = "li:eq(" + i + ")";
+        $("#testimonial-slider").find(".slick-dots").find(o).html(t);
     });
 
     /*----------------------------- Brand Slider -------------------------------- */
-    $('#ec-brand-slider').slick({
+    $('#brand-slider').slick({
         rows: 1,
         dots: false,
         arrows: true,
@@ -1240,7 +1239,7 @@ function ecCheckCookie() {
     });
 
     /*----------------------------- Slider Price -------------------------------- */
-    const slider = document.getElementById('ec-sliderPrice');
+    const slider = document.getElementById('sliderPrice');
     if (slider) {
         const rangeMin = parseInt(slider.dataset.min);
         const rangeMax = parseInt(slider.dataset.max);
@@ -1306,7 +1305,7 @@ function ecCheckCookie() {
             //$("#addtocart_toast").addClass("show");
             // setTimeout(function(){ $("#addtocart_toast").removeClass("show") }, 3000);
         });
-        $(".ec-btn-group.wishlist").click(function () {
+        $(".btn-group.wishlist").click(function () {
             var isWishlist = $(this).hasClass("active");
             if (isWishlist) {
                 $(this).removeClass("active");

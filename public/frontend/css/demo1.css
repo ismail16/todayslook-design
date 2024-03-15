@@ -148,7 +148,7 @@
 /*-------------------------------------------------
   Site Main Slider CSS
 ---------------------------------------------------*/
-.ec-slide-item {
+.slide-item {
   width: 100%;
   height: 80vh;
   position: relative;
@@ -158,7 +158,7 @@
   overflow: auto;
 }
 
-.ec-slide-1 {
+.slide-1 {
   width: 100%;
   background-image: url("../images/main-slider-banner/1.jpg");
   background-repeat: no-repeat;
@@ -167,14 +167,14 @@
   overflow-y: hidden;
 }
 
-.ec-slide-2 {
+.slide-2 {
   background-image: url("../images/main-slider-banner/2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.ec-slide-3 {
+.slide-3 {
   background-image: url("../images/main-slider-banner/3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,20 +182,20 @@
 }
 
 /*----  Main Slider Style  ----*/
-.ec-main-slider .container {
+.main-slider .container {
   position: absolute;
   left: 0;
   right: 0;
 }
-.ec-main-slider * {
+.main-slider * {
   direction: ltr;
 }
 
-.ec-slide-content {
+.slide-content {
   position: relative;
   z-index: 9;
 }
-.ec-slide-content .ec-slide-title {
+.slide-content .slide-title {
   margin-bottom: 25px;
   padding-top: 25px;
   color: #555;
@@ -205,7 +205,7 @@
   font-family: "Fjalla One";
   position: relative;
 }
-.ec-slide-content .ec-slide-title:before {
+.slide-content .slide-title:before {
   content: "";
   position: absolute;
   top: 0;
@@ -216,7 +216,7 @@
   left: 4px;
   right: auto;
 }
-.ec-slide-content .ec-slide-stitle {
+.slide-content .slide-stitle {
   font-size: 50px;
   font-weight: 400;
   color: #444444;
@@ -224,7 +224,7 @@
   text-transform: uppercase;
   letter-spacing: 1.6px;
 }
-.ec-slide-content p {
+.slide-content p {
   max-width: 350px;
   font-size: 17px;
   color: #777777;
@@ -232,7 +232,7 @@
   letter-spacing: 0;
   font-weight: 300;
 }
-.ec-slide-content .btn {
+.slide-content .btn {
   font-size: 15px;
   padding: 0 19px;
   letter-spacing: 0;
@@ -478,11 +478,11 @@
 /*-------------------------------------------------
   Banner Section CSS
 ---------------------------------------------------*/
-.ec-banner {
+.banner {
   margin-bottom: 3px;
 }
 
-.ec-banner-inner {
+.banner-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -533,7 +533,7 @@
           flex-direction: column;
   padding: 30px;
 }
-.banner-block .banner-text .ec-banner-title {
+.banner-block .banner-text .banner-title {
   font-size: 28px;
   color: #555;
   margin-bottom: 2px;
@@ -545,14 +545,14 @@
   text-transform: uppercase;
   line-height: 1.2;
 }
-.banner-block .banner-text .ec-banner-discount {
+.banner-block .banner-text .banner-discount {
   font-size: 24px;
   font-weight: 400;
   color: #ffffff;
   letter-spacing: 0.7px;
   line-height: 1;
 }
-.banner-block .banner-text .ec-banner-stitle {
+.banner-block .banner-text .banner-stitle {
   font-size: 20px;
   font-weight: 400;
   color: #555;
@@ -589,7 +589,7 @@
   transition: all 0.5s ease 0s;
   background-color: rgba(31, 28, 28, 0.5);
 }
-.banner-block .banner-content .ec-banner-btn a {
+.banner-block .banner-content .banner-btn a {
   height: 40px;
   font-size: 16px;
   text-transform: uppercase;
@@ -609,7 +609,7 @@
           justify-content: center;
   font-weight: 600;
 }
-.banner-block .banner-content .ec-banner-btn a:hover {
+.banner-block .banner-content .banner-btn a:hover {
   background-color: #555;
 }
 .banner-block:hover .banner-content {
@@ -618,25 +618,25 @@
   opacity: 1;
 }
 
-.ec-banner-block-1 .banner-block .banner-text {
+.banner-block-1 .banner-block .banner-text {
   padding-top: 46px;
 }
-.ec-banner-block-1 .banner-block .banner-text .ec-banner-discount {
+.banner-block-1 .banner-block .banner-text .banner-discount {
   font-family: "Fjalla One";
 }
 
-.ec-banner-block-2 .banner-block .banner-text .ec-banner-title {
+.banner-block-2 .banner-block .banner-text .banner-title {
   font-size: 28px;
   margin: 15px 0;
 }
-.ec-banner-block-2 .banner-block .banner-text .ec-banner-discount {
+.banner-block-2 .banner-block .banner-text .banner-discount {
   font-size: 16px;
   color: #777;
   letter-spacing: 0.5px;
   line-height: 1.5;
 }
 
-.ec-banner-block.ec-banner-block-2 {
+.banner-block.banner-block-2 {
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -656,33 +656,33 @@
 /*-------------------------------------------------
   Product Countdown CSS
 ---------------------------------------------------*/
-.ec-fre-spe-section .section-title {
+.fre-spe-section .section-title {
   padding-bottom: 5px;
   border-bottom: 1px solid #eeeeee;
 }
-.ec-fre-spe-section .section-title .ec-bg-title {
+.fre-spe-section .section-title .bg-title {
   font-size: 52px;
   letter-spacing: 1px;
 }
-.ec-fre-spe-section .section-title .ec-title {
+.fre-spe-section .section-title .ec-title {
   padding: 0;
 }
-.ec-fre-spe-section .section-title .ec-title:after {
+.fre-spe-section .section-title .ec-title:after {
   content: none;
 }
-.ec-fre-spe-section .section-title .ec-title:before {
+.fre-spe-section .section-title .ec-title:before {
   content: none;
 }
-.ec-fre-spe-section .ec-fs-product {
+.fre-spe-section .fs-product {
   padding: 0 10px;
 }
-.ec-fre-spe-section .ec-fre-products {
+.fre-spe-section .fre-products {
   margin: 0 -10px;
 }
-.ec-fre-spe-section .ec-spe-products {
+.fre-spe-section .spe-products {
   margin: 0 -10px;
 }
-.ec-fre-spe-section .ec-fs-pro-inner {
+.fre-spe-section .fs-pro-inner {
   background: #f7f7f7;
   padding: 15px 35px;
   display: -webkit-box;
@@ -697,7 +697,7 @@
   min-height: 476px;
   border: 1px solid #eeeeee;
 }
-.ec-fre-spe-section .slick-arrow {
+.fre-spe-section .slick-arrow {
   top: -70px;
 }
 
@@ -705,24 +705,24 @@
   font-size: 13px;
 }
 
-.ec-fs-pro-inner .ec-fs-pro-image {
+.fs-pro-inner .fs-pro-image {
   position: relative;
 }
-.ec-fs-pro-inner .ec-fs-pro-image .image img {
+.fs-pro-inner .fs-pro-image .image img {
   max-width: 100%;
   padding-right: 10px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   z-index: 1;
 }
-.ec-fs-pro-inner .ec-fs-pro-image .image img.hover-image {
+.fs-pro-inner .fs-pro-image .image img.hover-image {
   position: absolute;
   z-index: 2;
   top: 0;
   left: 0;
   opacity: 0;
 }
-.ec-fs-pro-inner .ec-fs-pro-image a.quickview {
+.fs-pro-inner .fs-pro-image a.quickview {
   position: absolute;
   z-index: 9;
   top: 60%;
@@ -753,21 +753,21 @@
   border: 1px solid #eeeeee;
   border-radius: 50%;
 }
-.ec-fs-pro-inner .ec-fs-pro-image a.quickview:hover {
+.fs-pro-inner .fs-pro-image a.quickview:hover {
   -webkit-box-shadow: 0px 0px 5px 0px #ccc;
           box-shadow: 0px 0px 5px 0px #ccc;
 }
-.ec-fs-pro-inner .ec-fs-pro-image a.quickview i {
+.fs-pro-inner .fs-pro-image a.quickview i {
   color: #777;
   font-size: 17px;
   line-height: 0;
 }
-.ec-fs-pro-inner:hover .ec-fs-pro-image a.quickview {
+.fs-pro-inner:hover .fs-pro-image a.quickview {
   visibility: visible;
   opacity: 1;
   top: 44%;
 }
-.ec-fs-pro-inner .ec-fs-pro-content {
+.fs-pro-inner .fs-pro-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -777,7 +777,7 @@
           flex-direction: column;
   padding-left: 30px;
 }
-.ec-fs-pro-inner .ec-fs-pro-content .ec-fs-price {
+.fs-pro-inner .fs-pro-content .fs-price {
   font-size: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -792,19 +792,19 @@
   margin: 10px 0 20px 0;
   line-height: 1.2;
 }
-.ec-fs-pro-inner .ec-fs-pro-content .ec-fs-price span.new-price {
+.fs-pro-inner .fs-pro-content .fs-price span.new-price {
   color: #555;
   font-weight: 700;
   font-size: 15px;
 }
-.ec-fs-pro-inner .ec-fs-pro-content .ec-fs-price span.old-price {
+.fs-pro-inner .fs-pro-content .fs-price span.old-price {
   font-size: 13px;
   margin-right: 15px;
   text-decoration: line-through;
   color: #777777;
   margin-top: 2px;
 }
-.ec-fs-pro-inner .ec-fs-pro-content .ec-fs-pro-desc {
+.fs-pro-inner .fs-pro-content .fs-pro-desc {
   font-size: 14px;
   color: #777777;
   border-top: 1px solid #eeeeee;
@@ -814,17 +814,17 @@
   margin-bottom: 10px;
   margin-top: 15px;
 }
-.ec-fs-pro-inner .ec-fs-pro-content .ec-fs-pro-book {
+.fs-pro-inner .fs-pro-content .fs-pro-book {
   margin-bottom: 10px;
   font-size: 16px;
   color: #444444;
   letter-spacing: 0.5px;
   font-weight: 600;
 }
-.ec-fs-pro-inner .ec-fs-pro-content .ec-fs-pro-book span {
+.fs-pro-inner .fs-pro-content .fs-pro-book span {
   color: #3474d4;
 }
-.ec-fs-pro-inner .ec-fs-pro-content .ec-fs-pro-btn a {
+.fs-pro-inner .fs-pro-content .fs-pro-btn a {
   height: 35px;
   line-height: 35px;
   padding-left: 10px;
@@ -834,13 +834,13 @@
   text-transform: uppercase;
   font-size: 14px;
 }
-.ec-fs-pro-inner .ec-fs-pro-content .ec-fs-pro-btn a:not(:last-child) {
+.fs-pro-inner .fs-pro-content .fs-pro-btn a:not(:last-child) {
   margin-right: 11px;
 }
-.ec-fs-pro-inner .ec-fs-pro-title {
+.fs-pro-inner .fs-pro-title {
   margin: 0 0 2px;
 }
-.ec-fs-pro-inner .ec-fs-pro-title a {
+.fs-pro-inner .fs-pro-title a {
   font-family: "Poppins, sans-serif";
   font-weight: 400;
   font-size: 20px;
@@ -853,7 +853,7 @@
   display: block;
   line-height: 34px;
 }
-.ec-fs-pro-inner .ec-fs-pro-rating {
+.fs-pro-inner .fs-pro-rating {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -863,29 +863,29 @@
   font-size: 16px;
   margin-bottom: 2px;
 }
-.ec-fs-pro-inner .ec-fs-pro-rating .ec-fs-rating-text {
+.fs-pro-inner .fs-pro-rating .fs-rating-text {
   font-size: 16px;
   color: #777777;
 }
-.ec-fs-pro-inner .ec-fs-pro-rating .ec-fs-rating-icon {
+.fs-pro-inner .fs-pro-rating .fs-rating-icon {
   margin-right: 14px;
   margin-top: -1px;
 }
 
-.ec-fre-products .slick-arrow.slick-prev {
+.fre-products .slick-arrow.slick-prev {
   right: 28px;
   left: auto;
 }
-.ec-fre-products .slick-arrow.slick-next {
+.fre-products .slick-arrow.slick-next {
   right: 0;
   left: auto;
 }
 
-.ec-spe-products .slick-arrow.slick-prev {
+.spe-products .slick-arrow.slick-prev {
   right: 28px;
   left: auto;
 }
-.ec-spe-products .slick-arrow.slick-next {
+.spe-products .slick-arrow.slick-next {
   right: 0;
   left: auto;
 }
@@ -899,13 +899,13 @@
 /*-------------------------------------------------
   Vendor Section CSS For Home page 1 (index.html)
 ---------------------------------------------------*/
-.ec-vendor-card {
+.vendor-card {
   margin: 15px 0;
   padding: 15px;
   border: 1px solid #eeeeee;
   background-color: #fff;
 }
-.ec-vendor-card .ec-vendor-detail {
+.vendor-card .vendor-detail {
   margin-bottom: 15px;
   padding-bottom: 15px;
   display: -webkit-box;
@@ -917,54 +917,54 @@
           flex-direction: row;
   border-bottom: 1px solid #eeeeee;
 }
-.ec-vendor-card .ec-vendor-detail .ec-vendor-avtar {
+.vendor-card .vendor-detail .vendor-avtar {
   width: 70px;
   margin-right: 10px;
 }
-.ec-vendor-card .ec-vendor-detail .ec-vendor-info {
+.vendor-card .vendor-detail .vendor-info {
   width: calc(100% - 80px);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   position: relative;
 }
-.ec-vendor-card .ec-vendor-detail .ec-vendor-info .name {
+.vendor-card .vendor-detail .vendor-info .name {
   font-weight: 500;
   color: #444444;
 }
-.ec-vendor-card .ec-vendor-detail .ec-vendor-info .prod-count {
+.vendor-card .vendor-detail .vendor-info .prod-count {
   margin-bottom: 10px;
   color: #999;
 }
-.ec-vendor-card .ec-vendor-detail .ec-vendor-info .pro-rating i {
+.vendor-card .vendor-detail .vendor-info .pro-rating i {
   font-size: 12px;
 }
-.ec-vendor-card .ec-vendor-detail .ec-vendor-info .ec-sale {
+.vendor-card .vendor-detail .vendor-info .ec-sale {
   position: absolute;
   right: 0;
   bottom: 0;
   bottom: -1px;
   font-size: 12px;
 }
-.ec-vendor-card .ec-vendor-detail .ec-vendor-info .ec-sale p {
+.vendor-card .vendor-detail .vendor-info .ec-sale p {
   margin: 0;
   color: #999;
 }
-.ec-vendor-card .ec-vendor-prod {
+.vendor-card .vendor-prod {
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fill, calc(50% - 6px));
   grid-row-gap: 12px;
   grid-column-gap: 12px;
 }
-.ec-vendor-card .ec-vendor-prod .ec-prod-img {
+.vendor-card .vendor-prod .prod-img {
   overflow: hidden;
 }
-.ec-vendor-card .ec-vendor-prod .ec-prod-img img {
+.vendor-card .vendor-prod .prod-img img {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.ec-vendor-card .ec-vendor-prod .ec-prod-img img:hover {
+.vendor-card .vendor-prod .prod-img img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -995,10 +995,10 @@
   text-align: center;
   background-color: #fff;
 }
-.ec_ser_inner .ec-service-image {
+.ec_ser_inner .service-image {
   margin-bottom: 15px;
 }
-.ec_ser_inner .ec-service-image svg {
+.ec_ser_inner .service-image svg {
   width: 50px;
   height: 50px;
   fill: #444444;
@@ -1006,7 +1006,7 @@
   stroke-dashoffset: 1500;
   stroke-dasharray: 1500;
 }
-.ec_ser_inner .ec-service-image i {
+.ec_ser_inner .service-image i {
   font-size: 44px;
   line-height: 25px;
 }
@@ -1016,7 +1016,7 @@
   -moz-box-shadow: 0 3px 25px 4px rgba(0, 0, 0, 0.06);
   border: 1px solid transparent;
 }
-.ec_ser_inner:hover .ec-service-image svg {
+.ec_ser_inner:hover .service-image svg {
   stroke-dashoffset: 0;
   -webkit-transition: fill 0.5s, stroke-dashoffset 6s, -webkit-transform 0.3s;
   transition: fill 0.5s, stroke-dashoffset 6s, -webkit-transform 0.3s;
@@ -1024,14 +1024,14 @@
   transition: transform 0.3s, fill 0.5s, stroke-dashoffset 6s, -webkit-transform 0.3s;
 }
 
-.ec-service-desc h2 {
+.service-desc h2 {
   font-size: 18px;
   font-weight: 700;
   color: #444444;
   letter-spacing: 0.6px;
   margin-bottom: 10px;
 }
-.ec-service-desc p {
+.service-desc p {
   font-size: 14px;
   color: #777777;
   line-height: 1.5;
@@ -1041,7 +1041,7 @@
 /*-------------------------------------------------
   Offer Section CSS
 ---------------------------------------------------*/
-.ec-offer-section {
+.offer-section {
   min-height: 620px;
   background-size: cover;
   overflow: hidden;
@@ -1058,7 +1058,7 @@
   background-position: center;
 }
 
-.ec-offer-content {
+.offer-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1068,7 +1068,7 @@
           flex-direction: column;
   text-align: center;
 }
-.ec-offer-content .ec-offer-title {
+.offer-content .offer-title {
   font-size: 60px;
   color: #3474d4;
   margin-bottom: 5px;
@@ -1078,7 +1078,7 @@
   line-height: 1;
   font-weight: 800;
 }
-.ec-offer-content .ec-offer-stitle {
+.offer-content .offer-stitle {
   font-size: 40px;
   color: #3474d4;
   margin-bottom: 13px;
@@ -1086,14 +1086,14 @@
   font-family: "Montserrat";
   text-transform: uppercase;
 }
-.ec-offer-content .btn-primary {
+.offer-content .btn-primary {
   width: 140px;
   margin: 15px auto 0 auto;
 }
-.ec-offer-content .ec-offer-img {
+.offer-content .offer-img {
   margin-bottom: 16px;
 }
-.ec-offer-content .ec-offer-desc {
+.offer-content .offer-desc {
   font-size: 32px;
   color: #444444;
   margin-bottom: 16px;
@@ -1101,7 +1101,7 @@
   font-weight: 600;
   line-height: 1.2;
 }
-.ec-offer-content .ec-offer-price {
+.offer-content .offer-price {
   font-size: 40px;
   color: #555;
   letter-spacing: 1.5px;
@@ -1112,11 +1112,11 @@
 /*-------------------------------------------------
   Brand Section CSS
 ---------------------------------------------------*/
-.ec-brand-area {
+.brand-area {
   display: block;
 }
 
-.ec-brand-item img {
+.brand-item img {
   margin: 0 auto;
   background-color: #fff;
   border: 1px solid #eeeeee;
@@ -1125,28 +1125,28 @@
   cursor: pointer;
   outline: 0;
 }
-.ec-brand-item:hover img {
+.brand-item:hover img {
   box-shadow: 0 3px 25px 4px rgba(0, 0, 0, 0.06);
   -webkit-box-shadow: 0 3px 25px 4px rgba(0, 0, 0, 0.06);
   -moz-box-shadow: 0 3px 25px 4px rgba(0, 0, 0, 0.06);
 }
 
-.ec-brand-outer .ec-brand-item .ec-brand-img {
+.brand-outer .brand-item .brand-img {
   padding: 0 15px;
 }
-.ec-brand-outer .slick-arrow {
+.brand-outer .slick-arrow {
   height: 100%;
   top: 0;
   display: none !important;
 }
-.ec-brand-outer .slick-arrow.slick-prev {
+.brand-outer .slick-arrow.slick-prev {
   left: -30px;
 }
-.ec-brand-outer .slick-arrow.slick-next {
+.brand-outer .slick-arrow.slick-next {
   right: -30px;
 }
 
-li.ec-brand-item {
+li.brand-item {
   display: block !important;
 }
 

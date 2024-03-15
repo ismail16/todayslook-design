@@ -235,7 +235,7 @@
                                     <div class="pro-variation-inner pro-variation-color">
                                         <span>Color</span>
                                         <div class="pro-color">
-                                            <ul class="ec-opt-swatch">
+                                            <ul class="opt-swatch">
                                                 <li><span style="background-color:#ebbf60;"></span></li>
                                                 <li><span style="background-color:#75e3ff;"></span></li>
                                                 <li><span style="background-color:#11f7d8;"></span></li>
@@ -247,14 +247,14 @@
                                     <div class="pro-variation-inner pro-variation-size pro-size">
                                         <span>Size</span>
                                         <div class="pro-variation-content">
-                                            <ul class="ec-opt-size">
-                                                <li class="active"><a href="#" class="ec-opt-sz"
+                                            <ul class="opt-size">
+                                                <li class="active"><a href="#" class="opt-sz"
                                                         data-tooltip="Small">S</a></li>
-                                                <li><a href="#" class="ec-opt-sz" data-tooltip="Medium">M</a>
+                                                <li><a href="#" class="opt-sz" data-tooltip="Medium">M</a>
                                                 </li>
-                                                <li><a href="#" class="ec-opt-sz" data-tooltip="Large">X</a>
+                                                <li><a href="#" class="opt-sz" data-tooltip="Large">X</a>
                                                 </li>
-                                                <li><a href="#" class="ec-opt-sz"
+                                                <li><a href="#" class="opt-sz"
                                                         data-tooltip="Extra Large">XL</a></li>
                                             </ul>
                                         </div>
